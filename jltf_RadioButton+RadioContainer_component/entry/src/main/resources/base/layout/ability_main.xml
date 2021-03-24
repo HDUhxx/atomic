@@ -100,14 +100,14 @@
             ohos:height="200px"
             ohos:width="match_parent">
             <Text
-                ohos:height="match_parent"
+                ohos:height="100px"
                 ohos:width="match_parent"
                 ohos:text="单选题（红错，蓝对）"
                 ohos:text_size="20fp"/>
             <Text
-                ohos:height="match_parent"
+                ohos:height="100px"
                 ohos:width="match_parent"
-                ohos:text="获得杂交水稻之父的人是哪位？"
+                ohos:text="下面那个是属于动物？"
                 ohos:text_size="20fp"/>
         </DirectionalLayout>
         <RadioContainer
@@ -117,7 +117,7 @@
                 ohos:id="$+id:radio_button_1"
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="A.邓稼先"
+                ohos:text="A.苹果"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
@@ -125,7 +125,7 @@
                 ohos:id="$+id:radio_button_2"
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="B.钱学森"
+                ohos:text="B.香蕉"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
@@ -133,7 +133,7 @@
                 ohos:id="$+id:radio_button_3"
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="C.袁隆平"
+                ohos:text="C.小狗"
                 ohos:text_size="20fp"
                 ohos:text_color_on="#00BFFF"
                 ohos:text_color_off="#808080"/>
@@ -141,7 +141,7 @@
                 ohos:id="$+id:radio_button_4"
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="D.鲁迅"
+                ohos:text="D.葡萄"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
@@ -158,7 +158,7 @@
             <Text
                 ohos:height="match_parent"
                 ohos:width="match_parent"
-                ohos:text="下面哪位是获得“两弹一星”的功臣？"
+                ohos:text="下面那个是属于水果？"
                 ohos:text_size="20fp"/>
         </DirectionalLayout>
         <RadioContainer
@@ -167,28 +167,28 @@
             <RadioButton
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="A.邓稼先"
+                ohos:text="A.小狗"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
             <RadioButton
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="B.钱学森"
+                ohos:text="B.黑凤梨"
                 ohos:text_size="20fp"
                 ohos:text_color_on="#00BFFF"
                 ohos:text_color_off="#808080"/>
             <RadioButton
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="C.袁隆平"
+                ohos:text="C.小猫"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
             <RadioButton
                 ohos:height="40vp"
                 ohos:width="match_content"
-                ohos:text="D.鲁迅"
+                ohos:text="D.小马"
                 ohos:text_size="20fp"
                 ohos:text_color_on="red"
                 ohos:text_color_off="#808080"/>
