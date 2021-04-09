@@ -1,0 +1,49 @@
+/* xxx.css */
+.item-container {
+    margin-right: 60px;
+    margin-left: 60px;
+    flex-direction: column;
+}
+.header {
+    margin-bottom: 20px;
+    font-size: 46px;
+}
+.item {
+    background-color: #f76160;
+}
+.txt {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+}
+.button {
+    width: 200px;
+    font-size: 30px;
+    background-color: #09ba07;
+    margin-top: 50px;
+}
+.color {
+    animation-name: Color;
+    animation-duration: 8000ms;
+}
+.opacity {
+    animation-name: Opacity;
+    animation-duration: 8000ms;
+}
+@keyframes Color {
+    from {
+        background-color: #62FF1F;
+    }
+    to {
+        background-color: #46E4B7;
+    }
+}
+@keyframes Opacity {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 0.1;
+    }
+}

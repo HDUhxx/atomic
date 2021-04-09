@@ -1,0 +1,12 @@
+<!-- xxx.hml -->
+<div class="item-container">
+    <text class="header">动漫效果图</text>
+    <div class="item {{colorParam}}">
+        <text class="txt">color</text>
+    </div>
+    <div style="height: 50px;"></div>
+    <div class="item {{opacityParam}}">
+        <text class="txt">opacity</text>
+    </div>
+    <input class="button" type="button" name="" value="show" onclick="showAnimation"/>
+</div>
