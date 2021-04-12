@@ -1,0 +1,8 @@
+<div class="container">
+    <text id="text">这个是popup组件</text>
+<!-- popup supports single child of any type5+ -->
+    <popup id="popup" class="popup" target="text" placement="top" keepalive="true" clickable="true" arrowoffset="100px" onvisibilitychange="visibilitychange" onclick="hidepopup">
+        <text class="text">文本内容是关于popup组件的</text>
+    </popup>
+    <button class="button" onclick="showpopup">popup</button>
+</div>
