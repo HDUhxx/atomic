@@ -1,0 +1,51 @@
+{
+  "app": {
+    "bundleName": "com.example.myapplication_huibianli",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.myapplication_huibianli",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone",
+      "tv",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.myapplication_huibianli.MainAbility",
+        "icon": "$media:huibianli_log",
+        "description": "$string:mainability_description",
+        "label": "惠便利",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
