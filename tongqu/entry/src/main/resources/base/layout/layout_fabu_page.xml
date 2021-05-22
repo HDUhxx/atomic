@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="200px"
+        ohos:width="match_parent"
+        ohos:background_element="#FFD3D3D3">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:text="发布"
+            ohos:text_size="28fp"
+            ohos:text_alignment="center"/>
+    </DirectionalLayout>
+    <TextField
+        ohos:height="400px"
+        ohos:width="match_parent"
+        ohos:hint="请输入发布内容"
+        ohos:text_size="18fp"
+        ohos:background_element="$graphic:button"
+        />
+    <Component
+        ohos:height="100px"
+        ohos:width="match_parent"/>
+    <Button
+        ohos:id="$+id:button_fabu"
+        ohos:height="100px"
+        ohos:width="300px"
+        ohos:text="发布"
+        ohos:text_size="18fp"
+        ohos:layout_alignment="center"
+        ohos:background_element="$graphic:customer_service"/>
+</DirectionalLayout>
