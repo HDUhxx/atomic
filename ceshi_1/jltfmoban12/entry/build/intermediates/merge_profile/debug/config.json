@@ -1,0 +1,52 @@
+{
+    "app": {
+        "bundleName": "com.example.jltfmoban12",
+        "vendor": "example",
+        "apiVersion": {
+            "compatible": 5,
+            "target": 5,
+            "releaseType": "Beta1"
+        },
+        "version": {
+            "code": 1,
+            "name": "1.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MyApplication",
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": true
+        },
+        "abilities": [
+            {
+                "name": "com.example.jltfmoban12.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:app_name",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "unspecified",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "package": "com.example.jltfmoban12"
+    }
+}
