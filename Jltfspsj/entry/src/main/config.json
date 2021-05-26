@@ -1,0 +1,65 @@
+{
+  "app": {
+    "bundleName": "com.example.jltflianxi",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible":4,
+      "target": 4
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.jltflianxi",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.vedio_layout",
+              "action.vedio_layout1",
+              "action.vedio_layout3",
+              "action.vedio_layout4",
+              "action.vedio_layout5"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.jltflianxi.MainAbility",
+        "icon": "$media:shipinshejiao1",
+        "description": "$string:mainability_description",
+        "label": "视频社交",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "usedScene": {
+          "ability": [
+            "com.ming.harmonyos.newsapp.MainAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ]
+  }
+}
