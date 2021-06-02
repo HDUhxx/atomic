@@ -1,0 +1,7 @@
+<div style="display: flex; align-items: center;justify-content: center;">
+    <div>
+        <text>{{hour}}</text>
+        <text>:</text>
+        <text>{{minute}}</text>
+    </div>
+</div>
