@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:bottom_margin="50px"
+        >
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="基本信息"/>
+    </DirectionalLayout>
+
+<!--    表格布局-->
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="4"
+        ohos:column_count="6"
+        ohos:alignment_type="align_contents"
+        ohos:layout_alignment="center"
+
+        >
+
+<!--        第一行-->
+        <Text
+        ohos:height="100px"
+        ohos:width="150px"
+        ohos:background_element="$graphic:table_text_bg_element.xml"
+        ohos:text="姓名"
+        ohos:text_alignment="center"
+        ohos:text_size="40px"
+        ohos:text_color="red"
+
+        />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="左格"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="性别"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="男"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="出生年月"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="2001.05.01"
+            ohos:text_alignment="center"
+            ohos:text_size="38px"
+
+            />
+
+<!--        第二行-->
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="籍贯"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="湖南"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="民族"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="汉族"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="政治面貌"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="团员"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+<!--        第三行-->
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="学历"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="本科"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="专业"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="电子商务"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="就读学校"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="260px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="湖南师大"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+    </TableLayout>
+
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="4"
+        ohos:column_count="6"
+        ohos:alignment_type="align_contents"
+        ohos:layout_alignment="center"
+
+        >
+        <!--        第四行-->
+
+        <Text
+            ohos:height="100px"
+            ohos:width="150px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="方向"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="100px"
+            ohos:width="1190px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="C#，web前端，SQL Server数据库等"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+    </TableLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        >
+        <Button
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="返回"
+            ohos:margin="50px"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

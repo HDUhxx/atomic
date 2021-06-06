@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:bottom_margin="50px"
+        >
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="学习与证书"/>
+    </DirectionalLayout>
+
+<!--    表格布局-->
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="3"
+        ohos:column_count="2"
+        ohos:alignment_type="align_contents"
+        ohos:layout_alignment="center"
+        >
+
+        <!--        第一行-->
+        <Text
+            ohos:height="200px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="教育背景"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="200px"
+            ohos:width="600px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="2016.9-2019.6  澧县四中"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+
+        <!--        第二行-->
+        <Text
+            ohos:height="300px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="资质证书"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="300px"
+            ohos:width="600px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="卓越项目卓越奖项
+  蓝桥杯JAVA组省赛一等奖，国赛三等奖证书"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <!--        第三行-->
+        <Text
+            ohos:height="300px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="实践"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="300px"
+            ohos:width="600px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="卓越项目期间，通过自己对所有知识的理解，和小组成员实现了NIKE专卖店项目。
+  2020十月份参加蓝桥杯，荣获省级一等奖，随后备战国赛，获得国赛三等奖。"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+    </TableLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        >
+        <Button
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="返回"
+            ohos:top_margin="50px"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>

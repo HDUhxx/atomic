@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:bottom_margin="50px"
+        >
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="联系我"/>
+    </DirectionalLayout>
+
+    <!--    表格布局-->
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="3"
+        ohos:column_count="5"
+        ohos:alignment_type="align_contents"
+        ohos:layout_alignment="center"
+        >
+
+        <!--        第一行-->
+        <Text
+            ohos:height="150px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="联系方式"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <Text
+            ohos:height="150px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="电话"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="150px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="15546468282"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+        <Text
+            ohos:height="150px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="微信"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="150px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="15546468282"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+
+
+
+
+    </TableLayout>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        >
+        <Button
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="返回"
+            ohos:margin="50px"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>

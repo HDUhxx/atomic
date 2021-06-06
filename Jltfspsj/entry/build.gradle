@@ -1,0 +1,34 @@
+apply plugin: 'com.huawei.ohos.hap'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('E:/wenjian/gonggongzhenshu/jltf.p12')
+            storePassword '00000018DD4B5C9CE3A3C72F731342A28957B5BE0347395C4840A873531B19DFE07BA12783B9089C'
+            keyAlias 'jltfkey'
+            keyPassword '000000180859D29FDF0CC5BC4AF0B5702AF7DE2DF76D3235B07EBF9AE39173653DFE8FAB2BBC75F3'
+            signAlg 'SHA256withECDSA'
+            profile file('E:/wenjian/shipinshejiao/视频社交Release.p7b')
+            certpath file('E:/wenjian/gonggongzhenshu/jltf_tv_key.cer')
+        }
+        release {
+            storeFile file('E:/wenjian/gonggongzhenshu/jltf.p12')
+            storePassword '00000018359D88751DA99D6D736BB415784C24D72AB52206541BD54020A0C4F343E87546BB6627F8'
+            keyAlias 'jltfkey'
+            keyPassword '000000188920E954BCE360D4DFBC451812B0E554F730CB77439C29FCB61CF02D3305214B3A5F5ACB'
+            signAlg 'SHA256withECDSA'
+            profile file('E:/wenjian/shipinshejiao/视频社交Release.p7b')
+            certpath file('E:/wenjian/gonggongzhenshu/jltf_tv_key.cer')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testCompile'junit:junit:4.12'
+
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+}

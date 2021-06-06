@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply plugin: 'com.huawei.ohos.app'
+
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('E:/wenjian/gonggongzhenshu/jltf.p12')
+            storePassword '00000018AD9C149EF0735932B6A787A181C9D3EF7C67169039BED11FBE5CCA3EC4C0DF7519D51F9A'
+            keyAlias 'jltfkey'
+            keyPassword '0000001891AF7308C7CFC09CA37352E31DD67CE150421A34631A8DA97047AD767058249615F6B526'
+            signAlg 'SHA256withECDSA'
+            profile file('E:/wenjian/shipinshejiao/视频社交调试Debug.p7b')
+            certpath file('E:/wenjian/gonggongzhenshu/jltf_tv_key调试.cer')
+        }
+    }
+    compileSdkVersion 4
+    defaultConfig {
+        compatibleSdkVersion 3
+    }
+}
+	
+buildscript {
+    repositories {
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+		jcenter()
+    }
+    dependencies {
+        classpath 'com.huawei.ohos:hap:2.4.1.4'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url 'https://mirrors.huaweicloud.com/repository/maven/'
+        }
+        maven {
+            url 'https://developer.huawei.com/repo/'
+        }
+		jcenter()
+    }
+}

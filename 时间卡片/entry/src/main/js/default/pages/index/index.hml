@@ -1,0 +1,11 @@
+<div style="position: absolute;">
+    <div style="position: absolute;top: 10%; left: 40%;">
+        <text>周</text><text>{{day}}</text>
+    </div>
+    <div style="position: absolute;top: 30%; left: 5%;">
+        <text>{{year}}</text><text>年</text><text>{{month}}</text><text>月</text><text>{{ date }}</text><text>日</text>
+    </div>
+    <div style="position: absolute; top: 50%; left: 40%;">
+        <text>{{hour}}</text><text>:</text><text>{{minute}}</text>
+    </div>
+</div>

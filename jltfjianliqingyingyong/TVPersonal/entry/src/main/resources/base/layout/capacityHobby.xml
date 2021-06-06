@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:bottom_margin="50px"
+        >
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="个人能力与爱好"/>
+    </DirectionalLayout>
+
+
+    <!--    表格布局-->
+    <TableLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:row_count="3"
+        ohos:column_count="2"
+        ohos:alignment_type="align_contents"
+        ohos:layout_alignment="center"
+        >
+
+        <!--        第一行-->
+        <Text
+            ohos:height="500px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="个人能力"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="500px"
+            ohos:width="1000px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="对代码有着浓厚的兴趣，和代码相关的东西都会非常积极的去探寻。
+  通过蓝桥杯的训练，提高了自己的逻辑思维能力，平常的学习和作业都能得心应手，并且自己自学了JAVA相关的JAVA面向对象，MYSQL数据库，掌握部分JAVA高级和JAVAWEB的知识"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+
+        <!--        第二行-->
+        <Text
+            ohos:height="200px"
+            ohos:width="200px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="爱好"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+            ohos:text_color="red"
+            />
+
+        <TextField
+            ohos:height="200px"
+            ohos:width="1000px"
+            ohos:background_element="$graphic:table_text_bg_element.xml"
+            ohos:text="敲代码，听音乐"
+            ohos:text_alignment="center"
+            ohos:text_size="40px"
+
+            />
+
+
+    </TableLayout>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        >
+        <Button
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="50px"
+            ohos:text="返回"
+            ohos:top_margin="50px"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>

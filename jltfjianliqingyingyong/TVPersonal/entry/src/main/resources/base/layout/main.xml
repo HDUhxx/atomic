@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="个人信息"
+            ohos:left_margin="300px"
+            ohos:text_size="100px"
+            ohos:bottom_margin="100px"
+            />
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        >
+
+        <Button
+            ohos:id="$+id:basicInformation"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="我的基本信息"
+            ohos:text_size="50px"
+            ohos:left_margin="100px"
+            ohos:bottom_margin="50px"
+
+            />
+        <Button
+            ohos:id="$+id:studyCertificate"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="学习与证书"
+            ohos:text_size="50px"
+            ohos:left_margin="100px"
+            ohos:bottom_margin="50px"
+
+            />
+        <Button
+            ohos:id="$+id:capacityHobby"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="个人能力与爱好"
+            ohos:text_size="50px"
+            ohos:left_margin="100px"
+            ohos:bottom_margin="50px"
+
+            />
+        <Button
+            ohos:id="$+id:contact"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="联系我"
+            ohos:text_size="50px"
+            ohos:left_margin="100px"
+            ohos:bottom_margin="50px"
+
+            />
+
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>
