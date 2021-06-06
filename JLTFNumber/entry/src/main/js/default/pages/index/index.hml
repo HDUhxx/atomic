@@ -1,0 +1,50 @@
+<div style="display : flex; flex-direction : column; margin-top : 20px; margin-left : 100px;">
+    <div style="width: 400px; height: 400px;">
+        <label  style="font-size: 50px;color: green;">{{result}}</label>
+    </div>
+    <div style="display : flex; flex-direction : row; margin-top : 40px; margin-bottom : 40px;">
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="one" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="two" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="three" maxlength="1" type="number" value=""></input>
+        </div>
+    </div>
+    <div style="display : flex; flex-direction : row; margin-bottom : 40px;">
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="four" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="five" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="six" maxlength="1" type="number" value=""></input>
+        </div>
+    </div>
+    <div style="display : flex; flex-direction : row; margin-bottom : 40px;">
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="seven" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="eight" maxlength="1" type="number" value=""></input>
+        </div>
+        <div style="width : 100px; height : 100px; background-color : green; text-align : center; margin-right : 40px;"
+                >
+            <input onchange="nine" maxlength="1" type="number" value=""></input>
+        </div>
+    </div>
+    <div style="width: 400px;height: 50px;">
+        <input type="button" onclick="submit" value="submit"></input>
+    </div>
+</div>
