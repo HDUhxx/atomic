@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "蛟龙腾飞卡片介绍",
+    "detail": "",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.jltfcard",
+      "abilityName": "com.example.jltfcard.widget.widget.WidgetAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}

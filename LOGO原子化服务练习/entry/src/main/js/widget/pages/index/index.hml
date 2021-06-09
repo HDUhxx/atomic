@@ -1,0 +1,7 @@
+<div class="container">
+    <stack>
+        <div class="container-img">
+            <image src="/common/widget-2x2.png" class="bg-img"></image>
+        </div>
+    </stack>
+</div>
