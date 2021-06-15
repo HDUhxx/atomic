@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:weight="1">
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="蛟龙腾飞"
+            ohos:text_size="80px"
+            ohos:top_margin="280px"
+            ohos:left_margin="50px"/>
+    </DirectionalLayout>
+    
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:weight="1">
+        <Image
+            ohos:height="750px"
+            ohos:width="1080px"
+            ohos:image_src="$media:long"/>
+
+    </DirectionalLayout>
+    
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:weight="3"
+>
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="60px"
+            ohos:multiple_lines="true"
+            ohos:left_margin="8px"
+            ohos:text="带你从传统互联网、移动互联那个时代"/>
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="60px"
+            ohos:multiple_lines="true"
+            ohos:left_margin="8px"
+            ohos:top_margin="10px"
+            ohos:text="跳转到万物互联的智能世界!"/>
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text_size="60px"
+            ohos:multiple_lines="true"
+            ohos:left_margin="8px"
+            ohos:top_margin="10px"
+            ohos:text="马上创建体验个人、公司或组织的鸿蒙应用吧！"/>
+        <Button
+            ohos:id="$+id:jltfbutton"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="点击了解更多"
+            ohos:text_color="#1E90FF"
+            ohos:text_size="100px"
+            ohos:top_margin="300px"
+            ohos:left_margin="420px"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>
