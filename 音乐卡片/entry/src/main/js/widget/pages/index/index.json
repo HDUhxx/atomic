@@ -1,0 +1,28 @@
+{
+  "data": {
+    "itemTitle": "JLTFMusic",
+    "itemContent": "蛟龙腾飞",
+    "src": "/common/icon.png"
+  },
+  "actions": {
+    "getPrevious": {
+      "action": "message",
+      "params": {
+        "mAction": "JLTFPrevious"
+      }
+    },
+    "play": {
+      "action": "message",
+      "params": {
+        "mAction": "JLTFPlay"
+      }
+    },
+    "getNext": {
+      "action": "message",
+      "params": {
+        "mAction": "JLTFNext"
+      }
+    }
+  }
+}
+

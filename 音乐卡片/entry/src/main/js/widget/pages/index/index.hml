@@ -1,0 +1,24 @@
+<div class="card_root_layout">
+    <div class="div_basic_container">
+        <image class="item_image" src="{{src}}" onclick="play">
+        </image>
+        <div class="div_right_container">
+
+            <div class="title_container">
+                <text class="item_title">{{ itemTitle }}
+                </text>
+                <text class="item_content">{{ itemContent }}
+                </text>
+            </div>
+
+            <div class="button_container">
+                <button class="button_other" type="circle" onclick="getPrevious" icon="/common/previous.jpg">
+                </button>
+                <button class="button_other" type="circle" onclick="play" icon="/common/play.jpg">
+                </button>
+                <button class="button_other" type="circle" onclick="getNext" icon="/common/next.jpg">
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
