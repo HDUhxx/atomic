@@ -1,0 +1,68 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "JLTFContacts"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "widget_user",
+      "value": "姓名"
+    },
+    {
+      "name": "widget_user_name",
+      "value": "张三"
+    },
+    {
+      "name": "widget_phone",
+      "value": "电话"
+    },
+    {
+      "name": "widget_phone_number",
+      "value": "10123456789"
+    },
+    {
+      "name": "widget_gender",
+      "value": "性别"
+    },
+    {
+      "name": "widget_male",
+      "value": "男"
+    },
+    {
+      "name": "widget_address",
+      "value": "地址"
+    },
+    {
+      "name": "widget_ShenZhen",
+      "value": "深圳"
+    },
+    {
+      "name": "widget_birthday",
+      "value": "生日"
+    },
+    {
+      "name": "widget_date",
+      "value": "20000327"
+    },
+    {
+      "name": "widget_app_name",
+      "value": "JLTFContacts"
+    },
+    {
+      "name": "widget_action_1",
+      "value": "发信息"
+    },
+    {
+      "name": "widget_action_2",
+      "value": "打电话"
+    }
+  ]
+}

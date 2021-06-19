@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFFFFFFF"
+    ohos:remote="true">
+
+    <Image
+        ohos:height="24vp"
+        ohos:width="24vp"
+        ohos:image_src="$media:form_list_pattern_widget_default_app_icon"
+        ohos:scale_mode="zoom_center"
+        ohos:start_margin="12vp"
+        ohos:top_margin="12vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:end_margin="12vp"
+        ohos:start_margin="44vp"
+        ohos:text="$string:widget_app_name"
+        ohos:text_color="#E5000000"
+        ohos:text_size="16fp"
+        ohos:text_weight="500"
+        ohos:top_margin="12vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        ohos:end_margin="12vp"
+        ohos:orientation="vertical"
+        ohos:start_margin="12vp"
+        ohos:top_margin="41vp">
+
+        <DirectionalLayout
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_user"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_user_name"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <Image
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:image_src="$graphic:form_list_pattern_widget_default_divide_line"
+            ohos:scale_mode="zoom_center"/>
+
+        <DirectionalLayout
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_phone"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_phone_number"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <Image
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:image_src="$graphic:form_list_pattern_widget_default_divide_line"
+            ohos:scale_mode="zoom_center"/>
+
+        <DirectionalLayout
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_gender"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_male"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <Image
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:image_src="$graphic:form_list_pattern_widget_default_divide_line"
+            ohos:scale_mode="zoom_center"/>
+
+        <DirectionalLayout
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_address"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_ShenZhen"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <Image
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:image_src="$graphic:form_list_pattern_widget_default_divide_line"
+            ohos:scale_mode="zoom_center"/>
+
+        <DirectionalLayout
+            ohos:height="48vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_birthday"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:widget_date"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="10fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="#FFFFFFFF"
+        ohos:orientation="horizontal">
+
+        <DependentLayout
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="$graphic:form_list_pattern_widget_default_action_background"
+            ohos:bottom_margin="12vp"
+            ohos:end_margin="12vp"
+            ohos:start_margin="12vp"
+            ohos:weight="1">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:center_in_parent="true"
+                ohos:orientation="horizontal"
+                ohos:top_margin="10vp">
+
+                <Image
+                    ohos:height="20vp"
+                    ohos:width="20vp"
+                    ohos:end_margin="8vp"
+                    ohos:image_src="$graphic:form_list_pattern_widget_default_action_icon"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="66vp"
+                    ohos:text="$string:widget_action_1"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#E5FFFFFF"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DependentLayout>
+
+        <DependentLayout
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="$graphic:form_list_pattern_widget_default_action_background"
+            ohos:bottom_margin="12vp"
+            ohos:end_margin="12vp"
+            ohos:weight="1">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:center_in_parent="true"
+                ohos:orientation="horizontal"
+                ohos:top_margin="10vp">
+
+                <Image
+                    ohos:height="20vp"
+                    ohos:width="20vp"
+                    ohos:end_margin="8vp"
+                    ohos:image_src="$graphic:form_list_pattern_widget_default_action_icon"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="66vp"
+                    ohos:text="$string:widget_action_2"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#E5FFFFFF"
+                    ohos:text_size="14fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DependentLayout>
+    </DirectionalLayout>
+</DependentLayout>
