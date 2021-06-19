@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "JLTFImageCard"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "widget_title",
+      "value": "color"
+    },
+    {
+      "name": "widget_introduction",
+      "value": "颜色"
+    }
+  ]
+}

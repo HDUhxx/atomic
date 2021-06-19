@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:remote="true">
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="198vp"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:image_src="$media:color"
+            ohos:scale_mode="zoom_start"
+            ohos:start_margin="12vp"
+            ohos:top_margin="12vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:bottom_margin="12vp"
+            ohos:end_margin="12vp"
+            ohos:orientation="vertical"
+            ohos:start_margin="12vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="$string:widget_title"
+                ohos:text_color="#000000"
+                ohos:text_size="24fp"
+                ohos:text_weight="500"
+                ohos:truncation_mode="ellipsis_at_end"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="$string:widget_introduction"
+                ohos:text_color="#000000"
+                ohos:text_size="20fp"
+                ohos:text_weight="400"
+                ohos:top_margin="2vp"
+                ohos:truncation_mode="ellipsis_at_end"/>
+        </DirectionalLayout>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="198vp"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="#FFFFFFFF">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:center_in_parent="true"
+            ohos:end_margin="8vp"
+            ohos:orientation="horizontal"
+            ohos:start_margin="8vp">
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:weight="1">
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:red"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="red"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#FF0000"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:orange"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="orange"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#FFA500"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:weight="1">
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:yellow"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="yellow"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#FFFF00"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:green"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="green"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#008000"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:weight="1">
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:gray"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="gray"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#808080"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:purple"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="purple"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#800080"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:weight="1">
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:blue"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="blue"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#0000FF"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Image
+                    ohos:height="64vp"
+                    ohos:width="64vp"
+                    ohos:background_element="$graphic:pink"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:scale_mode="zoom_center"
+                    ohos:top_margin="12vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="64vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:text="pink"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_color="#FFC0CB"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="500"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DependentLayout>
+</DependentLayout>

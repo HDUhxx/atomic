@@ -1,0 +1,76 @@
+{
+  "app": {
+    "bundleName": "com.jltf.jltfcardtemplateimage",
+    "vendor": "jltf",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    },
+    "apiVersion":
+    {
+      "compatible": 4
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.jltf.jltfcardtemplateimage",
+    "name": ".MyApplication",
+    "mainAbility": "com.jltf.jltfcardtemplateimage.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.jltf.jltfcardtemplateimage.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "formsEnabled": true,
+        "forms": [
+          {
+            "landscapeLayouts": [
+              "$layout:form_grid_pattern_widget_2_2",
+              "$layout:form_grid_pattern_widget_4_4"
+            ],
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "widget",
+            "description": "This is a service widget",
+            "colorMode": "auto",
+            "type": "Java",
+            "supportDimensions": [
+              "2*2",
+              "4*4"
+            ],
+            "portraitLayouts": [
+              "$layout:form_grid_pattern_widget_2_2",
+              "$layout:form_grid_pattern_widget_4_4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ]
+      }
+    ]
+  }
+}
