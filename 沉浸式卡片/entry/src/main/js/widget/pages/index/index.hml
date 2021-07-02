@@ -1,0 +1,20 @@
+<div class="immersive_pattern_layout">
+    <div if="{{ mini }}" class="mini_container">
+        <image src="/common/jltf02.png"></image>
+    </div>
+    <div class="normal_container">
+        <div class="title_container">
+            <stack>
+                <image src="/common/jltf02.png"></image>
+                <div class="text_container">
+                    <text class="title">{{ title }}</text>
+                    <text class="content">{{ content }}</text>
+                </div>
+            </stack>
+        </div>
+        <div class="detail_container">
+            <image src="/common/jltf01.png" class="detail_image"></image>
+            <image src="/common/jltf01.png" class="detail_image"></image>
+        </div>
+    </div>
+</div>
