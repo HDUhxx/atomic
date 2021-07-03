@@ -1,0 +1,50 @@
+<div class="list_pattern_layout">
+    <div class="space" style="display-index : 3"></div>
+
+    <div class="title_container">
+        <image src="/common/jltf.jpg" class="title_image"></image>
+        <text class="title">{{ appName }}</text>
+    </div>
+
+    <div class="list_item_container" style="display-index : 4">
+        <text class="item_title">{{ titleText }}</text>
+        <text class="item_content">{{ contentText }}</text>
+    </div>
+
+    <divider class="divider" style="display-index : 3"></divider>
+
+    <div class="list_item_container" style="display-index : 3">
+        <text class="item_title">{{ titleText01 }}</text>
+        <text class="item_content">{{ contentText }}</text>
+    </div>
+
+    <divider class="divider" style="display-index : 2"></divider>
+
+    <div class="list_item_container" style="display-index : 2">
+        <text class="item_title">{{ titleText02 }}</text>
+        <text class="item_content">{{ contentText }}</text>
+    </div>
+
+    <divider class="divider" style="display-index : 2"></divider>
+    <div class="list_item_container" style="display-index : 2">
+        <text class="item_title">{{ titleText03 }}</text>
+        <text class="item_content">{{ contentText }}</text>
+    </div>
+    <divider class="divider" style="display-index : 2"></divider>
+    <div class="list_item_container" style="display-index : 2">
+        <text class="item_title">{{ titleText04 }}</text>
+        <text class="item_content">{{ contentText }}</text>
+    </div>
+    <div class="small_space" style="display-index : 1"></div>
+    <div class="button_container" style="display-index : 1">
+        <div class="button1" onclick="button1_Click">
+            <image class="button1_icon" src="/common/by.jpg"></image>
+            <text class="button1_text">{{ actionName1 }}</text>
+        </div>
+        <div class="button1" onclick="button2_Click">
+            <image class="button1_icon" src="/common/by.jpg"></image>
+            <text class="button1_text">{{ actionName2 }}</text>
+        </div>
+    </div>
+    <div class="big_space" style="display-index : 2"></div>
+</div>
