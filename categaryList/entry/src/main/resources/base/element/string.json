@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Category List Ability"
+    },
+    {
+      "name": "title_text",
+      "value": "联系人"
+    },
+    {
+      "name": "search_bar_hint_text",
+      "value": "Search..."
+    },
+    {
+      "name": "text_font_medium",
+      "value": "medium"
+    },
+    {
+      "name": "text_font_regular",
+      "value": "regular"
+    }
+  ]
+}
