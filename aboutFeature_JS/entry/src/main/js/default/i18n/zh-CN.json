@@ -1,0 +1,32 @@
+{
+  "string": {
+    "hello": "您好",
+    "world": "世界",
+    "app_name": "About Page",
+    "mainability_description": "JS_About Ability",
+    "title": "关于",
+    "aboutPage_title_primary": "关于蛟龙腾飞",
+    "aboutPage_title_secondary": "版本: 0.0.0",
+    "user_protocol": "蛟龙腾飞小程序用户协议",
+    "privacy_statement": "关于蛟龙腾飞与隐私的声明",
+    "and": " 和 ",
+    "copyright_text": "版权所有 ©2011-2019 蛟龙腾飞有限公司保留一切权利",
+    "technicalSupport_text": "技术支持: 蛟龙腾飞",
+    "users_protocol": "蛟龙腾飞小程序用户协议",
+    "privacy_policy": "华为隐私政策",
+    "refuse_service": "拒绝服务条款",
+    "user_protocol_title": "用户协议",
+    "privacy_policy_title": "隐私政策",
+    "refuse_service_title": "拒绝服务条款",
+    "click_url": "请在手机上访问以下链接",
+    "description": "若拒绝，将暂停所有安装任务，停止所有服务，关闭华为应用市场",
+    "official_website": "网站",
+    "url": "http://www.jltfcloud.cn",
+    "developer": "合作伙伴",
+    "wechat": "微信公众号",
+    "share": "分享我们",
+    "developer_url": "华为开发者联盟",
+    "wechat_url": "蛟龙腾飞",
+    "share_url": "@华蛟龙腾飞"
+  }
+}

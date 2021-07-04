@@ -1,0 +1,32 @@
+{
+  "string": {
+    "hello": "Hello",
+    "world": "World",
+    "app_name": "About Page",
+    "mainability_description": "JS_About Ability",
+    "title": "About",
+    "aboutPage_title_primary": "CrossDeviceAboutPageFA",
+    "aboutPage_title_secondary": "Version: 0.0.0",
+    "user_protocol": "XXX User Protocol",
+    "privacy_statement": "Privacy Statement about XXX",
+    "and": " and ",
+    "copyright_text": "XXXXXX All rights reserved. ©2011-2019",
+    "technicalSupport_text": "Technical support: XXXXXXX",
+    "users_protocol": "Huawei App Market User Agreement",
+    "privacy_policy": "Huawei Privacy Policy",
+    "refuse_service": "Terms of use",
+    "user_protocol_title": "User Agreement",
+    "privacy_policy_title": "Privacy Policy",
+    "refuse_service_title": "Term Of Use",
+    "click_url": "Please visit the following link on your phone",
+    "description": "If refused, all installation tasks will be suspended, all services will be stopped, and the Huawei application market will be closed.",
+    "official_website": "Official Website",
+    "url": "appgallery.cloud.huawei.com",
+    "developer": "Huawei Developer",
+    "wechat": "Wechat Official accounts",
+    "share": "Share",
+    "developer_url": "developer.huawei.com",
+    "wechat_url": "AppGallery",
+    "share_url": "@Huawei AppGallery"
+  }
+}

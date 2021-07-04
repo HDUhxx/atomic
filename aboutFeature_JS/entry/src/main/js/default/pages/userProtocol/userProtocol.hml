@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="title">
+        <text class="title_name">
+            {{ $t('string.user_protocol_title') }}
+        </text>
+    </div>
+    <div class="content_container">
+        <text class="text_description">
+            {{ $t('string.click_url') }}
+        </text>
+        <text class="text_url" style="text-align : center;">
+            {{ webUrl }}
+        </text>
+    </div>
+</div>

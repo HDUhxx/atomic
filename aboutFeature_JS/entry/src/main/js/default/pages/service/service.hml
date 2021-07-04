@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="title">
+        <text class="title_name">
+            {{ $t('string.title') }}
+        </text>
+    </div>
+    <div class="content_container">
+        <text class="text_description">
+            {{ $t('string.description') }}
+        </text>
+    </div>
+    <div class="button_container">
+        <button type="circle" icon="common/3X3.png" class="circle_button" on:click="backToMain"></button>
+        <button type="circle" icon="common/3.png" class="circle_button" on:click="backToMain"></button>
+    </div>
+</div>
