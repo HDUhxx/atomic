@@ -1,0 +1,22 @@
+{
+  "data": {
+    "useTime": "no data",
+    "useDetail": "Use Today",
+    "titleContent": "9%",
+    "textContent": "加载中...",
+    "segments": [
+      {
+        "name": "segment0",
+        "value": 9
+      }
+    ]
+  },
+  "actions": {
+    "freeUpEvent": {
+      "action": "message",
+      "params": {
+        "mAction": "free up memory"
+      }
+    }
+  }
+}

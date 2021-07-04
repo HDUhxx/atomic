@@ -1,0 +1,11 @@
+<div class="list_pattern_layout">
+    <stack class="stack_container">
+        <div class="title_container">
+            <text class="title_text1">{{ titleContent }}</text>
+        </div>
+        <div class="div_chart_contain">
+            <chart class="chart_rainbow" type="rainbow" segments="{{ segments }}" effects="true" onclick="freeUpEvent"/>
+        </div>
+    </stack>
+    <text class="text_title">{{ textContent }}</text>
+</div>
