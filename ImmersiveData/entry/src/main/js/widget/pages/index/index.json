@@ -1,0 +1,15 @@
+{
+  "data": {
+    "title_big": "Title",
+    "title_small": "Text"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "abilityName": "com.jltf.jltfcardtemplate05.MainAbility",
+      "params": {
+        "message": "button"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="title_wrapper">
+        <div class="title_wra1">
+            <text class="title_big">
+                {{ $t('strings.title_big') }}
+            </text>
+            <text class="title_small">
+                {{ $t('strings.title_small') }}
+            </text>
+        </div>
+    </div>
+
+    <div class="list_wrapper">
+        <div class="item">
+            <image class="item_image" src='/common/ic_default.png'></image>
+            <text class="item_text" onclick="routerEvent">{{ $t('strings.text1') }}</text>
+        </div>
+        <div class="item">
+            <image class="item_image" src='/common/ic_default.png'></image>
+            <text class="item_text" onclick="routerEvent">{{ $t('strings.text2') }}</text>
+        </div>
+        <div class="item">
+            <image class="item_image" src='/common/ic_default.png'></image>
+            <text class="item_text" onclick="routerEvent">{{ $t('strings.text3') }}</text>
+        </div>
+        <div class="item_last">
+            <image class="item_image" src='/common/ic_default.png'></image>
+            <text class="item_text" onclick="routerEvent">{{ $t('strings.text4') }}</text>
+        </div>
+    </div>
+</div>
