@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FF007DFB"
+    ohos:orientation="horizontal"
+    ohos:remote="true">
+
+    <Image
+        ohos:height="30vp"
+        ohos:width="30vp"
+        ohos:image_src="$media:form_grid_pattern_widget_default_image_1"
+        ohos:layout_alignment="vertical_center"
+        ohos:scale_mode="zoom_center"
+        ohos:start_margin="12vp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:end_margin="12vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:start_margin="8vp"
+        ohos:text="李总"
+        ohos:text_color="#E5FFFFFF"
+        ohos:text_size="14fp"
+        ohos:text_weight="500"
+        ohos:truncation_mode="ellipsis_at_end"/>
+</DirectionalLayout>

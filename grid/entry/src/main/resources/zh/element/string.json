@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "公司成员"
+    },
+    {
+      "name": "mainability_description",
+      "value": "公司成员信息"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "你好，世界"
+    }
+  ]
+}
