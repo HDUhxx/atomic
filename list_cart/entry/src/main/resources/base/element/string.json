@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "widget_title",
+      "value": "Title"
+    },
+    {
+      "name": "widget_introduction",
+      "value": "Introduction"
+    },
+    {
+      "name": "widget_app_name",
+      "value": "联系人"
+    },
+    {
+      "name": "widget_action_1",
+      "value": "Action 1"
+    },
+    {
+      "name": "widget_action_2",
+      "value": "Action 2"
+    }
+  ]
+}
