@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Full Screen Feature Ability"
+    },
+    {
+      "name": "widget_title",
+      "value": "多云"
+    },
+    {
+      "name": "widget_introduction",
+      "value": "今天天气"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "app": {
+    "bundleName": "com.example.card_3",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.card_3",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.card_3.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.card_3.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "configChanges": [
+          "orientation"
+        ],
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "formsEnabled": true,
+        "forms": [
+          {
+            "landscapeLayouts": [
+              "$layout:form_immersive_pattern_widget_1_2",
+              "$layout:form_immersive_pattern_widget_2_2",
+              "$layout:form_immersive_pattern_widget_2_4",
+              "$layout:form_immersive_pattern_widget_4_4"
+            ],
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "widget",
+            "description": "This is a service widget",
+            "colorMode": "auto",
+            "type": "Java",
+            "supportDimensions": [
+              "1*2",
+              "2*2",
+              "2*4",
+              "4*4"
+            ],
+            "portraitLayouts": [
+              "$layout:form_immersive_pattern_widget_1_2",
+              "$layout:form_immersive_pattern_widget_2_2",
+              "$layout:form_immersive_pattern_widget_2_4",
+              "$layout:form_immersive_pattern_widget_4_4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ]
+      }
+    ]
+  }
+}
