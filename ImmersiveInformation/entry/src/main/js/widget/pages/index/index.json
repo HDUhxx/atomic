@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "TitleTitleTitleTitleTitleTitleTitleTitle",
+    "detail": "TextTextTextTextTextTextTextTextTextText",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.jltf.jltfcardtemplate06",
+      "abilityName": "com.jltf.jltfcardtemplate06.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}
