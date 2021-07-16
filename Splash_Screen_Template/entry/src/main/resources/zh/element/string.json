@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "advertise",
+      "value": "广告"
+    },
+    {
+      "name": "copyright",
+      "value": "您可以在这里填写版权及其他信息."
+    },
+    {
+      "name": "hello",
+      "value": "Hello world"
+    },
+    {
+      "name": "skip",
+      "value": "跳过"
+    }
+  ]
+}

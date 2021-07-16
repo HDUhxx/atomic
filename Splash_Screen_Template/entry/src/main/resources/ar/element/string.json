@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "advertise",
+      "value": "Ads"
+    },
+    {
+      "name": "copyright",
+      "value": "You can write copyright information or other information here."
+    },
+    {
+      "name": "hello",
+      "value": "Hello world"
+    },
+    {
+      "name": "skip",
+      "value": "skip"
+    }
+  ]
+}
