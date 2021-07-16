@@ -1,0 +1,129 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 4,
+            "releaseType": "Release",
+            "target": 5
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.cookbook",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "keepAlive": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777222,
+                "orientation": "unspecified",
+                "visible": true,
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": true,
+                "label": "$string:app_name",
+                "type": "page",
+                "homeAbility": true,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "descriptionId": 16777219,
+                "labelId": 16777218,
+                "name": "com.huawei.cookbooks.MainAbility",
+                "forms": [
+                    {
+                        "portraitLayoutsId": [
+                            16777225,
+                            16777226
+                        ],
+                        "colorMode": "auto",
+                        "description": "This is a service widget",
+                        "supportDimensions": [
+                            "2*2",
+                            "2*4"
+                        ],
+                        "type": "Java",
+                        "portraitLayouts": [
+                            "$layout:form_image_with_info_date_card_2_2",
+                            "$layout:form_image_with_info_date_card_2_4"
+                        ],
+                        "landscapeLayouts": [
+                            "$layout:form_image_with_info_date_card_2_2",
+                            "$layout:form_image_with_info_date_card_2_4"
+                        ],
+                        "metaData": {
+                            "customizeData": [
+                                {
+                                    "name": "needBlurBackgroundForLauncher",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        "isDefault": true,
+                        "defaultDimension": "2*2",
+                        "scheduledUpdateTime": "11:30",
+                        "formVisibleNotify": true,
+                        "name": "DateCard",
+                        "updateEnabled": true,
+                        "landscapeLayoutsId": [
+                            16777225,
+                            16777226
+                        ],
+                        "updateDuration": 30
+                    }
+                ],
+                "launchType": "singleton"
+            },
+            {
+                "iconId": 16777222,
+                "descriptionId": 16777217,
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "icon": "$media:icon",
+                "name": "com.huawei.cookbooks.TimerAbility",
+                "description": "$string:TimeAbility_description",
+                "type": "service",
+                "homeAbility": false
+            }
+        ],
+        "deviceType": [
+            "default"
+        ],
+        "mainAbility": "com.huawei.cookbooks.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.cookbooks",
+        "name": ".MyApplication",
+        "reqPermissions": [
+            {
+                "reason": "keep service ability backgroud running",
+                "usedScene": {
+                    "ability": [
+                        ".TimerAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+            }
+        ]
+    }
+}

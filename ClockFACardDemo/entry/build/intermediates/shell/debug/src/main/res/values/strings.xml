@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="TimeAbility_description">"hap sample empty service"</string>
+  <string name="app_name">"时钟服务卡片"</string>
+  <string name="mainability_description">"Java_Phone_Empty Feature Ability"</string>
+</resources>

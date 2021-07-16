@@ -1,0 +1,65 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.huawei.cookbook",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.huawei.cookbooks.MainAbility",
+                "deviceType": [
+                    "default"
+                ],
+                "abilities": [
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbooks.MainAbility",
+                        "label": "$string:app_name",
+                        "forms": [
+                            {
+                                "defaultDimension": "2*2",
+                                "scheduledUpdateTime": "11:30",
+                                "name": "DateCard",
+                                "supportDimensions": [
+                                    "2*2",
+                                    "2*4"
+                                ],
+                                "type": "Java",
+                                "updateEnabled": true,
+                                "updateDuration": 30
+                            }
+                        ]
+                    },
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbooks.TimerAbility"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 4,
+                    "releaseType": "Release",
+                    "target": 5
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "default"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}
