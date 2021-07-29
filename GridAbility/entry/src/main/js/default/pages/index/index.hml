@@ -1,0 +1,43 @@
+<div class="container">
+
+<!-- top tool bar  -->
+    <div class="top-tool-bar">
+        <image class="toolbar-image1" src="{{ images_resource.image_add }}" @click="backHome"></image>
+        <text class="title">
+            {{ $t('strings.title') }}
+        </text>
+    </div>
+
+<!-- body  -->
+    <list class="list-bg">
+        <list-item class="grid-list-top" focusable="false">
+            <div class="grid-list-l">
+                <div class="item-wrapper" for="{{ list_data }}" @click="listFocus($idx)">
+                    <div class="item-icon-wrapper">
+                        <image class="item-icon" src="{{ $item.item_icon }}"></image>
+                    </div>
+                    <text class="item-name">{{ $item.item_name }}{{ $idx }}</text>
+                </div>
+            </div>
+        </list-item>
+        <list-item class="grid-list-bottom" focusable="false">
+            <div class="item-info">
+                <text class="item-info-title">{{ $t('strings.subtitle') }}</text>
+            </div>
+            <div class="grid-list-l">
+                <div class="item-wrapper" for="{{ dec_data }}" @click="listFocus($idx)">
+                    <div class="item-icon-wrapper">
+                        <image class="item-icon" src="{{ $item.item_icon }}"></image>
+                    </div>
+                    <text class="item-name">{{ $item.item_name }}{{ $idx }}</text>
+                </div>
+            </div>
+        </list-item>
+        <list-item>
+            <div class="bottom-btn">
+                <button class="btn-button" value="{{ $t('strings.button-one') }}" type="capsule"></button>
+                <button class="btn-button" value="{{ $t('strings.button-two') }}" type="capsule"></button>
+            </div>
+        </list-item>
+    </list>
+</div>

@@ -1,0 +1,236 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.top-tool-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.toolbar-image1 {
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    opacity: 0.9;
+}
+
+.title {
+    flex: 1;
+    text-align: left;
+    color: #E5000000;
+    font-size: 24px;
+}
+
+.list-bg {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    bottom: 12px;
+    margin: 12px 12px 8px 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.grid-list-top {
+    width: 100%;
+    padding: 14px 12px 18px 12px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.item-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 10px 4px;
+}
+
+.item-icon-wrapper {
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    background-color: #CCCCCC;
+    border-radius: 48px;
+}
+
+.item-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.item-name {
+    margin-top: 6px;
+    text-align: center;
+    color: #99000000;
+    font-size: 14px;
+}
+
+.grid-list-bottom {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 12px;
+    padding-bottom: 72px;
+    background-color: #F1F3F5;
+}
+
+.grid-list-l {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+}
+
+.item-info {
+    margin: 16px 32px 6px 4px;
+}
+
+.item-info-title {
+    font-size: 14px;
+}
+
+.bottom-btn {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 100%;
+    padding: 20px 8px 20px 8px;
+    bottom: 12px;
+    position: fixed;
+    background-color: #F1F3F5;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.btn-button {
+    margin: 0 8px;
+    height: 40px;
+    flex-grow: 1;
+    background-color: #0C000000;
+    font-size: 16px;
+    text-color: #0A59F7;
+}
+
+/* tv */
+
+@media screen and (device-type: tv) {
+    .container {
+        background-image: url("/common/images/bg-tv.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .top-tool-bar {
+        display: none;
+    }
+
+    .bg-wrapper {
+        margin-bottom: 0;
+        background-color: transparent;
+    }
+
+    .list-bg {
+        margin: 0;
+        width: 312px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 0px
+    }
+
+    .grid-list-top {
+        margin: 0 -16px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .grid-list-bottom {
+        margin: 0 -16px;
+        padding-bottom: 18px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .grid-list-l {
+        margin: 0 0;
+    }
+
+    .item-wrapper {
+        margin: 4px 12px;
+    }
+
+    .item-icon-wrapper {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .item-name {
+        margin-top: 4px;
+        font-size: 14px;
+        color: #FFFFFF;
+        visibility: hidden;
+    }
+
+    .item-info {
+        margin-bottom: 14px;
+    }
+
+    .item-info-title {
+        font-size: 16px;
+    }
+
+    .bottom-btn {
+        display: none;
+    }
+
+    .item-icon-wrapper:focus {
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    .item-name:focus {
+        visibility: visible;
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (device-type: tablet) and (orientation: landscape) {
+    .item-wrapper {
+        width: 12.5%;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .item-name {
+        font-size: 20.3px;
+    }
+
+    .item-info-title {
+        font-size: 20.3px;
+    }
+}
+
+@media screen and (device-type: phone) and (orientation: landscape) {
+    .item-wrapper {
+        width: 12.5%;
+    }
+}
