@@ -1,0 +1,49 @@
+{
+  "app": {
+    "bundleName": "com.example.full_screen",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.full_screen",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.full_screen.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.full_screen.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "configChanges": [
+          "orientation"
+        ],
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
