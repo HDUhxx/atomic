@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="upperPart">
+        <div class="appBar">
+            <div class="back">
+                <image src="/common/back.png" class="left_arrow" on:click="backClick()"></image>
+            </div>
+            <text class="title">{{ $t('string.title') }}</text>
+        </div>
+        <div class="aboutPageUpperPart">
+            <image src="/common/jltf.jpg" class="appIcon"></image>
+            <text class="aboutPageTitlePrimary">{{ $t('string.aboutPage_title_primary') }}</text>
+            <text class="aboutPageTitleSecondary">{{ $t('string.aboutPage_title_secondary') }}</text>
+        </div>
+    </div>
+    <div class="lowerPart">
+        <div class="aboutPageLowerPart">
+            <div class="list-wrapper">
+                <div class="item-wrapper">
+                    <div class="item-left-part-wrapper">
+                        <text class="doubleLineList_text_primary">{{ $t('string.official_website') }}</text>
+                        <text class="doubleLineList_text_secondary">{{ $t('string.url') }}</text>
+                    </div>
+                    <div class="item-right-part-wrapper">
+                        <image class="item-right-arrow" src="{{ item_right_arrow }}"></image>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="item-left-part-wrapper">
+                        <text class="doubleLineList_text_primary">{{ $t('string.developer') }}</text>
+                        <text class="doubleLineList_text_secondary">{{ $t('string.developer_url') }}</text>
+                    </div>
+                    <div class="item-right-part-wrapper">
+                        <image class="item-right-arrow" src="{{ item_right_arrow }}"></image>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="item-left-part-wrapper">
+                        <text class="doubleLineList_text_primary">{{ $t('string.wechat') }}</text>
+                        <text class="doubleLineList_text_secondary">{{ $t('string.wechat_url') }}</text>
+                    </div>
+                    <div class="item-right-part-wrapper">
+                        <image class="item-right-arrow" src="{{ item_right_arrow }}"></image>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="item-left-part-wrapper">
+                        <text class="doubleLineList_text_primary">{{ $t('string.share') }}</text>
+                        <text class="doubleLineList_text_secondary">{{ $t('string.share_url') }}</text>
+                    </div>
+                    <div class="item-right-part-wrapper">
+                        <image class="item-right-arrow" src="{{ item_right_arrow }}"></image>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutPageBottomPart" style="align-items : center; justify-content : center;">
+            <text class="footnotes">
+                <span id="openSourceNoticeText">{{ $t('string.user_protocol') }}</span>
+                <span>{{ $t('string.and') }}</span>
+                <span id="protocolPrivacyText">{{ $t('string.privacy_statement') }}</span>
+            </text>
+            <text class="footnotes">{{ $t('string.copyright_text') }}</text>
+            <text class="footnotes">{{ $t('string.technicalSupport_text') }}</text>
+        </div>
+    </div>
+    <div class="wearable_upperPart">
+        <text class="wearable_title">{{ $t('string.title') }}</text>
+        <text class="wearable_version">{{ $t('string.aboutPage_title_secondary') }}</text>
+    </div>
+    <div class="wearable_lowerPart">
+        <list class="list_container">
+            <list-item class="list_item">
+                <image src="/common/dot.svg" class="dot"></image>
+                <text class="protocol" on:click="userProtocol">
+                    {{ $t('string.users_protocol') }}
+                </text>
+            </list-item>
+            <list-item class="list_item">
+                <image src="/common/dot.svg" class="dot"></image>
+                <text class="protocol" on:click="privacyProtocol">
+                    {{ $t('string.privacy_policy') }}
+                </text>
+            </list-item>
+            <list-item class="list_item">
+                <image src="/common/dot.svg" class="dot"></image>
+                <text class="protocol" on:click="refuseService">
+                    {{ $t('string.refuse_service') }}
+                </text>
+            </list-item>
+        </list>
+    </div>
+</div>
