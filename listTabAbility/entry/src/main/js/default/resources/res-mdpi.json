@@ -1,0 +1,10 @@
+{
+  "image": {
+    "more": "/common/images/more.png",
+    "icon": "/common/images/ic.png",
+    "search": "/resources/mdpi/search.svg"
+  },
+  "colors": {
+    "background": "red"
+  }
+}

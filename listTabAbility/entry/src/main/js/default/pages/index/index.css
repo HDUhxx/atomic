@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.top-tool-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.toolbar-image1 {
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+    opacity: 0.9;
+}
+
+.toolbar-image2 {
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+    opacity: 0.9;
+}
+
+.toolbar-image3 {
+    width: 24px;
+    height: 24px;
+    opacity: 0.9;
+}
+
+.tabs {
+    width: 100%;
+}
+
+.bottomBar-wrapper {
+    width: 100%;
+    height: 56px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.bottomBar-item-wrapper {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.bottomBarItem-image {
+    height: 24px;
+    width: 24px;
+}
+
+.bottomBarItem-text {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-top: 2px;
+}
+
+.tabContent {
+    width: 100%;
+    padding-bottom: 56px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.item-title {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* wearable */
+
+@media screen and (device-type: wearable) {
+    .top-tool-bar {
+        display: none;
+    }
+
+    .bottomBar-wrapper {
+        display: none;
+    }
+
+}
+
+/* phone */
+
+@media screen and (device-type: phone) {
+    .fragment_main_wearable {
+        display: none;
+    }
+}
+
+/* tablet */
+
+@media screen and (device-type: tablet) {
+    .fragment_main_wearable {
+        display: none;
+    }
+}
+
+/* tv */
+
+@media screen and (device-type: tv) {
+    .fragment_main_wearable {
+        display: none;
+    }
+
+    .item-title {
+        color: black;
+    }
+
+    .top-tool-bar {
+        display: none;
+    }
+
+    .bottomBar-wrapper {
+        display: none;
+    }
+}

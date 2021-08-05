@@ -1,0 +1,55 @@
+<div class="container">
+
+<!-- title   -->
+    <text class="title">
+        {{ $t('strings.title') }}
+    </text>
+
+<!-- search bar   -->
+    <div class="search">
+        <input id="search-bar" class="search-bar" type="text" maxlength="20" enterkeytype="search"
+               headericon="{{ $r('image.search') }}" placeholder="{{ $t('strings.search_hint') }}"
+               on:change="searchChange"
+               on:enterkeyclick="enterkeyClick" on:focus="getFocusOfSearch">
+        </input>
+    </div>
+
+<!-- list -->
+    <div class="tv-list">
+        <div class="list-items-left">
+            <list class="list-wrapper" initialindex="{{ initial_index_value }}">
+                <block for="{{ list_data }}">
+                    <list-item class="list-items" @click="changeList($idx)" id="{{ $idx }}">
+                        <div class="item-wrapper">
+                            <div class="item-icon-wrapper">
+                                <image class="item-icon" src="{{ $item.item_icon }}"></image>
+                            </div>
+                            <div class="item-name-description-wrapper">
+                                <text class="item-name">{{ $item.item_name }}{{ $idx }}</text>
+                                <text class="item-description">{{ $item.item_description }}</text>
+                            </div>
+                            <div class="item-right-part-wrapper">
+                                <text class="item-right-text">{{ $item.item_right_text }}</text>
+                                <image class="item-right-arrow" src="{{ $item.item_right_arrow }}"></image>
+                            </div>
+                        </div>
+                        <div class="divider-line">
+                            <divider class="line"></divider>
+                        </div>
+                    </list-item>
+                </block>
+            </list>
+        </div>
+
+    <!-- tv right   -->
+        <div class="content-img">
+            <div class="img-box">
+                <image class="img-img" src="{{ tv_img_add }}"></image>
+            </div>
+            <div class="text-box">
+                <text class="img-text">{{ tv_img_text }}</text>
+            </div>
+        </div>
+    </div>
+
+</div>

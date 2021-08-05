@@ -1,0 +1,36 @@
+<svg height="24"
+     viewBox="0 0 24 24"
+     width="24"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath
+            clipPathUnits="userSpaceOnUse"
+            id="cp1">
+            <path d="M15.64 15.01L18.1 17.47C18.17 17.55 18.17 17.66 18.1 17.74L17.65 18.18C17.58 18.25 17.46 18.25 17.39 18.18L14.92 15.71C15.18 15.5 15.42 15.27 15.64 15.01ZM10.92 5.33C14 5.33 16.5 7.83 16.5 10.92C16.5 12.3 16 13.56 15.16 14.54L14.95 14.78C14.94 14.78 14.94 14.79 14.93 14.8C14.86 14.87 14.78 14.94 14.71 15.01C14.7 15.02 14.7 15.03 14.69 15.03C13.69 15.94 12.37 16.5 10.92 16.5C7.83 16.5 5.33 14 5.33 10.92C5.33 7.83 7.83 5.33 10.92 5.33ZM10.92 6.33C8.39 6.33 6.33 8.39 6.33 10.92C6.33 13.45 8.39 15.5 10.92 15.5C13.45 15.5 15.5 13.45 15.5 10.92C15.5 8.39 13.45 6.33 10.92 6.33Z"/>
+        </clipPath>
+    </defs>
+    <g
+        id="canvas"
+        style="opacity: 0.6">
+        <g id="-ic_s/ic-S_search">
+            <g id="symbol/frame/symbol_grid24-copy">
+            </g>
+            <g id="group-2">
+                <g id="shapeCombination">
+                </g>
+                <g
+                    clip-path="url(#cp1)"
+                    id="Clip-Path: color/#000000">
+                    <path
+                        class="shp0"
+                        d="M4 4L20 4L20 20L4 20L4 4Z"
+                        id="color/#000000"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <style>
+        tspan { white-space:pre }
+        .shp0 { fill: #000000 }
+    </style>
+</svg>

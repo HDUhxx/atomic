@@ -1,0 +1,16 @@
+{
+  "strings": {
+    "title": "标题",
+    "search_hint": "搜索",
+    "tab_name": "操作",
+    "service": "登录华为账号玩转所有华为服务0",
+    "item_name": "双行列表",
+    "item_description": "辅助文本",
+    "item_right_text": "右侧文本",
+    "img_text": "登录华为账号玩转所有华为服务",
+    "second_page": "第二页",
+    "third_page": "第三页",
+    "fourth_page": "第四页",
+    "fifth_page": "第五页"
+  }
+}

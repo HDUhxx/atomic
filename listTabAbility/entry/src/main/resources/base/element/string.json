@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "JS_List Tab Ability"
+    },
+    {
+      "name": "serviceabilityforjs_description",
+      "value": "JS_List Tab Ability"
+    }
+  ]
+}
