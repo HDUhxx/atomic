@@ -1,0 +1,20 @@
+<div class="switch_item">
+    <div class="setting_switch_left" onclick="onClickStar">
+        <image
+                src="/common/switch_item/img/ori_star.png"
+                class="img_light" show="{{ ! star }}"/>
+        <image
+                src="/common/switch_item/img/ic_dark_mode.png"
+                class="img_dark" show="{{ ! star }}"/>
+        <image
+                src="/common/switch_item/img/activated_star.png"
+                class="img_star" show="{{ star }}"/>
+    </div>
+    <div class="setting_switch_mid">
+        <text class="top_text">{{ itemTitle }}</text>
+        <text class="sub_text">{{ subTitle }}</text>
+    </div>
+    <div class="setting_switch_right">
+        <switch checked="true" class="switch"></switch>
+    </div>
+</div>

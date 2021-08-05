@@ -1,0 +1,75 @@
+<element name="action_bar" src="../../common/component/action_bar.hml"></element>
+<element name="card" src="../../common/card/card.hml"></element>
+<div class="all">
+    <div class="bar_container">
+        <action_bar class="bar" bar-title="{{ title }}"></action_bar>
+    </div>
+
+<!-- phone and tablet   -->
+    <div class="list_container">
+        <list initialindex="0">
+            <block for="{{ array }}">
+                <list-item class="content" clickeffect="false">
+                    <card class="card"
+                          setting-title="{{ list[$idx].value }}"
+                          num-of-top-item="{{ $item[0] }}"
+                          num-of-bot-item="{{ $item[1] }}"
+                            ></card>
+                </list-item>
+            </block>
+        </list>
+    </div>
+
+<!--  tv and wearable  -->
+    <div class="container_tv">
+        <div class="title_container">
+            <text class="title">{{ title }}</text>
+        </div>
+        <div class="list_tv_container">
+            <list class="list_tv">
+                <list-item-group for="list_group in list" id="{{ list_group.value }}">
+                    <list-item type="item"
+                               class="content_tv"
+                               primary="true"
+                               onclick="changeList($idx)"
+                               id="{{ $idx }}">
+
+                    <!-- only wearable  -->
+                        <div class="wearable_item">
+                            <image src="/common/bar.png"
+                                   class="wearable_item_img"></image>
+                            <div class="wearable_item_text">
+                                <text class="wearable_item_text_content">
+                                    {{ list_group.value }}
+                                </text>
+                            </div>
+                        </div>
+
+                    <!-- only tv -->
+                        <text class="content_tv_text">
+                            {{ list_group.value }}
+                        </text>
+
+                    </list-item>
+                    <list-item type="item" class="sub_item" clickeffect="false">
+                        <card class="card"
+                              setting-title="Setting{{ $idx }}"
+                              num-of-top-item="{{ array[$idx][0] }}"
+                              num-of-bot-item="{{ array[$idx][1] }}">
+                        </card>
+                    </list-item>
+                </list-item-group>
+            </list>
+
+        <!-- tv right   -->
+            <div class="content_img">
+                <div class="img_box">
+                    <image class="img_img" src="{{ tv_img_add }}"></image>
+                </div>
+                <div class="text_box">
+                    <text class="img_text">{{ tv_img_text }}</text>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

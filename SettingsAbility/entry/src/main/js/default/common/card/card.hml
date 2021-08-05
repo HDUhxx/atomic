@@ -1,0 +1,48 @@
+<element name="switch_item" src="../switch_item/switch_item.hml"></element>
+
+<div class="card">
+    <div class="header">
+        <text>{{ settingTitle }}</text>
+    </div>
+    <div class="content">
+        <div for="{{ setting_simple_text }}" class="setting_simple_text">
+            <divider class="border" if="{{ border_visible_top[$idx] }}"></divider>
+            <image src="/common/line.png" class="line"></image>
+            <div class="inner">
+
+            <!-- wearable -->
+                <div class="simple_text_wearable">
+                    <div class="wearable_left">
+
+                    <!-- be used for filling space -->
+                    </div>
+                    <div class="wearable_mid">
+                        <text class="simple_text_left">{{ $item }}</text>
+                    </div>
+                    <div class="wearable_right" onclick="onClickNext">
+                        <image src="/common/Right.png" class="wearable_img"/>
+                    </div>
+                </div>
+
+            <!-- not wearable -->
+                <div class="setting_simple_text_left">
+                    <text class="simple_text_left">{{ $item }}</text>
+                </div>
+                <div class="setting_simple_text_right" onclick="onClickNext">
+                    <text class="simple_text_right">{{ next }}</text>
+                    <image src="./img/right_arrow.png"
+                           class="simple_text_right_img"/>
+                </div>
+
+            </div>
+        </div>
+        <div for="{{ setting_switch }}" class="setting_switch">
+            <divider class="border"></divider>
+            <image src="/common/line.png" class="line"></image>
+            <switch_item
+                    item-title="{{ $item.double_line_main_content }}"
+                    sub-title="{{ $item.double_line_sub_content }}"
+                    ></switch_item>
+        </div>
+    </div>
+</div>

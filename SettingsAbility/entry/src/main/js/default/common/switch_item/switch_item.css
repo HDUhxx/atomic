@@ -1,0 +1,114 @@
+.switch_item {
+    width: 100%;
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.setting_switch_left {
+    margin-left: 12px;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+.setting_switch_mid {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.top_text {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.sub_text {
+    height: 24px;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    allow-scale: false;
+}
+
+.switch {
+    width: 40px;
+}
+
+@media screen and (device-type: phone) or (device-type: tablet) {
+    .img_dark {
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@media screen and (device-type: tv) {
+    .switch_item {
+        height: 72px;
+    }
+
+    .img_light {
+        height: 0px;
+        width: 0px;
+    }
+
+    .img_dark {
+        height: 24px;
+        width: 24px;
+    }
+
+    .setting_switch_mid {
+        justify-content: center;
+    }
+
+    .top_text {
+        font-size: 18px;
+        color: #E5FFFFFF;
+    }
+
+    .sub_text {
+        font-size: 16px;
+        color: #99FFFFFF;
+    }
+}
+
+@media screen and (device-type: wearable) {
+    .img_light {
+        height: 0px;
+        width: 0px;
+    }
+
+    .img_dark {
+        object-fit: contain;
+    }
+
+    .img_star {
+        object-fit: contain;
+    }
+
+    .setting_switch_left {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 25%;
+    }
+
+    .setting_switch_mid {
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .setting_switch_right {
+        width: 25%;
+        justify-content: flex-end;
+    }
+
+    .switch {
+        height: 30px;
+    }
+
+    .sub_text {
+        color: #99ffffff;
+    }
+}
+

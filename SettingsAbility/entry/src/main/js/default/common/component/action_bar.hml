@@ -1,0 +1,12 @@
+<!-- action_bar -->
+<div class="action_bar">
+    <div class="action_bar_left">
+        <image src="./img/back.png" onclick="onClickBack"/>
+        <text id="title">{{ barTitle }}</text>
+    </div>
+    <div class="action_bar_right">
+        <image src="./img/add64.png" onclick="onClickAdd"/>
+        <image src="./img/add64.png" onclick="onClickAdd"/>
+        <image src="./img/more.png" onclick="onClickMore"/>
+    </div>
+</div>

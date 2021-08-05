@@ -1,0 +1,182 @@
+.card {
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 64px;
+}
+
+.header text {
+    margin-left: 12px;
+    font-size: 16px;
+    color: #e6000000;
+}
+
+.content {
+    width: 100%;
+    border-radius: 12px;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.setting_simple_text {
+    width: 100%;
+    flex-direction: column;
+}
+
+.inner {
+    width: 100%;
+    height: 64px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.border {
+    width: 100%;
+    stroke-width: 1px;
+    background-color: #f1f3f5;
+}
+
+.setting_simple_text_left {
+    flex-grow: 1;
+}
+
+.setting_simple_text_right {
+    height: 48px;
+    width: 40%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.simple_text_left {
+    font-size: 16px;
+}
+
+.simple_text_right {
+    font-size: 14px;
+    color: grey;
+}
+
+.simple_text_right_img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.setting_switch {
+    width: 100%;
+    flex-direction: column;
+}
+
+.simple_text_wearable {
+    display: none;
+}
+
+.line {
+    display: none;
+}
+
+@media screen and (device-type: tv) {
+    .card {
+        width: 100%;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .content {
+        background-color: #33f1f3f5;
+    }
+
+    .border {
+        background-color: #aaa;
+    }
+
+    .inner {
+        height: 48px;
+    }
+
+    .simple_text_left {
+        color: #E5FFFFFF;
+        font-size: 18px;
+    }
+
+    .simple_text_right {
+        color: #99FFFFFF;
+        font-size: 16px;
+    }
+
+    .simple_text_right_img {
+        width: 15px;
+        height: 15px;
+        margin-left: 12px;
+    }
+
+}
+
+@media screen and (device-type: wearable) {
+
+    .header {
+        display: none;
+    }
+
+    .content {
+        background-color: black;
+    }
+
+    .border {
+        display: none;
+    }
+
+    .line {
+        display: flex;
+        height: 1px;
+    }
+
+    .inner {
+        height: 48px;
+    }
+
+    .setting_simple_text_left {
+        display: none;
+    }
+
+    .simple_text_left {
+        color: white;
+    }
+
+    .setting_simple_text_right {
+        display: none;
+    }
+
+    .simple_text_wearable {
+        display: flex;
+        width: 100%;
+    }
+
+    .wearable_left {
+        width: 20%;
+    }
+
+    .wearable_mid {
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wearable_right {
+        width: 20%;
+    }
+
+    .wearable_img {
+        object-fit: contain;
+    }
+}
