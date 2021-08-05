@@ -1,0 +1,10 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 38px;
+    text-align: center;
+    color: blue;
+}
