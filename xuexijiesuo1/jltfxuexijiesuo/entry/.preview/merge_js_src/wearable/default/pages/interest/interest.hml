@@ -1,0 +1,5 @@
+<div class="box_interest">
+    <div class="button_interest">
+        <text class="button_style_interest" onclick="page_three">{{know_interest}}</text>
+    </div>
+</div>

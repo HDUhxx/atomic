@@ -1,0 +1,22 @@
+{
+    "appID": "com.example.zhishidian",
+    "appName": "$string:app_name",
+    "versionName": "1.0",
+    "versionCode": 1,
+    "minPlatformVersion": 3,
+    "pages": [
+        "pages/tupian/tupian",
+        "pages/index/index",
+        "pages/interest/interest",
+        "pages/study/study",
+        "pages/harmonyos/harmonyos"
+    ],
+    "deviceType": [
+        "phone",
+        "tv"
+    ],
+    "window": {
+        "designWidth": 720,
+        "autoDesignWidth": false
+    }
+}

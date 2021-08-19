@@ -1,0 +1,9 @@
+<div class="box">
+<div class="harder">
+    <text class="title">
+        {{title}}
+    </text>
+</div>
+
+    <button onclick="page_two" class="liaojie1">了解更多</button>
+</div>
