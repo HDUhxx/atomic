@@ -1,0 +1,30 @@
+.doc-page {
+    flex-direction: column;
+}
+#mylist{
+    divider-height:5px;
+}
+
+.top-list-item {
+    width:100%;
+    background-color: #f6ba07;
+}
+
+.item-div {
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    height:300px;
+    margin-bottom: 20px;
+}
+.item-child {
+    width:100%;
+    height:60px;
+    justify-content:space-around;
+    align-items:center;
+}
+.item-group-child {
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}

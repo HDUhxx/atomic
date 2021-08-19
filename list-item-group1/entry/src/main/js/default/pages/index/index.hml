@@ -1,0 +1,53 @@
+<!-- xxx.hml -->
+<div class="doc-page">
+    <list style="width: 100%;" id="mylist" divider="true" scrollbar="on" shapemode="rect" >
+        <list-item class="top-list-item" clickeffect="true">
+            <div class="item-div">
+                <div class="item-child">
+                    <button type="capsule" value="关闭第一个" onclick="collapseOne"></button>
+                    <button type="capsule" value="打开第一个" onclick="expandOne"></button>
+                </div>
+                <div class="item-child">
+                    <button type="capsule" value="关闭第二个" onclick="collapsetwo"></button>
+                    <button type="capsule" value="打开第二个" onclick="expandtwo"></button>
+                </div>
+                <div class="item-child">
+                    <button type="capsule" value="关闭第三个" onclick="collapsethree"></button>
+                    <button type="capsule" value="打开第三个" onclick="expandthree"></button>
+                </div>
+                <div class="item-child">
+                    <button type="capsule" value="关闭全部" onclick="collapseAll"></button>
+                    <button type="capsule" value="打开全部" onclick="expandAll"></button>
+                </div>
+            </div>
+        </list-item>
+
+        <list-item-group for="listgroup in list" id="{{listgroup.value}}" ongroupcollapse="collapse" ongroupexpand="expand">
+            <list-item type="item" style="background-color:#f5e2b1;height:50px;">
+                <div class="item-group-child">
+                    <text>{{listgroup.value}}--序号第1</text>
+                </div>
+            </list-item>
+            <list-item type="item" style="background-color:#f5e2b1;height:50px;">
+                <div class="item-group-child">
+                    <text>{{listgroup.value}}--序号第2</text>
+                </div>
+            </list-item>
+            <list-item type="item" style="background-color:#f5e2b1;height:50px;">
+                <div class="item-group-child">
+                    <text>{{listgroup.value}}--序号第3</text>
+                </div>
+            </list-item>
+            <list-item type="item" style="background-color:#f5e2b1;height:50px;">
+                <div class="item-group-child">
+                    <text>{{listgroup.value}}--...更多</text>
+                </div>
+            </list-item>
+            <list-item type="item" style="background-color: #87CEFA;height:90px;" primary="true">
+                <div class="item-group-child">
+                    <text>蛟龙学校---{{listgroup.value}}</text>
+                </div>
+            </list-item>
+        </list-item-group>
+    </list>
+</div>
