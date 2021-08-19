@@ -1,0 +1,31 @@
+<!-- xxx.hml -->
+<div class="container">
+    <text class="title">{{count}}</text>
+    <div class="box">
+        <div class="btneffect">
+            <input type="button" class="btn" value="加一" onclick="increase" />
+            <text class="effectt">在原数字基础上加1</text>
+        </div>
+         <div class="btneffect">
+              <input type="button" class="btn" value="减一" @click="decrease" />
+              <text class="effectt">在原数字基础上减1</text>
+         </div>
+    <!-- 传递额外参数 -->
+        <div class="btneffect">
+              <input type="button" class="btn" value="双倍" @click="multiply(2)" />
+              <text class="effectt">在原数字基础上乘2</text>
+        </div>
+        <div class="btneffect">
+              <input type="button" class="btn" value="十倍" @click="multiply(10)" />
+              <text class="effectt">在原数字基础上乘10</text>
+        </div>
+        <div class="btneffect">
+              <input type="button" class="btn" value="平方" @click="multiply(count)" />
+              <text class="effectt">在原数字基础上平方</text>
+        </div>
+        <div class="btneffect">
+            <input type="button" class="btn" value="开方" @click="sqrty(count)" />
+            <text class="effectt">在原数字基础上开方</text>
+        </div>
+    </div>
+</div>
