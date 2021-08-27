@@ -1,0 +1,17 @@
+<!-- xxx.hml -->
+<div class="content">
+    <div class="backgrund">
+        <text class="headername">蛟龙腾飞</text>
+
+        <input id="inputf" class="inputf" type="text" value="" maxlength="20" enterkeytype="send"
+               placeholder="账号" onchange="change" ontouchstart="touchstart" 
+               onenterkeyclick="enterkeyClick">
+        </input>
+        <input id="input" class="input" type="text" value="" maxlength="20" enterkeytype="send"
+               placeholder="密码" onchange="change"
+               onenterkeyclick="enterkeyClick">
+
+        </input>
+        <input class="button" type="button" value="登录" onclick="buttonClick"></input>
+    </div>
+</div>

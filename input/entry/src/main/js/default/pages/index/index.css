@@ -1,0 +1,66 @@
+/*给界面设定宽高，设定布局方式 */
+.content{
+    height: 100%;
+    width: 100%;
+    background-image: url("/common/images/beijin.png");
+    background-size:contain ;
+    justify-content: center;
+    align-items: center;
+}
+/*设立中间的背景样式，并设定布局*/
+.backgrund{
+    flex-direction: column;
+
+    align-items: center;
+    width: 80%;
+    height: 400px;
+/*   background-color: #3e3e3e;*/
+    background-color: rgba(68, 67, 67, 0.70);
+    box-shadow: 3px 3px 10px #5c5a5a;
+}
+/*头部文字样式*/
+.headername{
+    color: white;
+    font-weight: 600;
+    margin-top: 50px;
+}
+/*账号框的样式*/
+.inputf {
+    margin-top: 30px;
+    placeholder-color: gray;
+    width: 60%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #3ff616;
+    color: white;
+    
+}
+/*点击账号框和密码框后的样式*/
+.input::active,.inputf::active{
+    width:90%;
+    background-color: chartreuse;
+
+}
+/*密码的样式*/
+.input {
+    margin-top: 20px;
+    placeholder-color: gray;
+    width: 60%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #3ff616;
+    color: white;
+
+}
+/*登录按钮的样式*/
+.button {
+    border: 2px solid blue;
+    background-color: transparent;
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+}
+/*点击按钮后登录的样式*/
+.button::active {
+    background-color: blue;
+}
