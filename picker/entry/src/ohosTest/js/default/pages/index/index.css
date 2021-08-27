@@ -1,0 +1,8 @@
+.shared-transition-style {
+    shared-transition-effect: exchange;
+    shared-transition-name: shared-transition;
+}
+@keyframes shared-transition {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
