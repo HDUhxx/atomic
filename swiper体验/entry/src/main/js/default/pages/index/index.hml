@@ -1,0 +1,19 @@
+<div class="container">
+    <swiper class="swiper" id="swiper" index="0" indicator="true" loop="true" digital="false">
+        <div class = "swiperContent" >
+            <img src="common/images/page1.jpg" class="img"></img>
+        </div>
+        <div class = "swiperContent">
+            <img src="common/images/page2.jpg" class="img"></img>
+        </div>
+        <div class = "swiperContent">
+            <img src="common/images/page3.jpg" class="img"></img>
+        </div>
+        <div class = "swiperContent">
+            <img src="common/images/page4.jpg" class="img"></img>
+        </div>
+    </swiper>
+    <input class="button" type="button" value="跳转到首页" onclick="swipeTo"></input>
+    <input class="button" type="button" value="下一张" onclick="showNext"></input>
+    <input class="button" type="button" value="上一张" onclick="showPrevious"></input>
+</div>
