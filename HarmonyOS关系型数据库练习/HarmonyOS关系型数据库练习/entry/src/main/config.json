@@ -1,0 +1,61 @@
+{
+  "app": {
+    "bundleName": "com.example.rdb",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.rdb",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.rdb.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.rdb.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "permissions": [
+          "com.example.rdb.DataAbilityShellProvider.PROVIDER"
+        ],
+        "name": "com.example.rdb.Database.fristRDB",
+        "icon": "$media:icon",
+        "description": "$string:fristrdb_description",
+        "type": "data",
+        "visible": false,
+        "uri": "dataability://com.example.rdb.Database.fristRDB"
+      }
+    ]
+  }
+}
