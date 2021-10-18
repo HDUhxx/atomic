@@ -1,0 +1,67 @@
+{
+  "app": {
+    "bundleName": "com.example.changentry",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.mystatus",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.mystatus.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "metaData":{
+      "customizeData":[
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+          "extra":""
+        }
+      ]
+    },
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "name": "com.example.mystatus.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      }
+    ]
+  }
+}

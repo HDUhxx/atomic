@@ -1,0 +1,13 @@
+
+.ddj{
+    background-color: black;
+    height: 82px;
+    width: 100%;
+    align-items: flex-end;
+}
+.text{
+    margin-left: 14px;
+    margin-bottom: 4px;
+    color: white;
+    font-size: 22px ;
+}

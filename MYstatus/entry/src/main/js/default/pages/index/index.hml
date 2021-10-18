@@ -1,0 +1,17 @@
+<div>
+    <div style="display: flex;flex-direction: column;">
+        <div style="
+                background-color: red;
+                height: 60px;
+                width: 100%;
+                align-items: center;
+                ">
+            <text style="
+                    margin-left: 14px;
+                    margin-bottom: 4px;
+                    color: white;
+                    font-size: 22px ;
+                    ">标题</text>
+        </div>
+    </div>
+</div>
