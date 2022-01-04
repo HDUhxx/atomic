@@ -1,0 +1,79 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 4,
+            "releaseType": "Release",
+            "target": 5
+        },
+        "bundleName": "ohos.samples.networkmanagement",
+        "version": {
+            "code": 2000000,
+            "name": "2.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777231,
+                "orientation": "portrait",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": false,
+                "label": "$string:app_name",
+                "type": "page",
+                "homeAbility": true,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "descriptionId": 16777222,
+                "labelId": 16777216,
+                "name": "ohos.samples.networkmanagement.MainAbility",
+                "launchType": "standard"
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "ohos.samples.networkmanagement",
+        "name": ".MainAbility",
+        "reqCapabilities": [
+            "video_support"
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.GET_NETWORK_INFO"
+            },
+            {
+                "name": "ohos.permission.INTERNET"
+            },
+            {
+                "name": "ohos.permission.SET_NETWORK_INFO"
+            },
+            {
+                "name": "ohos.permission.MANAGE_WIFI_CONNECTION"
+            },
+            {
+                "name": "ohos.permission.SET_WIFI_INFO"
+            },
+            {
+                "name": "ohos.permission.GET_WIFI_INFO"
+            }
+        ]
+    }
+}
