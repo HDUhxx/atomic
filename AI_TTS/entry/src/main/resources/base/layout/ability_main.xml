@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:bfBtn"
+        ohos:height="200px"
+        ohos:width="500px"
+        ohos:text="播放"
+        ohos:text_size="25px"
+        ohos:background_element="#FF6882D7"
+    >
+    </Button>
+    <Button
+        ohos:id="$+id:tzBtn"
+        ohos:height="200px"
+        ohos:width="500px"
+        ohos:text="停止"
+        ohos:text_size="25px"
+        ohos:background_element="#FFDD5B69"
+        >
+    </Button>
+</DirectionalLayout>
