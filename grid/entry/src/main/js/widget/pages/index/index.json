@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "Title",
+    "detail": "Text",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.grid.hmservice",
+      "abilityName": "com.example.grid.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}
