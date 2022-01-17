@@ -1,0 +1,17 @@
+{
+  "data": {
+    "title": "Title",
+    "detail": "Text",
+    "iconTitle": "Picture"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.example.js_svg_circle.hmservice",
+      "abilityName": "com.example.js_svg_circle.MainAbility",
+      "params": {
+        "message": "add detail"
+      }
+    }
+  }
+}
