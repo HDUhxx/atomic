@@ -1,0 +1,10 @@
+<div class="container">
+    <svg fill="white" stroke="blue" width="400" height="400">
+        <polygon points="10,110 60,35 60,85 110,10" fill="red"></polygon>
+        <polygon points="10,200 60,125 60,175 110,100" stroke-dasharray="10 5" stroke-dashoffset="3"></polygon>
+    </svg>
+    <svg fill="white" stroke="blue" width="400" height="400">
+        <polygon points="10,110 60,35 60,60 110,10" fill="red"></polygon>
+        <polygon points="10,200 60,125 60,175 110,10" stroke-dasharray="10 5" stroke-dashoffset="3"></polygon>
+    </svg>
+</div>
