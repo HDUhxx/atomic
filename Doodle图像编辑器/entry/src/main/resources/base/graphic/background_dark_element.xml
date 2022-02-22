@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:ohos="http://schemas.huawei.com/res/ohos"
+       ohos:shape="rectangle">
+    <solid ohos:color="#FF7F50"
+        ></solid>
+
+    <corners
+        ohos:Radius="5vp"
+       />
+    <stroke  ohos:color="#666666"
+        ohos:width="0vp"/>
+</shape>
+<!--<size   ohos:height="50dp"-->
+<!--        ohos:width="match_parent"/>-->

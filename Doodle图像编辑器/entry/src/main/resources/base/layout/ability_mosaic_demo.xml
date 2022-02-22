@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:color_transparent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:doodle_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="bottom"
+            ohos:margin="5vp"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:id="$+id:btn_mosaic_x1"
+                ohos:height="45vp"
+                ohos:width="45vp"
+                ohos:background_element="$graphic:state_containertest"
+                ohos:min_width="45vp"
+                ohos:left_margin="10vp"
+                ohos:text="x1"
+                ohos:text_size="14fp" />
+
+            <Button
+                ohos:id="$+id:btn_mosaic_x2"
+                ohos:height="45vp"
+                ohos:width="45vp"
+                ohos:background_element="$graphic:state_containertest"
+                ohos:min_width="45vp"
+                ohos:left_margin="10vp"
+                ohos:text="x2"
+                ohos:text_size="14fp" />
+
+            <Button
+                ohos:id="$+id:btn_mosaic_x3"
+                ohos:height="45vp"
+                ohos:left_margin="10vp"
+                ohos:width="45vp"
+                ohos:background_element="$graphic:state_containertest"
+                ohos:min_width="45vp"
+                ohos:text="x3"
+                ohos:text_size="14fp" />
+
+        </DirectionalLayout>
+
+    </StackLayout>
+
+</StackLayout>
