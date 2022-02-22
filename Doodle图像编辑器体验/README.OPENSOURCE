@@ -1,0 +1,19 @@
+[
+
+    {
+
+        "Name": "Doodle",
+
+        "License": "MIT License",
+
+        "License File": "LICENSE",
+
+        "Version Number": "v5.5.4",
+
+        "Upstream URL": "https://github.com/1993hzw/Doodle",
+
+        "Description": "图片涂鸦，具有撤消、缩放、移动、添加文字，贴图等功能。还是一个功能强大，可自定义和可扩展的涂鸦框架、多功能画板。"
+
+    }
+
+]

@@ -1,0 +1,123 @@
+{
+  "app": {
+    "bundleName": "com.example.doodle",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.doodledemo",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.doodledemo.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "icon": "$media:icon",
+        "name": "com.example.doodledemo.ScaleGestureItemDemoAbility",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.doodledemo.guide.DoodleGuideAbility",
+        "icon": "$media:icon",
+        "description": "$string:app_name",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.doodledemo.MosaicDemo",
+        "icon": "$media:icon",
+        "description": "$string:mosaicdemo_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.READ_USER_STORAGE",
+        "reason": "访问图片",
+        "usedScene": {
+          "ability": [
+            "com.example.doodledemo.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE",
+        "reason": "访问图片",
+        "usedScene": {
+          "ability": [
+            "com.example.doodledemo.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "访问图片",
+        "usedScene": {
+          "ability": [
+            "com.example.doodledemo.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "访问图片",
+        "usedScene": {
+          "ability": [
+            "com.example.doodledemo.MainAbility"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+          "extra": ""
+        }
+      ]
+    }
+  }
+}

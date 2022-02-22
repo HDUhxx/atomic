@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:dialog_bg"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:color_88"
+    ohos:bottom_padding="10vp"
+    ohos:top_padding="10vp">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="280vp"
+        ohos:bottom_padding="3.5vp"
+        ohos:clickable="true"
+        ohos:layout_alignment="center"
+        ohos:margin="10vp"
+        ohos:background_element="$graphic:background_lightdialog_element"
+        ohos:min_width="280vp"
+        ohos:orientation="vertical"
+        ohos:top_padding="0vp"
+        >
+
+        <Text
+            ohos:id="$+id:dialog_title"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:layout_alignment="horizontal_center"
+            ohos:left_padding="10vp"
+            ohos:multiple_lines="false"
+            ohos:right_padding="10vp"
+            ohos:text=""
+            ohos:text_alignment="center"
+            ohos:text_color="$color:color_2b"
+            ohos:text_size="20fp"
+            ohos:truncation_mode="ellipsis_at_end"
+            />
+
+        <StackLayout
+            ohos:id="$+id:dialog_list_title_divider"
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:background_element="#dfdfdf"/>
+
+
+        <Text
+            ohos:id="$+id:dialog_enter_msg"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:min_width="50vp"
+            ohos:padding="20vp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_color="$color:color_2b"
+            ohos:text_size="16fp"
+            ohos:truncation_mode="ellipsis_at_end"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:dialog_enter_btn_01"
+                ohos:height="50vp"
+                ohos:width="match_content"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text=""
+                ohos:text_alignment="center"
+                ohos:text_color="#bebebe"
+                ohos:text_size="20fp"
+                ohos:weight="1"
+               />
+
+            <Text
+                ohos:id="$+id:dialog_enter_btn_02"
+                ohos:height="50vp"
+                ohos:width="match_content"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text=""
+                ohos:text_alignment="center"
+                ohos:text_color="#11cfff"
+                ohos:text_size="20fp"
+                ohos:weight="1"
+                />
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+</StackLayout>
