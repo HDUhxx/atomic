@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:padding="16vp"
+    xmlns:app="http://schemas.huawei.com/apk/res/ohos"
+    >
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:layout_alignment="start"
+        ohos:text="testAbility2"
+        ohos:text_color="#FF807C7C"
+        ohos:text_size="50px"
+        />
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:alignment="center"
+        >
+        <com.zxy.recovery.test.SuperButton
+            ohos:id="$+id:test_btn"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="MAKE CRASH"
+            ohos:text_size="14vp"
+            app:super_normal_color="#FFCBD1D2"
+            app:super_select_color="#FFC0C8CA"
+            ohos:text_color="#000000"
+            app:super_corners_radius="4"
+            ohos:top_margin="20vp"
+            ohos:start_margin="20vp"
+            ohos:end_margin="20vp"
+            ohos:padding="4vp"
+            ></com.zxy.recovery.test.SuperButton>
+        <com.zxy.recovery.test.SuperButton
+            ohos:id="$+id:test_btn2"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:text="跳转主页"
+            ohos:text_size="14vp"
+            app:super_normal_color="#FFCBD1D2"
+            app:super_select_color="#FFC0C8CA"
+            ohos:text_color="#000000"
+            app:super_corners_radius="4"
+            ohos:top_margin="20vp"
+            ohos:start_margin="20vp"
+            ohos:end_margin="20vp"
+            ohos:padding="4vp"
+            ></com.zxy.recovery.test.SuperButton>
+
+    </DirectionalLayout>
+
+
+</DependentLayout>
