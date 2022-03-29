@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "idiom_label",
+      "value": "成语心情，伴我前行！"
+    },
+    {
+      "name": "idiom_name",
+      "value": "成语心情"
+    },
+    {
+      "name": "cardcontroller_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "imageability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "imageability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ImageAbility",
+      "value": "entry_ImageAbility"
+    },
+    {
+      "name": "areadataability_description",
+      "value": "hap sample empty provider"
+    }
+  ]
+}

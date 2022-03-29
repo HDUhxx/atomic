@@ -1,0 +1,135 @@
+{
+  "app": {
+    "bundleName": "com.jitf.cardshow",
+    "vendor": "jltf",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "allowComponentsProxy": true,
+      "keepAlive": true,
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "com.huawei.hms.client.appid",
+          "value": "105721531"
+        }
+      ]
+    },
+    "package": "com.jltf.jltf_idiom",
+    "name": ".MyApplication",
+    "mainAbility": "com.jltf.jltf_idiom.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "visible": true,
+        "configChanges": [
+          "density",
+          "fontSize",
+          "layout",
+          "locale",
+          "mcc",
+          "mnc",
+          "orientation",
+          "size",
+          "smallestSize",
+          "colorMode"
+        ],
+        "name": "com.jltf.jltf_idiom.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:idiom_label",
+        "formsEnabled": true,
+        "label": "$string:idiom_name",
+        "type": "page",
+        "forms": [
+          {
+            "jsComponentName": "widget",
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "widget",
+            "description": "This is a service widget",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*2"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ],
+        "launchType": "standard"
+      },
+      {
+        "name": "com.jltf.jltf_idiom.controller.ServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:idiom_label",
+        "type": "service",
+        "visible": true,
+        "backgroundModes": [
+          "dataTransfer",
+          "location"
+        ]
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "default",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        }
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "widget",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      }
+    ],
+    "defPermissions": [
+      {
+        "name": "com.jltf.jltf_idiom.data.DataAbilityShellProvider.PROVIDER"
+      },
+      {
+        "name": "com.jltf.jltf_idiom.data.model.DataAbilityShellProvider.PROVIDER"
+      }
+    ]
+  }
+}

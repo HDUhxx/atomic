@@ -1,0 +1,34 @@
+.comment{
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: lightskyblue;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.comment-content{
+    width: 84%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+/*    background-color: #cecece;*/
+}
+.list{
+    width: 90%;
+    height: 100%;
+}
+.list-item{
+    height: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.list-item-text{
+    font-size: 14x;
+}

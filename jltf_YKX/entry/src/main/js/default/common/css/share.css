@@ -1,0 +1,7 @@
+.content-function{
+    width: 100%;
+    height: 86%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

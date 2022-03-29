@@ -1,0 +1,430 @@
+<stack style="background-color: #8e8e8e;">
+<!--        隐私弹窗-->
+    <div class="bg-div" if="{{showPopup}}"></div>
+    <div class="popup" if="{{showPopup}}">
+        <div class="popup-footer">
+            <text class="popup-footer-title">蛟龙腾飞用户协议与隐私政策</text>
+            <list class="todo-item" scrollbar="auto">
+                <list-item style="flex-direction: column;">
+                    <text class="popup-footer-text">{{text}}</text>
+                    <text class="popup-footer-text1">{{text1}}</text>
+                    <text class="popup-footer-text0">{{text2}}</text>
+                    <text class="popup-footer-text3"><span>引言</span></text>
+                    <text class="popup-footer-text0">{{text3}}</text>
+                    <text class="popup-footer-text0">
+                        <span>{{text4}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text4a}}</span>
+                        <span>{{text4b}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text4c}}</span>
+                    </text>
+                    <text class="popup-footer-text3"><span>目录：</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text5}}</span>
+                    </text>
+
+                <!--                    一、我们处理个人信息的法律依据-->
+                    <text class="popup-footer-text3"><span>{{text6}}</span></text>
+                    <text class="popup-footer-text0"><span>{{text6a}}</span></text>
+
+                <!--                    二、本隐私政策的适用范围-->
+                    <text class="popup-footer-text3"><span>{{text7}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text7a}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text7b}}</span>
+                    </text>
+
+                <!--                    三、我们如何收集和使用您的个人信息-->
+                    <text class="popup-footer-text3"><span>{{text8}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8a}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text8b}}</span>
+                    </text>
+                    <text class="popup-footer-text0"><span>{{text8c}}</span></text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text8aa}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="color: #111;">{{text8aaa}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8d}}</span>
+                        <span style="font-weight: bold;color: #111;text-decoration: underline;">{{text8d1}}</span>
+                        <span>{{text8d2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="color: #111;">{{text8aaa1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8e}}</span>
+                        <span style="font-weight: bold;color: #111;text-decoration: underline;">{{text8e1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8e2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8e3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111">{{text8e4}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text8ab}}</span>
+                    </text>
+                    <text class="popup-footer-text0" style="margin-bottom: 4px;">
+                        <span style="font-size: 16px;color: #111;">{{text8fb}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8f}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8f1}}</span>
+                        <span>{{text8f2}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8f3}}</span>
+                        <span>{{text8f4}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8g}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8h}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8h1}}</span>
+                        <span>{{text8h2}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8i}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8i1}}</span>
+                        <span>{{text8i2}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab4}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8j}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8j1}}</span>
+                        <span>{{text8j2}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab5}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8k}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8k1}}</span>
+                        <span>{{text8k2}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8k3}}</span>
+                        <span>{{text8k4}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab6}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8l}}</span>
+                        <span style="font-weight: bold;text-decoration: underline;">{{text8l1}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab7}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span  style="font-weight: bold;">{{text8m}}</span>
+                        <span>{{text8mm}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span  style="font-weight: bold;">{{text8m1}}</span>
+                        <span>{{text8mm1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span  style="font-weight: bold;">{{text8m2}}</span>
+                        <span>{{text8mm2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span  style="font-weight: bold;">{{text8m3}}</span>
+                        <span>{{text8mm3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8m4}}</span>
+                        <span style="font-weight: bold;">{{text8mm4}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="color: #111;">{{text8aab8}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8n}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8n1}}</span>
+                    </text>
+                    <text class="popup-footer-text3">-->
+                        <span style="font-size: 14px;color: #111;">{{text8ac}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8aac}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text8o}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight:bold;color: #111;">{{text8o1}}</span>
+                    </text>
+
+                <!--                    四、我们如何使用Cookie 和同类技术-->
+                    <text class="popup-footer-text3"><span>{{text9}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text9c}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text9c1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight:bold;color: #111;">{{text9c2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight:bold;color: #111;">{{text9c3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight:bold;color: #111;">{{text9c4}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight:bold;color: #111;">{{text9c5}}</span>
+                    </text>
+
+                <!--                    五、我们如何共享、转让、公开披露您的个人信息-->
+                    <text class="popup-footer-text3"><span>{{text10}}</span></text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text10a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10a1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10aa}}</span>
+                        <span>{{text10aab}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10aa1}}</span>
+                        <span>{{text10aa1b}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10aa2}}</span>
+                        <span>{{text10aa2b}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10aa2ba}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10aa3}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text10aa3b}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10aa4}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10aa5}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10aa6}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10aa7}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text10b}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10ba}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10b1}}</span>
+                        <span>{{text10b1a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10b2}}</span>
+                        <span>{{text10b2a}}</span>
+                    </text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text10c}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text10ca}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10c1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10c2}}</span>
+                        <span>{{text10c3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text10c4}}</span>
+                    </text>
+
+                <!--                    六、我们如何存储及保护您的个人信息-->
+                    <text class="popup-footer-text3"><span>{{text11}}</span></text>
+                    <text class="popup-footer-text3">
+                        <span style="font-size: 14px;color: #111;">{{text11a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text11a1}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text11a2}}</span>
+                        <span>{{text11a3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11a4}}</span>
+                    </text>
+                    <text class="popup-footer-text3"><span>{{text11b}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text11b1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b2}}</span>
+                        <span>{{text11b2a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b3}}</span>
+                        <span>{{text11b3a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b4}}</span>
+                        <span>{{text11b4a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b5}}</span>
+                        <span>{{text11b5a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b6}}</span>
+                        <span>{{text11b6a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text11b6a1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text11b7}}</span>
+                    </text>
+
+                <!--                    七、您管理个人信息的权利-->
+                    <text class="popup-footer-text3"><span>{{text12}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a3}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a4}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a5}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a6}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a7}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a8}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a9}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a10}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a11}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a12}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="text-decoration: underline;">{{text12a13}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a14}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text12a15}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text12a16}}</span>
+                    </text>
+
+                <!--                    八、我们如何处理未成年人的个人信息-->
+                    <text class="popup-footer-text3"><span>{{text13}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text13a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text13a1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text13a2}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span style="font-weight: bold;color: #111;">{{text13a4}}</span>
+                    </text>
+
+                <!--                    九、本隐私政策的更新和通知-->
+                    <text class="popup-footer-text3"><span>{{text14}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text14a}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text14a1}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text14a2}}</span>
+                    </text>
+
+                <!--                    十、如何联系我们-->
+                    <text class="popup-footer-text3"><span>{{text14}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text15a}}</span>
+                        <span style="font-weight: bold;color: #111;">{{text15a1}}</span>
+                        <span>{{text15a2}}</span>
+                    </text>
+
+                <!--                    十一、争议解决-->
+                    <text class="popup-footer-text3"><span>{{text16}}</span></text>
+                    <text class="popup-footer-text0">
+                        <span>{{text16a}}</span>
+                    </text>
+                    <text class="popup-footer-text0">
+                        <span>{{text16a1}}</span>
+                    </text>
+                </list-item>
+            </list>
+
+
+        <!--            勾选-->
+            <div class="popup-footer-checked">
+                <input style="height: 40px;" type="checkbox" checked="{{radioChecked}}" @change="radioChange"></input>
+                <text class="popup-footer-checked-text">我已知悉并同意以上用户协议与隐私政策</text>
+            </div>
+        <!--            按钮同意/取消-->
+            <div class="popup-footer-btn-div" >
+                <text  style="background-color: #fff;color: #333;" class="popup-footer-btn" onclick="hideFalse">取消</text>
+                <text disabled="{{disabled}}" style="background-color: #3079f0;color: #fff;" class="popup-footer-btn" onclick="hideTrue">同意</text>
+            </div>
+            <div class="popup-footer-btn-div-mc" if="{{mc}}">
+                <div class="popup-footer-btn-div-mc-left"  onclick="sayTips"></div>
+            </div>
+        <!--            <div class="sayTips" if="{{Tips}}">-->
+        <!--                <text>请勾选上方用户协议与隐私政策</text>-->
+        <!--            </div>-->
+        </div>
+    </div>
+</stack>
