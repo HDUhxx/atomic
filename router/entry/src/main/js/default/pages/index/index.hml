@@ -1,0 +1,11 @@
+<div class="container">
+    <text class="title">
+        <span>记录</span>
+    </text>
+    <div class="boxs">
+        <text class="text"><span>时间：{{ time }}</span></text>
+        <text class="text"><span>地点：{{ address }}</span></text>
+        <text class="text"><span>人员：{{ personal }}</span></text>
+    </div>
+    <input type="button" value="上传" onclick="click"></input>
+</div>
