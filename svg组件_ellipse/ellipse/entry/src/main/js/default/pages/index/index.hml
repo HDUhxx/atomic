@@ -1,0 +1,8 @@
+<!-- ellipse.hml -->
+<div class="container">
+    <svg fill="white" width="500" height="500">
+        <ellipse cx="180" cy="120" rx="50" ry="100" stroke-width="4" fill="red" stroke="blue"></ellipse>
+        <ellipse cx="180" cy="300" rx="100" ry="50" stroke-width="10" stroke="red" stroke-dasharray="10 5" stroke-dashoffset="3"></ellipse>
+        <ellipse cx="180" cy="440" rx="100" ry="50" fill="#999" stroke-width="4" stroke="green" stroke-dasharray="15 5" stroke-dashoffset="6"></ellipse>
+    </svg>
+</div>

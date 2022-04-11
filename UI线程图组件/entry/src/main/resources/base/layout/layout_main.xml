@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <com.jjoe64.graphveiw.helper.GraphViewXML
+        ohos:id="$+id:graphViewXml"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:seriesData="0=0;1=1;2=2;3=3"
+        ohos:seriesTitle="test5"
+        ohos:seriesColor="#FF0000"
+        ohos:title ="test1"/>
+</DirectionalLayout>

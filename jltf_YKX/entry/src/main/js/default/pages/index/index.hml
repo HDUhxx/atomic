@@ -1,0 +1,14 @@
+<div style="flex-direction: column; align-items: center; justify-content: center;">
+<!--    <button onclick="getImg">获取照片</button>-->
+<!--    <button onclick="sendImg">上传照片</button>-->
+    <div style="margin: 20px;">
+        <input onchange="getText"></input>
+        <button style="width: 20%;">复制</button>
+    </div>
+    
+    <div style="margin: 20px;">
+        <input>{{b}}</input>
+        <button onclick="showText" style="width: 20%;">粘贴</button>
+    </div>
+
+</div>

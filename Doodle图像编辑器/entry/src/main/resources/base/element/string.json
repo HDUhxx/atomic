@@ -1,0 +1,64 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Doodle"
+    },
+    {
+      "name": "Doodle",
+      "value": "涂鸦"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "doodle_select_image",
+      "value": "选择图片"
+    },
+    {
+      "name": "mosaic",
+      "value": "马赛克"
+    },
+    {
+      "name": "scale_gesture_item",
+      "value": "手势缩放"
+    },
+    {
+      "name": "guide",
+      "value": "涂鸦入门"
+    },
+    {
+      "name": "simple_doodle",
+      "value": "初级涂鸦"
+    },
+    {
+      "name": "middle_doodle",
+      "value": "中级涂鸦"
+    },
+    {
+      "name": "advanced_doodle",
+      "value": "高级涂鸦"
+    },
+    {
+      "name": "mainabilitydemo_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "mosaicdemo_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "scalegestureitemdemoability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "path_of_selected_image",
+      "value": "Path of the selected image：\n\n"
+    }
+  ]
+}

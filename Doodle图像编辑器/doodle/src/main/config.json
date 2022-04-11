@@ -1,0 +1,43 @@
+{
+  "app": {
+    "bundleName": "com.example.doodle",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.doodle",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "doodle",
+      "moduleType": "har",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "orientation": "unspecified",
+        "name": "com.example.doodle.DoodleAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.doodle.imagepicker.ImageSelectorActivity",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "singleton"
+      }
+    ]
+  }
+}

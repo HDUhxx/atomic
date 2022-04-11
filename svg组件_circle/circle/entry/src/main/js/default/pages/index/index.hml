@@ -1,0 +1,9 @@
+<!-- circle.hml -->
+<div class="container">
+    <svg fill="white" width="500" height="500">
+        <circle cx="180" cy="60" r="50" stroke-width="4" fill="red" stroke="blue"></circle>
+        <circle cx="180" cy="180" r="50" stroke-width="10" stroke="red" stroke-dasharray="10 5" stroke-dashoffset="3"></circle>
+        <circle cx="180" cy="300" r="50" fill="#f40" stroke-width="10" stroke="#fff" stroke-dasharray="10 5" stroke-dashoffset="6"></circle>
+        <circle cx="180" cy="420" r="50" fill="#520" stroke-width="8" stroke-dasharray="10 5" stroke="#f40" stroke-dashoffset="9"></circle>
+    </svg>
+</div>

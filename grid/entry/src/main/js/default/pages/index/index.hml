@@ -1,0 +1,23 @@
+<!-- index.hml -->
+<div style="flex-direction: column; padding-top: 80px;">
+    <grid-container id="mygrid" columns="8" gutter="20px" style="background-color: pink;">
+        <grid-row style="height:400px;justify-content:space-around;">
+            <grid-col span="2">
+                <div style="align-items: center;justify-content: center;height: 100%;width: 100%;">
+                    <text style="color: dodgerblue;" onclick="getCol">grid 1</text>
+                </div>
+            </grid-col>
+            <grid-col span="3" style="background-color:orange;">
+                <div style="width: 100%;height: 100%;padding: 20px;align-items: center;">
+                    <text onclick="getColWidth">grid 2</text>
+                </div>
+            </grid-col>
+            <grid-col span="4" style="background-color: aquamarine;">
+                <div style="width: 100%;height: 100%;align-items: center;">
+                    <text on:click="getColWidth">grid 3</text>
+                </div>
+            </grid-col>
+        </grid-row>
+    </grid-container>
+</div>
+

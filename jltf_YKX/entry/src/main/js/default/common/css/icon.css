@@ -1,0 +1,38 @@
+.navigationIcon{
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+.navigationBackIcon{
+    width: 24px;
+    height: 24px;
+    margin: 0px 6px;
+}
+.searchIcon{
+    width: 26px;
+    height: 26px;
+    margin-left: 12px;
+}
+.iconImg{
+    width: 30px;
+    height: 30px;
+}
+.iconImg1{
+    width: 26px;
+    height: 26px;
+}
+.iconImg2{
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
+.iconImg3{
+    width: 24px;
+    height: 24px;
+}
+.list-item-icon{
+    width: 18px;
+    height: 18px;
+    margin: 2px 0px;
+    margin-right: 10px;
+}

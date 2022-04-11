@@ -1,0 +1,11 @@
+<div class="container">
+    <text class="title">
+        <span>输入记录</span>
+    </text>
+    <div class="box">
+        <input id="1" type="text" value="{{ time }}" placeholder="输入时间" onchange="getChange"></input>
+        <input id="2" type="text" value="{{ address }}" placeholder="输入地点" onchange="getChange"></input>
+        <input id="3" type="text" value="{{ personal }}" placeholder="输入人员" onchange="getChange"></input>
+        <input type="button" value="提交" onclick="btnClick"></input>
+    </div>
+</div>

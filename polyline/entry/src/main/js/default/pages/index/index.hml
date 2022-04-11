@@ -1,0 +1,10 @@
+<div class="container">
+    <svg fill="white" stroke="blue" width="400" height="400">
+        <polyline points="10,110 60,35 60,85 110,10" fill="red"></polyline>
+        <polyline points="10,200 60,125 60,175 110,100" stroke-dasharray="10 5" stroke-dashoffset="3"></polyline>
+    </svg>
+    <svg fill="white" stroke="blue" width="400" height="400">
+        <polyline points="18,150 60,35 60,85 150,10" fill="red"></polyline>
+        <polyline points="18,250 60,125 60,175 150,100" stroke-dasharray="10 5" stroke-dashoffset="3"></polyline>
+    </svg>
+</div>

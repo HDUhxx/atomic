@@ -1,0 +1,45 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "ohos.samples.networkmanagement",
+            "version": {
+                "code": 2000000,
+                "name": "2.0"
+            }
+        },
+        "modules": [
+            {
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "name": "ohos.samples.networkmanagement.MainAbility",
+                        "label": "$string:app_name"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 4,
+                    "releaseType": "Release",
+                    "target": 5
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+.subscribeDiv{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+}
+.subscribeDiv-content{
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+/*    align-items: center;*/
+}
+.subscribeDiv-content1{
+    flex-direction: row;
+/*    justify-content: center;*/
+    left: 3%;
+}
+.subscribeDiv-text{
+    margin: 10px 0px;
+    font-size: 20px;
+    color: #333;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #cecece;
+}
+.subscribeDiv-text:active{
+    background-color: yellowgreen;
+}

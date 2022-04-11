@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$color:recovery_background"
+    ohos:orientation="vertical">
+
+    <include
+        ohos:height="55vp"
+        ohos:width="match_parent"
+        ohos:layout="$layout:layout_title_bar"/>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+
+        <Image
+            ohos:height="200vp"
+            ohos:width="230vp"
+            ohos:image_src="$media:ic_recovery_page"
+            ohos:scale_mode="zoom_center"/>
+
+        <Text
+            ohos:id="$+id:text_crash_tips"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:recovery_crash_tips_msg"
+            ohos:text_color="#A6A6A6"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:recovery_crash_tips_msg1"
+            ohos:text_color="#A6A6A6"
+            ohos:text_size="15fp"/>
+
+        <Button
+            ohos:id="$+id:btn_recover"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:recovery_default_btn_selector"
+            ohos:min_width="170vp"
+            ohos:text="$string:recovery_recover"
+            ohos:text_color="white"
+            ohos:text_size="15vp"
+            ohos:top_margin="20vp"/>
+
+        <Button
+            ohos:id="$+id:btn_restart"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:recovery_default_btn_selector"
+            ohos:min_width="170vp"
+            ohos:text="$string:recovery_restart"
+            ohos:text_color="white"
+            ohos:text_size="15vp"
+            ohos:top_margin="8vp"/>
+
+        <Button
+            ohos:id="$+id:btn_restart_clear"
+            ohos:height="50vp"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:recovery_default_btn_selector"
+            ohos:min_width="170vp"
+            ohos:text="$string:recovery_restart_clear"
+            ohos:text_color="white"
+            ohos:text_size="15vp"
+            ohos:top_margin="8vp"/>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

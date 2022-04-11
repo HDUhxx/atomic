@@ -1,0 +1,20 @@
+.toolbar{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top-width: 1px;
+    border-top-style: solid;
+    background-color: #444;
+}
+.footer-r{
+    flex: 1;
+    width: 30%;
+    height: 40px;
+}
+
+.footer-text{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}

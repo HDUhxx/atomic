@@ -1,0 +1,171 @@
+.popup{
+/*    position: fixed;*/
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    border-radius: 12px;
+}
+.popup-footer{
+    width: 90%;
+    height: 620px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fefefe;
+    border-radius: 12px;
+}
+.popup-footer-title{
+    font-size: 18px;
+    color: #111;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+/*    border: 1px;*/
+}
+.popup-footer-text{
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    margin: 0px 16px 0 16px;
+/*    border: 1px;*/
+}
+.popup-footer-text1{
+    font-size: 18px;
+    color: #111;
+    width: 100%;
+    text-align: center;
+/*    font-weight: bold;*/
+    margin-top: 10px;
+    letter-spacing: 1px;
+/*    border: 1px;*/
+}
+.popup-footer-text3{
+    font-size: 16px;
+    color: #111;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 1px;
+/*    font-weight: bold;*/
+    margin-left: 14px;
+/*    border: 1px;*/
+}
+.popup-footer-text0{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 20px;
+    margin: 0px 16px 0 16px;
+}
+
+.todo-item {
+    width: 100%;
+    height: 70%;
+    flex-direction: column;
+}
+
+.popup-footer-btn:active{
+    background-color: #ccc;
+}
+.popup-footer-checked{
+    width: 100%;
+    flex-direction: row;
+}
+.popup-footer-checked-text{
+    font-size: 14px;
+    color: #333;
+}
+
+.popup-footer-btn-div-mc{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #fff;
+    z-index: 9;
+    opacity: 0.2;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.popup-footer-btn-div-mc-left{
+    width: 50%;
+    height: 80px;
+/*    position: absolute;*/
+/*    bottom: 10px;*/
+/*    background-color: green;*/
+    z-index: 11;
+/*    opacity: 0.4;*/
+    border-radius: 12px;
+}
+
+.popup-footer-btn-div{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+/*    border: 1px;*/
+    background-color: #fff;
+    border-radius: 12px;
+}
+.popup-footer-btn{
+    flex: 1;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 0.5px solid #666;
+/*    color: #fff;*/
+/*    background-color: #000ffe;*/
+    margin: 20px 16px 6px 16px;
+    border-radius: 8px;
+}
+.bg-div{
+    width: 100%;
+    height: 100%;
+/*    position: fixed;*/
+/*    top: 0;*/
+    background-color: #333;
+    opacity: 0.8;
+    z-index: 3;
+}
+.sayTips{
+    z-index: 9;
+    align-items: center;
+    justify-content: center;
+/*    position: absolute;*/
+    width: 100%;
+    height: 40px;
+    text-align: center;
+/*    bottom: 64px;*/
+/*    animation-name: tips;*/
+/*    animation-delay: 3s;*/
+/*    animation-iteration-count:1;*/
+}
+.sayTips text{
+    width: 70%;
+    height: 36px;
+    background-color: #595959;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+/*@keyframes tips{*/
+/*    from{*/
+/*        transition-duration: 3s;*/
+/*        background-color: #595959;*/
+/*        opacity: 1;*/
+/*    }*/
+/*    to{*/
+/*        background-color: snow;*/
+/*        transition-duration: 3s;*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
