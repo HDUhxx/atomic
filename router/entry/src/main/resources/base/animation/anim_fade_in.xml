@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:ohos="http://schemas.huawei.com/res/ohos">
+
+    <alpha
+        ohos:duration="500"
+        ohos:fromAlpha="0.0"
+        ohos:toAlpha="1.0" />
+
+</set>

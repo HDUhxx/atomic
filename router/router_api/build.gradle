@@ -1,0 +1,15 @@
+apply plugin: 'com.huawei.ohos.library'
+
+ohos {
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    api 'com.gitee.chinasoft_ohos:router_anno:1.0.1'
+}

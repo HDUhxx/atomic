@@ -1,0 +1,15 @@
+// IService.idl
+
+// Declare any non-default types here with sequenceable or interface statements
+sequenceable com.lzh.nonview.router.module.RemoteRule;
+sequenceable ohos.utils.net.Uri;
+interface com.lzh.nonview.router.IService {
+
+    void register([in] String pluginName);
+    boolean isRegister([in] String pluginName);
+    void addActivityRules([in] Map<String,RemoteRule> rules);
+    void addActionRules([in] Map<String,RemoteRule> rules );
+    RemoteRule getActionRule([in] String uri);
+    RemoteRule getActivityRule([in] String uri);
+
+}

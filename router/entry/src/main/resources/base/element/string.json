@@ -1,12 +1,28 @@
 {
   "string": [
     {
-      "name": "entry_MainAbility",
-      "value": "entry_MainAbility"
+      "name": "app_name",
+      "value": "Router_master"
     },
     {
       "name": "mainability_description",
-      "value": "JS_Empty Ability"
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "openbrower",
+      "value": "打开浏览器百度首页"
+    },
+    {
+      "name": "baiduurl",
+      "value": "http://www.baidu.com"
+    },
+    {
+      "name": "Router_master",
+      "value": "Router_master"
     }
   ]
 }

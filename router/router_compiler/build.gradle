@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.squareup:javapoet:1.7.0'
+    api 'com.gitee.chinasoft_ohos:router_anno:1.0.1'
+    implementation 'com.google.auto.service:auto-service:1.0-rc2'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
+
+ohos {
+compileSdkVersion = 5
+}

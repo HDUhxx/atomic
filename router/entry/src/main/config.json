@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.example.router.hmservice",
-    "vendor": "example",
+    "bundleName": "com.lzh.nonview.router.demo",
+    "vendor": "lzh",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,18 +9,15 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.router",
-    "name": ".MyApplication",
-    "mainAbility": "com.example.router.MainAbility",
+    "package": "com.lzh.nonview.router.demo",
+    "name": "com.lzh.nonview.router.demo.MyApplication",
     "deviceType": [
-      "phone",
-      "tablet"
+      "phone"
     ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": true
+      "moduleType": "entry"
     },
     "abilities": [
       {
@@ -34,26 +31,58 @@
             ]
           }
         ],
-        "visible": true,
-        "name": "com.example.router.MainAbility",
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
-        "label": "$string:entry_MainAbility",
+        "label": "$string:Router_master",
         "type": "page",
         "launchType": "standard"
-      }
-    ],
-    "js": [
+      },
       {
-        "pages": [
-          "pages/index/index",
-          "pages/touter/touter"
-        ],
-        "name": "default",
-        "window": {
-          "designWidth": 720,
-          "autoDesignWidth": true
-        }
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.LoginAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:Router_master",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.ArgsAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:Router_master",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.IntentPrinterAbility",
+        "icon": "$media:icon",
+        "description": "IntentPrinterActivity",
+        "label": "$string:Router_master",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.ResultAbility",
+        "icon": "$media:icon",
+        "description": "IntentPrinterActivity",
+        "label": "$string:Router_master",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.lzh.nonview.router.demo.UserAbility",
+        "icon": "$media:icon",
+        "description": "IntentPrinterActivity",
+        "label": "$string:Router_master",
+        "type": "page",
+        "launchType": "standard"
       }
     ]
   }

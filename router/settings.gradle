@@ -1,1 +1,1 @@
-include ':entry'
+include ':entry', ':router_api', ':router_compiler', ':router_anno'
