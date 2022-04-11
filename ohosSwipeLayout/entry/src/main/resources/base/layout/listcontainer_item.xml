@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:swipe"
+    ohos:height="match_content"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:id="$+id:Bottom4"
+        ohos:height="80vp"
+        ohos:orientation="horizontal"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="#ff5534"
+        ohos:total_weight="10">
+
+        <Image
+            ohos:height="30vp"
+            ohos:width="27vp"
+            ohos:weight="1"
+            ohos:id="$+id:trash"
+            ohos:image_src="$media:trash"
+            ohos:scale_mode="zoom_center"
+            />
+        <Text
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="5"
+            ohos:text_size="17vp"
+            ohos:text="Delete Item?"
+            ohos:text_color="white"/>
+        <Button
+            ohos:id="$+id:delete"
+            ohos:height="40vp"
+            ohos:width="0vp"
+            ohos:weight="4"
+            ohos:background_element="white"
+            ohos:text_size="15vp"
+            ohos:text="Yes,Delete"
+            ohos:text_color="#ff5534"/>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:background_element="$graphic:item_selector"
+        ohos:orientation="horizontal"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:padding="10vp">
+        <Text
+            ohos:text_color="black"
+            ohos:text_size="15vp"
+            ohos:id="$+id:position"
+            ohos:height="match_content"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:id="$+id:text_data"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:text="Do not, for one repulse, forgo the purpose that you resolved to effort. "
+            ohos:text_size="15vp"
+            ohos:text_color="black"/>
+    </DirectionalLayout>
+
+
+</com.daimajia.swipe.SwipeLayout>

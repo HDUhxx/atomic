@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:background_element="#E8E8E0"
+    ohos:height="match_content"
+    ohos:width="180vp">
+
+    <com.daimajia.swipe.SwipeLayout
+        ohos:id="$+id:swipe"
+        ohos:margin="5vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        >
+
+        <DirectionalLayout
+            ohos:id="$+id:Bottom5"
+            ohos:height="120vp"
+            ohos:width="40vp"
+            ohos:alignment="center"
+            ohos:background_element="#333333"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:trash"
+                ohos:height="22vp"
+                ohos:width="22vp"
+                ohos:image_src="$media:trash"
+                ohos:scale_mode="zoom_center"
+                />
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="#ffffff"
+            ohos:orientation="horizontal"
+            ohos:padding="10vp">
+
+            <Text
+                ohos:id="$+id:position"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_color="black"
+                ohos:text_size="15vp"/>
+
+            <Text
+                ohos:id="$+id:text_data"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:multiple_lines="true"
+                ohos:text="If winter comes , can spring be far behind ? \n"
+                ohos:text_color="black"
+                ohos:text_size="15vp"/>
+        </DirectionalLayout>
+
+
+    </com.daimajia.swipe.SwipeLayout>
+
+</DirectionalLayout>
