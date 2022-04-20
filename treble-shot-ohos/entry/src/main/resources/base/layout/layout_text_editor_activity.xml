@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <!--suppress HosTagNotAllowed -->
+        <include
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout="$layout:w_layout_back_toolbar"/>
+
+        <TextField
+            ohos:id="$+id:layout_text_editor_activity_text_text_box"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:basement="$color:dark_colorSelection"
+            ohos:hint="$string:text_typeText"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_padding="20vp"
+            ohos:max_text_lines="1"
+            ohos:padding="10vp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_size="16fp"/>
+
+        <Text
+            ohos:height="3vp"
+            ohos:width="match_parent"
+            ohos:bottom_margin="300vp"
+            ohos:left_margin="10vp"
+            ohos:right_margin="10vp"/>
+
+    </DirectionalLayout>
+
+</ScrollView>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <include
+            ohos:id="$+id:title_coner"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:above="$id:sl_show"
+            ohos:layout="$layout:main_header"/>
+
+
+        <Text
+            ohos:id="$+id:under_line"
+            ohos:height="1vp"
+            ohos:width="match_parent"
+            ohos:above="$id:text_layout"
+            ohos:background_element="$color:string_1"
+            ohos:visibility="invisible"/>
+
+        <StackLayout
+            ohos:id="$+id:sl_show"
+            ohos:height="0vp"
+            ohos:width="match_parent"
+            ohos:above="$id:under_line"
+            ohos:below="$id:title_coner"
+            ohos:weight="1.0">
+
+            <DirectionalLayout
+                ohos:id="$+id:tab_page"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <ScrollView
+                    ohos:height="match_parent"
+                    ohos:width="match_parent">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_parent">
+
+                        <Text
+                            ohos:id="$+id:text_helloworld"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:background_element="$graphic:background_ability_main"
+                            ohos:layout_alignment="left"
+                            ohos:left_padding="20vp"
+                            ohos:text="存储"
+                            ohos:text_size="50"
+                            />
+
+                        <ListContainer
+                            ohos:id="$+id:dl1"
+                            ohos:height="match_content"
+                            ohos:width="match_parent"
+                            ohos:text="ddd"/>
+
+                        <Text
+                            ohos:id="$+id:gz"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:background_element="$graphic:background_ability_main"
+                            ohos:layout_alignment="horizontal_center"
+                            ohos:text="挂载文件夹"
+                            ohos:text_color="$color:colorSecondary"
+                            ohos:text_size="15fp"
+                            />
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:background_element="$graphic:background_ability_main"
+                            ohos:layout_alignment="left"
+                            ohos:left_margin="20vp"
+                            ohos:text="文件夹"
+                            ohos:text_size="50"
+                            />
+
+                        <ListContainer
+                            ohos:id="$+id:dl2"
+                            ohos:height="match_parent"
+                            ohos:width="match_parent"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:background_element="$graphic:background_ability_main"
+                            ohos:layout_alignment="left"
+                            ohos:left_padding="20vp"
+                            ohos:text="快捷方式"
+                            ohos:text_size="50"
+                            />
+
+                        <ListContainer
+                            ohos:id="$+id:dl3"
+                            ohos:height="match_content"
+                            ohos:width="match_parent"/>
+                    </DirectionalLayout>
+                </ScrollView>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:tab_list"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:above="$id:under_line"
+                ohos:orientation="vertical"
+                ohos:visibility="hide">
+
+                <Text
+                    ohos:id="$+id:tx_folder"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:visibility="hide"
+                    ohos:text="文件夹"
+                    ohos:text_alignment="center"
+                    ohos:text_size="50"/>
+
+                <ListContainer
+                    ohos:id="$+id:lc_list"
+                    ohos:height="match_parent"
+                    ohos:width="match_parent"/>
+                <DirectionalLayout
+                    ohos:id="$+id:tx_empt"
+                    ohos:height="match_parent"
+                    ohos:width="match_parent"
+                    ohos:alignment="center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="vertical"
+                    ohos:visibility="hide">
+
+                    <Image
+                        ohos:height="50vp"
+                        ohos:width="50vp"
+                        ohos:padding="10vp"
+                        ohos:bottom_margin="10vp"
+                        ohos:image_src="$graphic:ic_folder_white1_24dp"
+                        ohos:background_element="$graphic:background_radio_button"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="此处无文件夹"
+                        ohos:text_size="15fp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+        </StackLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:text_layout"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:alignment="center"
+            ohos:layout_alignment="center"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:text_home"
+                ohos:height="60vp"
+                ohos:width="match_content"
+                ohos:element_left="$graphic:ic_home_white_24dp"
+                ohos:layout_alignment="horizontal_center"
+                ohos:text="主目录"
+                ohos:text_color="$color:colorSecondary"
+                ohos:text_size="50"/>
+
+            <ListContainer
+                ohos:id="$+id:item_list"
+                ohos:height="100vp"
+                ohos:width="0vp"
+                ohos:orientation="horizontal"
+                ohos:visibility="hide"
+                ohos:weight="1.0">
+            </ListContainer>
+        </DirectionalLayout>
+    </DirectionalLayout>
+    <Image
+        ohos:id="$+id:confirm"
+        ohos:width="50vp"
+        ohos:height="50vp"
+        ohos:padding="10vp"
+        ohos:scale_mode="center"
+        ohos:align_parent_right="true"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$graphic:os_circle_button_element"
+        ohos:image_src="$graphic:ic_check_white_24dp_os_white"
+        ohos:right_margin="15vp"
+        ohos:bottom_margin="30vp"
+        />
+</DependentLayout>

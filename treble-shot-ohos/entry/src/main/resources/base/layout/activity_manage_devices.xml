@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical">
+    <include
+        ohos:id="$+id:layout_title"
+        ohos:height="60vp"
+        ohos:layout="$layout:header_simple"
+        ohos:width="match_parent"/>
+
+    <Text
+        ohos:height="0.5vp"
+        ohos:width="match_parent"
+        ohos:background_element="$color:string_1"/>
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:weight="1.0"
+        ohos:alignment="center"
+        ohos:align_parent_top="true">
+        <ListContainer
+            ohos:visibility="hide"
+            ohos:id="$+id:devices_list"
+            ohos:width="match_parent"
+            ohos:height="match_parent" />
+
+        <DirectionalLayout
+            ohos:id="$+id:text_empt"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center">
+            <Image
+                ohos:height="50vp"
+                ohos:width="50vp"
+                ohos:center_in_parent="true"
+                ohos:layout_alignment="center"
+                ohos:padding="10vp"
+                ohos:background_element="$graphic:background_circle_button"
+                ohos:image_src="$graphic:ic_devices_white_24dp_os"/>
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="20vp"
+                ohos:text_size="50"
+                ohos:text="没有熟悉的设备"
+                ohos:text_alignment="center"/>
+        </DirectionalLayout>
+        <Button
+            ohos:id="$+id:but_scan"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:background_radio_button"
+            ohos:text_size="50"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:text_color="$color:white"
+            ohos:top_padding="5vp"
+            ohos:bottom_padding="5vp"
+            ohos:text="扫描">
+        </Button>
+    </DirectionalLayout>
+
+    <Text
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="$color:string_1"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:app_bar"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:align_parent_bottom="true"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:fixConnectionButton"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="5vp"
+            ohos:bottom_margin="5vp"
+            ohos:text_size="50"
+            ohos:top_padding="15vp"
+            ohos:bottom_padding="15vp"
+            ohos:left_padding="30vp"
+            ohos:right_padding="30vp"
+            ohos:text_color="$color:colorSecondary"
+            ohos:text="$string:butn_fixConnection" />
+
+    </DirectionalLayout>
+</DirectionalLayout>

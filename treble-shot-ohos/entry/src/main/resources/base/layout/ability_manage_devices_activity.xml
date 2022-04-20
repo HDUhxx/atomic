@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_helloworld"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:visibility="hide"
+        ohos:background_element="$graphic:background_ability_manage_devices_activity"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_alignment="center"
+        ohos:text="Empty"
+        ohos:text_size="50"/>
+    <DirectionalLayout
+        ohos:height="70vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:text_size="50"
+            ohos:text="请输入Ip地址:"/>
+
+        <TextField
+            ohos:id="$+id:textfield_input_port"
+            ohos:height="match_parent"
+            ohos:background_element="$color:colorPassive"
+            ohos:width="match_parent"/>
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:height="70vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:text_size="50"
+            ohos:text="文件目录:"/>
+
+        <TextField
+            ohos:id="$+id:textfield_input_content"
+            ohos:height="match_parent"
+            ohos:background_element="$color:colorPassive"
+            ohos:text="/data/data/com.loser007/MainAbility/preferences/type1"
+            ohos:text_size="50"
+            ohos:width="match_parent"/>
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:but_send"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="发送"
+        ohos:text_size="50"
+        ohos:layout_alignment="horizontal_center"/>
+</DirectionalLayout>

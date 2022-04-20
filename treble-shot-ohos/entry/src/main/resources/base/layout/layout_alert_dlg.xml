@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_content"
+    ohos:height="match_content"
+    ohos:alignment="center">
+
+    <DirectionalLayout
+        ohos:width="match_content"
+        ohos:height="200vp"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:left_padding="100vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="24vp"
+        ohos:bottom_padding="10vp"
+        ohos:theme="$pattern:ACTextAppearance_Primary">
+
+        <Text
+            ohos:id="$+id:alert_dlg_title"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:text_size="16fp"
+            ohos:bottom_margin="10vp"
+            ohos:text=""/>
+
+        <Text
+            ohos:id="$+id:alert_dlg_message"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:text_size="16fp"
+            ohos:bottom_margin="10vp"
+            ohos:text=""/>
+
+        <DirectionalLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:orientation="horizontal"
+            ohos:alignment="center">
+            <Button
+                ohos:id="$+id:alert_dlg_left_button"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:text_size="16fp"
+                ohos:text_color="#66bb6a"
+                ohos:text="Test"/>
+
+            <Button
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="    "/>
+
+            <Button
+                ohos:id="$+id:alert_dlg_right_button"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_size="16fp"
+                ohos:text_color="#66bb6a"
+                ohos:text="Test"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

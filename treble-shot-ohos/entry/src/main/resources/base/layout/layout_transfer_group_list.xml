@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <ListContainer
+            ohos:id="$+id:listText"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:orientation="vertical"/>
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:id="$+id:emptyView"
+            ohos:alignment="center"
+            ohos:width="match_parent">
+
+            <Image
+                ohos:height="50vp"
+                ohos:width="50vp"
+                ohos:center_in_parent="true"
+                ohos:layout_alignment="center"
+                ohos:padding="10vp"
+                ohos:bottom_margin="20vp"
+                ohos:background_element="$graphic:background_circle_button"
+                ohos:image_src="$graphic:ic_compare_arrows_white_24dp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:center_in_parent="true"
+                ohos:layout_alignment="center"
+                ohos:element_padding="4vp"
+                ohos:text="$string:text_listEmptyTransfer"
+                ohos:text_color="$color:black_dominant"
+                ohos:text_size="18fp"/>
+        </DirectionalLayout>
+
+    </StackLayout>
+
+
+    <DirectionalLayout
+        ohos:id="$+id:actionsContainer"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:alignment="center"
+        ohos:bottom_padding="8vp"
+        ohos:left_padding="$float:short_content_width_padding"
+        ohos:orientation="horizontal"
+        ohos:right_padding="$float:short_content_width_padding"
+        ohos:top_padding="8vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <Button
+                ohos:id="$+id:sendLayoutButton"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_radio_button"
+                ohos:padding="10vp"
+                ohos:text="$string:butn_send"
+                ohos:text_color="$color:white"
+                ohos:text_size="18fp"/>
+
+        </DirectionalLayout>
+
+        <Component
+            ohos:height="match_parent"
+            ohos:width="$float:short_content_width_padding"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <Button
+                ohos:id="$+id:receiveLayoutButton"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_radio_button"
+                ohos:padding="10vp"
+                ohos:text="$string:butn_receive"
+                ohos:text_color="$color:white"
+                ohos:text_size="18fp"/>
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+
+    <!--    <StackLayout-->
+    <!--        ohos:id="$+id:fragmentContainer"-->
+    <!--        ohos:height="match_content"-->
+    <!--        ohos:width="match_parent"-->
+    <!--        ohos:above="$id:actionsContainer"-->
+    <!--        ohos:align_parent_top="true"/>-->
+</DirectionalLayout>

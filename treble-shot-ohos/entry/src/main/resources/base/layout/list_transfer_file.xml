@@ -1,0 +1,141 @@
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_text_white"
+    ohos:top_margin="13vp">
+
+    <DependentLayout
+        ohos:id="$+id:container"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:theme="$pattern:ListContentLayoutStyle">
+
+        <StackLayout
+            ohos:id="$+id:layout_image"
+            ohos:height="35vp"
+            ohos:width="50vp"
+            ohos:align_parent_left="true"
+            ohos:align_parent_start="true"
+            ohos:theme="$pattern:ListContentIconStyle"
+            ohos:vertical_center="true">
+
+            <RoundProgressBar
+                ohos:id="$+id:progressBar"
+                ohos:height="35vp"
+                ohos:width="35vp"
+                ohos:layout_alignment="center"
+                ohos:max_angle="360"
+                ohos:progress="20"
+                ohos:progress_color="#47CC47"/>
+
+            <Image
+                ohos:id="$+id:image"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:component_description="$string:text_image"
+                ohos:image_src="$graphic:ic_github_circle_white_24dp"
+                ohos:layout_alignment="center"/>
+
+            <Image
+                ohos:id="$+id:selector"
+                ohos:height="35vp"
+                ohos:width="35vp"
+                ohos:background_element="$color:ic_launcher_background"
+                ohos:image_src="$media:ic_check_white_24dp_static"
+                ohos:layout_alignment="center"
+                ohos:scale_mode="zoom_center"/>
+
+
+        </StackLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:end_of="$id:layout_image"
+            ohos:orientation="vertical"
+            ohos:right_of="$id:layout_image"
+            ohos:vertical_center="true">
+
+            <Text
+                ohos:id="$+id:text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:theme="$pattern:TextAppearance_Primary"/>
+
+            <Component
+                ohos:height="$float:padding_list_content_two_lines_separation_height"
+                ohos:width="match_content"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:id="$+id:text2"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:max_text_lines="1"
+                    ohos:text_size="12fp"
+                    ohos:theme="$pattern:TextAppearance_Secondary_SingleLine"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_padding="10vp"
+                    ohos:right_padding="10vp"
+                    ohos:text="."/>
+
+                <Text
+                    ohos:id="$+id:text3"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:max_text_lines="1"
+                    ohos:text="未知"
+                    ohos:text_size="12fp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_padding="10vp"
+                    ohos:right_padding="10vp"
+                    ohos:text="."/>
+
+                <Text
+                    ohos:id="$+id:text4"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:max_text_lines="1"
+                    ohos:text="等待中"
+                    ohos:text_size="12fp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <DirectionalLayout
+                    ohos:id="$+id:statusLayoutWeb"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_padding="10vp"
+                        ohos:right_padding="10vp"/>
+
+                    <Image
+                        ohos:height="$float:font_size_secondary"
+                        ohos:width="$float:font_size_secondary"
+                        ohos:end_margin="5vp"
+                        ohos:image_src="$graphic:ic_web_white_24dp"
+                        ohos:layout_alignment="vertical_center"
+                        ohos:right_margin="5vp"
+                        ohos:visibility="hide"/>
+                </DirectionalLayout>
+
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DependentLayout>
+</DependentLayout>

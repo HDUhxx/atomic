@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <DirectionalLayout
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="$color:windowBackground"
+        ohos:layout_alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:action_close"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$color:white"
+            ohos:image_src="$graphic:ic_close_white_24dp"
+            ohos:left_padding="10vp"
+            ohos:right_padding="10vp"/>
+
+
+        <Text
+            ohos:id="$+id:action_num"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="center"
+            ohos:text="1"
+            ohos:text_color="$color:black_dominant"
+            ohos:text_size="50"
+            ohos:weight="1.0"/>
+
+        <Component
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:max_text_lines="1"
+            ohos:text_alignment="vertical_center"
+            ohos:weight="1.0"/>
+
+        <Image
+            ohos:id="$+id:action_delete"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_delete_white_24dp"
+            ohos:left_padding="10vp"
+            ohos:right_padding="10vp"/>
+
+        <Image
+            ohos:id="$+id:action_more"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_more_vert_white_24dp"
+            ohos:left_padding="10vp"
+            ohos:right_padding="10vp"/>
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

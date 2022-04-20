@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <PageSlider
+        ohos:id="$+id:ability_welcome_view_flipper"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="12">
+    </PageSlider>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:weight="2">
+
+        <Image
+            ohos:id="$+id:ability_welcome_view_previous"
+            ohos:width="30vp"
+            ohos:height="30vp"
+            ohos:left_margin="40vp"
+            ohos:visibility="invisible"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="left|vertical_center"
+            ohos:image_src="$graphic:ic_navigate_before_white_24dp"/>
+
+        <Text
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="1"/>
+
+        <RoundProgressBar
+            ohos:visibility="invisible"
+            ohos:id="$+id:ability_welcome_progress_bar"
+            ohos:height="48vp"
+            ohos:width="48vp"
+            ohos:progress="15"
+            ohos:layout_alignment="center"
+            ohos:progress_color="#47CC47"
+            ohos:progress_width="4vp"/>
+
+        <Text
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="1"/>
+
+        <!--ohos:background_element="#ff0000"
+            ohos:image_src="$graphic:ic_navigate_next_white_24dp"-->
+
+<!--        <DirectionalLayout
+            ohos:width="50vp"
+            ohos:height="50vp"
+            ohos:right_margin="40vp"
+            ohos:layout_alignment="right|vertical_center"
+            ohos:background_element="$graphic:os_circle_button_element">-->
+            <!--ohos:background_element="$graphic:ic_navigate_next_white_24dp_os"-->
+        <Image
+            ohos:id="$+id:ability_welcome_view_next"
+            ohos:width="50vp"
+            ohos:height="50vp"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:layout_alignment="right|vertical_center"
+            ohos:background_element="$graphic:os_circle_button_element"
+            ohos:image_src="$graphic:ic_check_white_24dp"
+            ohos:scale_mode="zoom_center"
+            />
+<!--        </DirectionalLayout>-->
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

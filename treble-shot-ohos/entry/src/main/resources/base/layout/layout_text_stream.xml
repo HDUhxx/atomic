@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <ListContainer
+        ohos:id="$+id:listText1"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        ohos:orientation="vertical"/>
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:id="$+id:emptyView1"
+        ohos:alignment="center"
+        ohos:width="match_parent">
+
+        <Image
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:center_in_parent="true"
+            ohos:layout_alignment="center"
+            ohos:padding="10vp"
+            ohos:bottom_margin="20vp"
+            ohos:background_element="$graphic:background_circle_button"
+            ohos:image_src="$graphic:ic_forum_white_24dp"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:center_in_parent="true"
+            ohos:element_padding="4vp"
+            ohos:layout_alignment="center"
+            ohos:text="$string:text_listEmptyTextStream"
+            ohos:text_color="$color:black_dominant"
+            ohos:text_size="18fp"/>
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:layout_text_stream_fab"
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:background_element="$graphic:background_circle_button"
+        ohos:bottom_margin="140vp"
+        ohos:image_src="$graphic:ic_edit_white_24dp"
+        ohos:layout_alignment="right|bottom"
+        ohos:margin="$float:fab_margin"
+        ohos:padding="10vp"
+        ohos:right_margin="140vp"/>
+</StackLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="开启分享服务"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="40vp"/>
+
+    <Button
+        ohos:id="$+id:addData"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="添加数据"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:button"/>
+    <Button
+        ohos:id="$+id:recc"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="接收/发送文件"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:addData"/>
+
+    <TextField
+        ohos:id="$+id:recc_data"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:hint="输入groupId 和 device"
+        ohos:padding="5vp"
+        ohos:text_size="20fp"
+        ohos:above="$id:recc"
+        ohos:right_margin="70vp"
+        ohos:left_margin="70vp"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:background_element="$graphic:background_text_field"/>
+
+    <Button
+        ohos:id="$+id:showDeviceAGroup"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="显示设备和数据组"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:recc_data"/>
+
+    <Button
+        ohos:id="$+id:sendMsg"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="发送文本消息"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:showDeviceAGroup"/>
+
+    <Button
+        ohos:id="$+id:addConnect"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="添加链接"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:sendMsg"/>
+
+    <Button
+        ohos:id="$+id:scanDevice"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="扫描设备"
+        ohos:text_size="19fp"
+        ohos:text_color="#FFFFFF"
+        ohos:top_padding="8vp"
+        ohos:bottom_padding="8vp"
+        ohos:right_padding="70vp"
+        ohos:left_padding="70vp"
+        ohos:background_element="#007DFF"
+        ohos:center_in_parent="true"
+        ohos:bottom_margin="40vp"
+        ohos:above="$id:addConnect"/>
+
+</DependentLayout>

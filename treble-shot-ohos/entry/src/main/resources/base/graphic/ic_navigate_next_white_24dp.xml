@@ -1,0 +1,15 @@
+<vector xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="24vp"
+    ohos:height="24vp"
+    ohos:tint="?colorControlNormal"
+    ohos:viewportWidth="24.0"
+    ohos:viewportHeight="24.0">
+
+    <group
+        ohos:pivotX="12"
+        ohos:scaleX="$float:direction_scale_factor">
+        <path
+            ohos:fillColor="#FF000000"
+            ohos:pathData="M10,6L8.59,7.41 13.17,12l-4.58,4.59L10,18l6,-6z" />
+    </group>
+</vector>

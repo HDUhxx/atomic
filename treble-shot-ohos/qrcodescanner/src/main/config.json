@@ -1,0 +1,47 @@
+{
+  "app": {
+    "bundleName": "me.panavtec.title",
+    "vendor": "panavtec",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 5,
+      "target": 5
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "me.panavtec.qrcodescanner",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "qrcodescanner",
+      "moduleType": "har",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "actions": [
+              "action.scan"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "name": "me.panavtec.qrcodescanner.QrCodeAbility",
+        "icon": "$media:icon",
+        "description": "$string:qrcodeability_description",
+
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

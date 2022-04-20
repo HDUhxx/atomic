@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+
+    ohos:id="$+id:layout_hotspot_status_info_container"
+    ohos:width="match_parent"
+    ohos:height="match_content"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:top_padding="15vp"
+    ohos:bottom_padding="15vp">
+
+    <DirectionalLayout
+        ohos:id="$+id:layout_network_manager_info_container_text1_container"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:layout_alignment="vertical_center"
+        ohos:orientation="horizontal"
+        ohos:left_padding="30vp"
+        ohos:top_padding="15vp"
+        ohos:right_padding="30vp"
+        ohos:bottom_padding="15vp">
+
+        <Text
+            ohos:id="$+id:layout_network_manager_info_container_text1"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_alignment="center"
+            ohos:alignment="center"
+            ohos:max_text_lines="5"
+            ohos:text="$string:text_qrCodeHotspotDisabledHelp" />
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:layout_network_manager_info_toggle_button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text_size="20vp"
+        ohos:text_color="$color:colorSecondary"
+        ohos:text="$string:butn_wifiSettings"/>
+
+    <DependentLayout
+        ohos:id="$+id:layout_network_manager_info_container_text2_container"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:padding="15vp">
+
+        <Text
+            ohos:id="$+id:layout_network_manager_info_container_text2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:max_text_lines="1"
+            ohos:text="$string:text_unknown" />
+
+        <StackLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_start="true"
+            ohos:align_parent_left="true"
+            ohos:start_margin="24vp"
+            ohos:left_margin="24vp"
+            ohos:start_of="$id:layout_network_manager_info_container_text2"
+            ohos:left_of="$id:layout_network_manager_info_container_text2">
+
+            <Image
+                ohos:id="$+id:layout_network_manager_info_container_text2_icon"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:image_src="$graphic:ic_wifi_white_24dp_os"
+                 />
+
+        </StackLayout>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:layout_network_manager_info_container_text3_container"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:padding="15vp">
+
+        <Text
+            ohos:id="$+id:layout_network_manager_info_container_text3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:max_text_lines="1"
+            ohos:text="$string:text_unknown" />
+
+        <StackLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_start="true"
+            ohos:align_parent_left="true"
+            ohos:start_margin="24vp"
+            ohos:left_margin="24vp"
+            ohos:start_of="$id:layout_network_manager_info_container_text3"
+            ohos:left_of="$id:layout_network_manager_info_container_text3">
+
+            <Image
+                ohos:id="$+id:layout_network_manager_info_container_text3_icon"
+                ohos:image_src="$graphic:ic_device_hub_white_24dp_os"
+                ohos:width="match_content"
+                ohos:height="match_content"/>
+
+        </StackLayout>
+    </DependentLayout>
+</DirectionalLayout>

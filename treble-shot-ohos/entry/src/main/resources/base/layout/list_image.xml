@@ -1,0 +1,84 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:layout"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="vertical_center"
+    ohos:end_padding="10vp"
+    ohos:orientation="horizontal"
+    ohos:right_padding="10vp"
+    ohos:top_margin="10vp">
+
+
+    <StackLayout
+        ohos:id="$+id:ic_open_in_new_white_24dp"
+        ohos:height="150vp"
+        ohos:width="150vp"
+        ohos:align_parent_left="true"
+        ohos:align_parent_start="true"
+        ohos:theme="$pattern:ListContentIconStyle"
+        ohos:vertical_center="true">
+
+        <Image
+            ohos:id="$+id:image1"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:layout_alignment="center"/>
+
+
+        <Image
+            ohos:id="$+id:selector"
+            ohos:height="35vp"
+            ohos:width="35vp"
+            ohos:background_element="$color:ic_launcher_background"
+            ohos:image_src="$media:ic_check_white_24dp_static"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"
+            ohos:visibility="hide"/>
+
+    </StackLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0vp"
+        ohos:end_of="$id:layout_image"
+        ohos:left_of="@+id:visitView"
+        ohos:orientation="vertical"
+        ohos:right_of="$id:layout_image"
+        ohos:start_of="$id:visitView"
+        ohos:vertical_center="true"
+        ohos:weight="1">
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:max_text_lines="3"
+            ohos:multiple_lines="true"
+            ohos:right_margin="10vp"
+            ohos:text="text"
+            ohos:text_size="14fp"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Component
+            ohos:height="$float:padding_list_content_two_lines_separation_height"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:id="$+id:text2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:visitView"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_right="true"
+        ohos:image_src="$graphic:ic_open_in_new_white_24dp"
+        ohos:layout_alignment="vertical_center"
+        ohos:theme="$pattern:OverflowButton"
+        ohos:vertical_center="true"/>
+</DirectionalLayout>

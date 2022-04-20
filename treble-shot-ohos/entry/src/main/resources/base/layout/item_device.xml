@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="70vp"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:margin="20vp"
+    ohos:background_element="$graphic:background_text_white"
+    ohos:padding="10vp"
+    ohos:orientation="horizontal">
+
+    <Button
+        ohos:id="$+id:first_char"
+        ohos:height="40vp"
+        ohos:width="40vp"
+        ohos:clickable="false"
+        ohos:text="H"
+        ohos:text_color="$color:black_dominant"
+        ohos:text_size="25vp"
+        ohos:background_element="$graphic:os_circle_image_element"/>
+    <DirectionalLayout
+        ohos:weight="1.0"
+        ohos:left_margin="30vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:nick_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="20vp"
+            ohos:text="divecie"
+            ohos:text_color="$color:black_dominant"/>
+
+        <Text
+            ohos:id="$+id:device_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="15vp"
+            ohos:text="divecie"
+            ohos:text_color="$color:dark_colorShadowEnd"/>
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:image_toast"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:right_margin="10vp"
+        ohos:image_src="$graphic:ic_info_white_24dp"/>
+</DirectionalLayout>

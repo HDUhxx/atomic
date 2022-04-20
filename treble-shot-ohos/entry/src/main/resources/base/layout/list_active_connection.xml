@@ -1,0 +1,66 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:left_padding="30vp"
+    ohos:right_padding="30vp"
+    ohos:theme="$pattern:ListContentLayoutStyle_Narrow_WithOverflowButton">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:vertical_center="true">
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:component_description="$string:text_image"
+            ohos:image_src="$graphic:ic_share_white_24dp"
+            ohos:layout_alignment="center"/>
+<!--
+        <Image
+            xmlns:ohos="http://schemas.huawei.com/res/ohos"
+            ohos:id="$+id:selector"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="#006655"
+            ohos:scale_mode="stretch"/> -->
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="220vp"
+            ohos:padding="5vp"
+            ohos:orientation="vertical">
+            <Text
+                ohos:id="$+id:ac_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:bottom_margin="5vp"
+                ohos:max_text_lines="3"
+                ohos:theme="$pattern:ACTextAppearance_Primary"/>
+
+            <Text
+                ohos:id="$+id:ac_text1"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:theme="$pattern:ACTextAppearance_Primary"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:ac_visitView"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:alignment="center">
+        <Image
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:image_src="$graphic:ic_open_in_new_white_24dp"
+            ohos:layout_alignment="center"
+            ohos:theme="$pattern:OverflowButton"
+            ohos:vertical_center="true"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+</DirectionalLayout>

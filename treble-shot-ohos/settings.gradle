@@ -1,0 +1,1 @@
+include ':entry', ':gdatabase', ':qrcodescanner',':qrcodescanner'

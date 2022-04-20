@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <StackLayout
+            ohos:id="$+id:action_bar"
+            ohos:height="match_content"
+            ohos:width="match_parent">
+
+            <include
+                ohos:id="$+id:actionbar_control"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout="$layout:main_header"/>
+        </StackLayout>
+
+
+        <StackLayout
+            ohos:id="$+id:groundContainer"
+            ohos:height="0vp"
+            ohos:width="match_parent"
+            ohos:weight="1"/>
+
+        <TabList
+            ohos:id="$+id:tab_list"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:fixed_mode="true"
+            ohos:layout_alignment="center"
+            ohos:normal_text_color="#999999"
+            ohos:orientation="horizontal"
+            ohos:selected_tab_indicator_color="$color:white"
+            ohos:selected_tab_indicator_height="2vp"
+            ohos:selected_text_color="#FF1D56DD"
+            ohos:tab_length="60vp"
+            ohos:tab_margin="10vp"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+    </DirectionalLayout>
+
+
+</DependentLayout>

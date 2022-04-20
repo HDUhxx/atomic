@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:theme="$pattern:ListContentLayoutStyle">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="vertical_center">
+
+        <Image
+            ohos:id="$+id:image_check"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:end_margin="12vp"
+            ohos:image_src="$media:ic_check_white_24dp_static"
+            ohos:right_margin="12vp"/>
+
+        <Text
+            ohos:id="$+id:about_change_log_text1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="$float:font_size_big"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="0.5vp"
+        ohos:width="match_content"
+        ohos:background_element="$color:colorDivider"
+        ohos:bottom_margin="7vp"
+        ohos:top_margin="7vp"/>
+
+    <Text
+        ohos:id="$+id:about_change_log_text2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:additional_line_spacing="1vp"
+        ohos:multiple_lines="true"
+        ohos:max_text_lines="30"
+        ohos:theme="$pattern:TextAppearance_Secondary"/>
+</DirectionalLayout>

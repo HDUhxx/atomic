@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:id="$+id:root_view">
+
+   <Text
+       ohos:id="$+id:picture"
+       ohos:height="match_content"
+       ohos:width="match_content"
+       ohos:padding="10vp"
+       ohos:text_color="#ffffff"
+       ohos:text_size="16fp"
+       ohos:align_parent_right="true"
+       ohos:text="Picture"/>
+
+   <DirectionalLayout
+       ohos:id="$+id:open_light"
+       ohos:height="match_content"
+       ohos:width="match_content"
+       ohos:orientation="vertical"
+       ohos:align_parent_bottom="true"
+       ohos:bottom_margin="30vp"
+       ohos:horizontal_center="true"
+       ohos:alignment="horizontal_center">
+
+      <Image
+          ohos:id="$+id:sdt"
+          ohos:height="40vp"
+          ohos:width="match_content"
+          ohos:image_src="$media:sdt"/>
+
+      <Text
+          ohos:id="$+id:sdt_des"
+          ohos:height="match_content"
+          ohos:width="match_content"
+          ohos:align_parent_bottom="true"
+          ohos:bottom_margin="30vp"
+          ohos:text_color="#ffffff"
+          ohos:text_size="14fp"
+          ohos:text="Open flash light"/>
+   </DirectionalLayout>
+</DependentLayout>

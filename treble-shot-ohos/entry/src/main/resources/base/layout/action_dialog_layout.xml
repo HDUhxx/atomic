@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:layout_alignment="horizontal_center"
+    ohos:left_margin="30vp"
+    ohos:orientation="vertical"
+    ohos:right_margin="30vp">
+
+
+    <Text
+        ohos:id="$+id:teSave"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="8vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:butn_save"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_padding="8vp"/>
+
+    <Text
+        ohos:id="$+id:teCopy"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="8vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:butn_copyToClipboard"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_padding="8vp"/>
+
+    <Text
+        ohos:id="$+id:teShare"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="8vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:butn_shareWithOtherApps"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_padding="8vp"/>
+
+    <Text
+        ohos:id="$+id:teQR"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="8vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:butn_showAsQrCode"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_padding="8vp"/>
+
+    <Text
+        ohos:id="$+id:teRemove"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="8vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="$string:butn_remove"
+        ohos:text_alignment="center"
+        ohos:text_size="16fp"
+        ohos:top_padding="8vp"/>
+
+</DirectionalLayout>

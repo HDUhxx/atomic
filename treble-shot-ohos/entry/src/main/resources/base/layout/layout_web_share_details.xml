@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_content"
+    ohos:height="match_content"
+    ohos:alignment="center">
+
+    <DirectionalLayout
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:left_padding="100vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="24vp"
+        ohos:bottom_padding="10vp"
+        ohos:theme="$pattern:ACTextAppearance_Primary">
+
+        <Image
+            ohos:id="$+id:web_share_image"
+            ohos:width="160vp"
+            ohos:height="160vp" />
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="10vp"
+            ohos:text="$string:text_or"/>
+
+        <Text
+            ohos:text_color="#66bb6a"
+            ohos:id="$+id:web_share_text"
+            ohos:width="match_content"
+            ohos:height="match_content" />
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:text="$string:text_visitWebShareAddress" />
+
+        <Button
+            ohos:id="$+id:web_share_close"
+            ohos:width="match_content"
+            ohos:height="60vp"
+            ohos:left_padding="150vp"
+            ohos:text_color="#66bb6a"
+            ohos:text="$string:btn_web_share_close"/>
+
+    </DirectionalLayout>
+</DirectionalLayout>

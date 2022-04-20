@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent">
+    <DirectionalLayout
+        ohos:id="$+id:header_default_device_container"
+        ohos:height="1000vp"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:background_element="#ffffff"
+        ohos:bottom_margin="15vp"
+        ohos:orientation="vertical"
+        ohos:padding="15vp"
+        ohos:top_margin="60vp">
+
+        <include
+            ohos:id="$+id:avatar_layout"
+            ohos:layout="$layout:header_default_device_os"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"/>
+
+
+        <Text
+            ohos:id="$+id:menu_activity_main_manage_devices"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_devices_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:text_manageDevices"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_web_share"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_web_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:butn_webShare"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_send_application"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_redo_white_24dp"
+            ohos:visibility="hide"
+            ohos:element_padding="6vp"
+            ohos:text="$string:butn_shareTrebleshot"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_preferences"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_settings_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:text_preferences"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_dev_survey"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:visibility="hide"
+            ohos:element_left="$graphic:ic_poll_box_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:text_developmentSurvey"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_about"
+            ohos:height="50vp"
+            ohos:width="220vp"
+
+            ohos:element_left="$graphic:ic_info_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:text_about"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_main_exit"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_exit_to_app_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:butn_exit"
+            ohos:text_size="14fp"/>
+
+        <Component
+            ohos:height="0.5vp"
+            ohos:width="match_parent"
+            ohos:background_element="gray"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_trustzone"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_compare_arrows_black_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:butn_turnTrustZoneOff"
+            ohos:text_size="14fp"/>
+
+        <Component
+            ohos:height="0.5vp"
+            ohos:width="match_parent"
+            ohos:background_element="gray"/>
+
+        <Text
+            ohos:id="$+id:menu_activity_feedback"
+            ohos:height="50vp"
+            ohos:width="220vp"
+            ohos:element_left="$graphic:ic_email_white_24dp"
+            ohos:element_padding="6vp"
+            ohos:text="$string:butn_feedbackContact"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+
+</ScrollView>

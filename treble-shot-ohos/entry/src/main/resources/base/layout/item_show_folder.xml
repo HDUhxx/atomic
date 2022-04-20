@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="60vp"
+    ohos:background_element="aaaaaa"
+    ohos:width="match_parent"
+    ohos:left_padding="20vp"
+    ohos:right_padding="20vp"
+    ohos:top_padding="10vp"
+    ohos:bottom_padding="10vp"
+    ohos:orientation="horizontal">
+    <StackLayout
+        ohos:id="$+id:layout_image"
+        ohos:height="35vp"
+        ohos:width="35vp"
+        ohos:align_parent_left="true"
+        ohos:align_parent_start="true"
+        ohos:theme="$pattern:ListContentIconStyle"
+        ohos:vertical_center="true">
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="25vp"
+            ohos:width="25vp"
+            ohos:component_description="$string:text_image"
+            ohos:image_src="$graphic:ic_folder_white_24dp"
+            ohos:layout_alignment="center"/>
+
+        <Image
+            ohos:id="$+id:selector"
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:visibility="hide"
+            ohos:background_element="$color:ic_launcher_background"
+            ohos:image_src="$media:ic_check_white_24dp_static"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"/>
+    </StackLayout>
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="0vp"
+        ohos:weight="1.0"
+        ohos:orientation="vertical">
+        <Text
+            ohos:id="$+id:tx1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="15fp"
+            ohos:text="dsfdfsdf"/>
+        <Text
+            ohos:id="$+id:tx2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="15fp"
+            ohos:text="type"/>
+    </DirectionalLayout>
+        <Image
+            ohos:id="$+id:image_top"
+            ohos:layout_alignment="vertical_center"
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:image_src="$graphic:ic_more_vert_white_24dp"/>
+</DirectionalLayout>

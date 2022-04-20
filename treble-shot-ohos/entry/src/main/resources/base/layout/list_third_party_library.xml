@@ -1,0 +1,43 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal"
+    ohos:theme="$pattern:ListContentLayoutStyle">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="280vp"
+        ohos:bottom_margin="13vp"
+        ohos:right_margin="13vp"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:tpLib_txt1"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:multiple_lines="true"
+            ohos:max_text_lines="3"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Component
+            ohos:height="10vp"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:id="$+id:tpLib_txt2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:theme="$pattern:TextAppearance_Secondary_Small_SingleLine"/>
+
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:tpLib_menu"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="10vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:theme="$pattern:OverflowButton"/>
+
+</DirectionalLayout>

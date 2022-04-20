@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:about_close_button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_padding="3vp"
+        ohos:left_padding="15vp"
+        ohos:layout_alignment="left"
+        ohos:image_src="$graphic:ic_close_white_24dp"/>
+
+    <Text
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_padding="30vp"
+        ohos:right_padding="30vp"
+        ohos:alignment="center"
+        ohos:text="$string:text_about"
+        ohos:text_color="#000000"
+        ohos:text_size="$float:font_size_title" />
+
+    <Image
+        ohos:id="$+id:about_email_icon"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_padding="1vp"
+        ohos:left_padding="170vp"
+        ohos:layout_alignment="right"
+        ohos:scale_mode="center"
+        ohos:image_src="$graphic:ic_email_white_24dp"/>
+</DirectionalLayout>

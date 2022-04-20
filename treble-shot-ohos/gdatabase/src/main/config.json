@@ -1,0 +1,28 @@
+{
+  "app": {
+    "bundleName": "me.panavtec.title",
+    "vendor": "ohos",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 5
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.ohos.trebleshot.database",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "gdatabase",
+      "moduleType": "har",
+      "installationFree": true
+    }
+  }
+}

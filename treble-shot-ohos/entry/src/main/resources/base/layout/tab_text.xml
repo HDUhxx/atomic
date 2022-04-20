@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container
+    xmlns:ohos="http://schemas.huawei.com/res/ohos">
+
+    <item
+        ohos:element="$layout:ic_short_text_white_24dp"
+        ohos:state="component_state_empty"/>
+
+    <item
+        ohos:element="$layout:ic_short_text_green_24dp"
+        ohos:state="component_state_checked"/>
+
+    <item
+        ohos:element="$layout:ic_short_text_green_24dp"
+        ohos:state="component_state_pressed"/>
+
+    <item
+        ohos:element="$layout:ic_short_text_green_24dp"
+        ohos:state="component_state_selected"/>
+
+    <item
+        ohos:element="$layout:ic_short_text_green_24dp"
+        ohos:state="component_state_focused"/>
+
+</state-container>

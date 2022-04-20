@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_content"
+    ohos:height="match_content"
+    ohos:layout_alignment="center">
+
+    <DirectionalLayout
+        ohos:width="300vp"
+        ohos:height="300vp"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:left_padding="80vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="24vp"
+        ohos:bottom_padding="10vp"
+        ohos:theme="$pattern:ACTextAppearance_Primary">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="3vp"
+            ohos:layout_alignment="left"
+            ohos:text="$string:text_developmentSurvey"/>
+
+        <Text
+            ohos:id="$+id:survey_content_ctrl"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="10vp"
+            ohos:multiple_lines="true"
+            ohos:layout_alignment="left"
+            ohos:text="$string:text_developmentSurveySummary"/>
+
+        <DirectionalLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:orientation="horizontal"
+            ohos:alignment="center">
+            <Button
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:text_color="#66bb6a"
+                ohos:text=""/>
+
+            <Button
+                ohos:id="$+id:butn_temp_later"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="$string:butn_temp_later"/>
+
+            <Button
+                ohos:id="$+id:butn_temp_doIt"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="$string:butn_temp_doIt"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

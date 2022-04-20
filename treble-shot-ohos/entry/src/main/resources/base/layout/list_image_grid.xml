@@ -1,0 +1,90 @@
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:container"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:margin="1vp">
+
+    <Image
+        ohos:id="$+id:image"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:component_description="$string:text_image"/>
+
+    <Component
+        ohos:id="$+id:visitView"
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        ohos:background_element="$graphic:background_gradient_top_dark"
+        ohos:bottom_padding="8vp"
+        ohos:horizontal_center="true"
+        ohos:left_padding="8vp"
+        ohos:orientation="vertical"
+        ohos:right_padding="8vp"
+        ohos:top_padding="3vp"
+        ohos:visibility="hide">
+
+        <Text
+            ohos:id="$+id:text3"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:max_text_lines="1"
+            ohos:text_alignment="center"
+
+            ohos:text_color="$color:white"
+            ohos:text_font="serif"
+            ohos:truncation_mode="ellipsis_at_end"/>
+
+        <Text
+            ohos:id="$+id:text2"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:max_text_lines="1"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:top_margin="2vp"
+            ohos:truncation_mode="ellipsis_at_end"/>
+
+        <Component
+            ohos:height="15vp"
+            ohos:width="match_parent"/>
+
+    </DirectionalLayout>
+
+    <StackLayout
+        ohos:id="$+id:selectorContainer"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="$graphic:background_gradient_bottom_dark"
+        ohos:horizontal_center="true"
+        ohos:padding="12vp">
+
+
+        <Image
+            ohos:id="$+id:selector"
+            ohos:height="35vp"
+            ohos:width="35vp"
+            ohos:background_element="$color:ic_launcher_background"
+            ohos:image_src="$media:ic_check_white_24dp_static"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"/>
+
+    </StackLayout>
+
+    <Text
+        ohos:id="$+id:text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:padding="10vp"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:font_size_small"
+        ohos:visibility="hide"/>
+
+</DependentLayout>

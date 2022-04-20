@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_content"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:image_ic"
+        ohos:image_src="$graphic:ic_navigate_next_green_24dp"
+        ohos:layout_alignment="center"
+        ohos:height="30vp"
+        ohos:width="30vp"/>
+
+    <Text
+        ohos:layout_alignment="center"
+        ohos:id="$+id:but_path_click"
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:text_color="#66bb6a"
+        ohos:text_size="50"
+        ohos:text_alignment="center"/>
+
+
+</DirectionalLayout>

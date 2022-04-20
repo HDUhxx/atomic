@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:previous_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:arrow_left"
+        ohos:layout_alignment="left|vertical_center"
+        ohos:left_padding="15vp"
+        ohos:scale_x="3"
+        ohos:scale_y="3"/>
+
+    <Text
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:left_padding="40vp"
+        ohos:right_padding="10vp"
+        ohos:alignment="center"
+        ohos:text="$string:butn_startHotspot"
+        ohos:text_color="#000000"
+        ohos:text_size="$float:font_size_title" />
+
+    <Image
+        ohos:id="$+id:help_icon"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:top_padding="1vp"
+        ohos:left_padding="140vp"
+        ohos:layout_alignment="right"
+        ohos:scale_mode="center"
+        ohos:image_src="$graphic:ic_help_circle_white_24dp"/>
+</DirectionalLayout>

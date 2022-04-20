@@ -1,0 +1,115 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:layout"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_text_white"
+    ohos:bottom_padding="8vp"
+    ohos:left_margin="10vp"
+    ohos:orientation="horizontal"
+    ohos:right_margin="10vp"
+    ohos:theme="$pattern:ListContentLayoutStyle_Narrow_WithOverflowButton"
+    ohos:top_margin="10vp"
+    ohos:top_padding="8vp">
+
+
+    <StackLayout
+        ohos:id="$+id:layout_image"
+        ohos:height="35vp"
+        ohos:width="50vp"
+        ohos:align_parent_left="true"
+        ohos:align_parent_start="true"
+        ohos:layout_alignment="vertical_center"
+        ohos:theme="$pattern:ListContentIconStyle"
+        ohos:vertical_center="true">
+
+        <Image
+            ohos:id="$+id:image"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_music_note_white_24dp"
+            ohos:layout_alignment="center"/>
+
+
+        <Image
+            ohos:id="$+id:selector"
+            ohos:height="35vp"
+            ohos:width="35vp"
+            ohos:background_element="$color:ic_launcher_background"
+            ohos:image_src="$media:ic_check_white_24dp_static"
+            ohos:layout_alignment="center"
+            ohos:scale_mode="zoom_center"
+            ohos:visibility="hide"/>
+
+    </StackLayout>
+
+    <!--    android:layout_toStartOf="@id/visitView"-->
+    <!--    android:layout_toLeftOf="@+id/visitView"-->
+    <!--    android:layout_toEndOf="@id/layout_image"-->
+    <!--    android:layout_toRightOf="@id/layout_image"-->
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0vp"
+        ohos:alignment="vertical_center"
+        ohos:layout_alignment="vertical_center"
+        ohos:orientation="vertical"
+        ohos:vertical_center="true"
+        ohos:weight="1">
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="vertical_center"
+            ohos:text="歌曲1"
+            ohos:text_alignment="vertical_center"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Component
+            ohos:height="$float:padding_list_content_two_lines_separation_height"
+            ohos:width="match_content"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:text2"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="歌手：artist"
+                ohos:text_size="12fp"
+                ohos:theme="$pattern:TextAppearance_Secondary_SingleLine"/>
+
+            <Text
+                ohos:id="$+id:textSeparator1"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:mode_middleDot"
+                ohos:text_size="12fp"
+                ohos:theme="$pattern:TextSeparatorMiddleDot"
+                ohos:visibility="hide"/>
+
+            <Text
+                ohos:id="$+id:text3"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="12fp"
+                ohos:theme="$pattern:TextAppearance_Secondary_SingleLine"/>
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:visitView"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:align_parent_right="true"
+        ohos:image_src="$graphic:ic_open_in_new_white_24dp"
+        ohos:layout_alignment="vertical_center"
+        ohos:theme="$pattern:OverflowButton"
+        ohos:vertical_center="true"/>
+
+</DirectionalLayout>

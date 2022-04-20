@@ -1,0 +1,39 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation project(path: ':gdatabase')
+    compile project(":qrcodescanner")
+
+    testImplementation 'junit:junit:4.13'
+    implementation "org.json:json:20180130"
+    implementation "com.github.kevinsawicki:http-request:6.0"
+//    implementation 'com.alibaba:fastjson:1.2.73'
+    implementation 'org.nanohttpd:nanohttpd:2.2.0'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+    implementation 'io.openharmony.tpc.thirdlib:glide:1.0.4'
+    implementation 'io.openharmony.tpc.thirdlib:BGAQRCode-core:1.0.0'
+    implementation 'io.openharmony.tpc.thirdlib:BGAQRCode-zxing:1.0.0'
+
+
+}
+decc {
+    supportType = ['html', 'xml']
+}

@@ -1,0 +1,83 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_text_white"
+        ohos:left_padding="24vp"
+        ohos:margin="25vp"
+        ohos:orientation="vertical"
+        ohos:right_padding="24vp"
+        ohos:top_padding="24vp">
+
+        <Text
+            ohos:id="$+id:teTitle"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="20vp"
+            ohos:text="连接向导"
+            ohos:text_color="$color:black_dominant"
+            ohos:text_size="20fp"/>
+
+
+        <Text
+            ohos:id="$+id:teContent"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:multiple_lines="true"
+            ohos:text="$string:ques_connectionWizardIsOtherDeviceReady"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+
+        <DirectionalLayout
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="20vp">
+
+            <Text
+                ohos:id="$+id:teCancel"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="取消"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+            <Component
+                ohos:height="0vp"
+                ohos:width="match_parent"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:teNo"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="20vp"
+                ohos:right_padding="10vp"
+                ohos:text="否"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+            <Text
+                ohos:id="$+id:teYes"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="20vp"
+                ohos:right_padding="20vp"
+                ohos:text="是"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+</ScrollView>

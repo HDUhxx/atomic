@@ -1,0 +1,1985 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "TShot DEBUG"
+    },
+    {
+      "name": "app_name1",
+      "value": "TShot DEBUG"
+    },
+    {
+      "name": "text_appName",
+      "value": "TrebleShot"
+    },
+    {
+      "name": "text_preferences",
+      "value": "设置"
+    },
+    {
+      "name": "text_connected",
+      "value": "已连接"
+    },
+    {
+      "name": "text_invited",
+      "value": "已邀请"
+    },
+    {
+      "name": "mesg_connectionFailure",
+      "value": "连接失败"
+    },
+    {
+      "name": "text_available",
+      "value": "可用"
+    },
+    {
+      "name": "text_notAvailable",
+      "value": "不可用"
+    },
+    {
+      "name": "text_deviceListEmpty",
+      "value": "没有设备"
+    },
+    {
+      "name": "mesg_noNetwork",
+      "value": "没有可用的连接方式，请启用 Wi-Fi 等以便查找附近的设备"
+    },
+    {
+      "name": "mesg_scanningDevices",
+      "value": "正在寻找附近的设备"
+    },
+    {
+      "name": "ques_receiveFile",
+      "value": "是否接收此文件？"
+    },
+    {
+      "name": "butn_accept",
+      "value": "接受"
+    },
+    {
+      "name": "butn_reject",
+      "value": "拒绝"
+    },
+    {
+      "name": "butn_stop",
+      "value": "停止"
+    },
+    {
+      "name": "text_sending",
+      "value": "正在发送"
+    },
+    {
+      "name": "butn_cancelSending",
+      "value": "取消发送"
+    },
+    {
+      "name": "text_receiving",
+      "value": "正在接收"
+    },
+    {
+      "name": "butn_cancelReceiving",
+      "value": "取消接收"
+    },
+    {
+      "name": "text_fileReceived",
+      "value": "文件已接收"
+    },
+    {
+      "name": "butn_scan",
+      "value": "扫描"
+    },
+    {
+      "name": "text_listEmpty",
+      "value": "列表为空"
+    },
+    {
+      "name": "text_developerMode",
+      "value": "开发者模式"
+    },
+    {
+      "name": "text_developerModeSummary",
+      "value": "这会禁用用户设置"
+    },
+    {
+      "name": "text_deviceName",
+      "value": "设备名"
+    },
+    {
+      "name": "text_deviceNameSummary",
+      "value": "这个名称将会在其他设备上显示"
+    },
+    {
+      "name": "text_deviceNameTitle",
+      "value": "输入一个设备名称"
+    },
+    {
+      "name": "mesg_formatNotSupported",
+      "value": "不支持的格式"
+    },
+    {
+      "name": "mesg_fileSendError",
+      "value": "无法发送文件 %s"
+    },
+    {
+      "name": "mesg_fileReceiveError",
+      "value": "无法接收 %s。"
+    },
+    {
+      "name": "text_multipleFileReceiveCompleted",
+      "value": "文件已接收"
+    },
+    {
+      "name": "text_deviceList",
+      "value": "设备"
+    },
+    {
+      "name": "text_fileOpenAppChoose",
+      "value": "打开方式"
+    },
+    {
+      "name": "text_fileShareAppChoose",
+      "value": "选择一个应用来分享"
+    },
+    {
+      "name": "text_receivedFiles",
+      "value": "已收到的文件"
+    },
+    {
+      "name": "butn_edit",
+      "value": "编辑"
+    },
+    {
+      "name": "butn_share",
+      "value": "分享"
+    },
+    {
+      "name": "butn_delete",
+      "value": "删除"
+    },
+    {
+      "name": "text_deleteConfirm",
+      "value": "确认删除"
+    },
+    {
+      "name": "butn_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "text_refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "butn_shareTrebleshot",
+      "value": "分享这个应用"
+    },
+    {
+      "name": "text_about",
+      "value": "关于"
+    },
+    {
+      "name": "text_clearList",
+      "value": "清空列表"
+    },
+    {
+      "name": "mesg_deviceListCleared",
+      "value": "设备列表已清空"
+    },
+    {
+      "name": "butn_close",
+      "value": "关闭"
+    },
+    {
+      "name": "text_deviceModelInfo",
+      "value": "设备名"
+    },
+    {
+      "name": "butn_clearQueue",
+      "value": "清空队列"
+    },
+    {
+      "name": "butn_pendingTransfers",
+      "value": "队列"
+    },
+    {
+      "name": "butn_shareWithTrebleshot",
+      "value": "用TrebleShot分享"
+    },
+    {
+      "name": "mesg_somethingWentWrong",
+      "value": "出错了"
+    },
+    {
+      "name": "text_findDevicesHint",
+      "value": "没有熟悉的设备"
+    },
+    {
+      "name": "text_autoScanDevices",
+      "value": "自动扫描设备"
+    },
+    {
+      "name": "text_autoScanDevicesSummary",
+      "value": "需要时扫描设备"
+    },
+    {
+      "name": "mesg_stillScanning",
+      "value": "仍在扫描"
+    },
+    {
+      "name": "text_advanced",
+      "value": "进阶"
+    },
+    {
+      "name": "text_storagePath",
+      "value": "储存路径"
+    },
+    {
+      "name": "text_storagePathSummary",
+      "value": "新文件将被储存在这个文件夹"
+    },
+    {
+      "name": "mesg_pathUnavailable",
+      "value": "%s目前不可用"
+    },
+    {
+      "name": "butn_showOnFileManager",
+      "value": "在文件管理器中显示"
+    },
+    {
+      "name": "text_chooseFileManager",
+      "value": "选择文件管理器"
+    },
+    {
+      "name": "text_ipAddress",
+      "value": "IP地址"
+    },
+    {
+      "name": "text_allowToConnect",
+      "value": "允许连接"
+    },
+    {
+      "name": "text_connectionPermission",
+      "value": "连接许可"
+    },
+    {
+      "name": "ques_allowDeviceToConnect",
+      "value": "允许这个设备连接吗？"
+    },
+    {
+      "name": "mesg_stopping",
+      "value": "正在停止"
+    },
+    {
+      "name": "text_notification",
+      "value": "通知"
+    },
+    {
+      "name": "text_useSounds",
+      "value": "声音"
+    },
+    {
+      "name": "text_useSoundsSummary",
+      "value": "使用声音"
+    },
+    {
+      "name": "text_useLights",
+      "value": "灯"
+    },
+    {
+      "name": "text_useLightSummary",
+      "value": "使用灯"
+    },
+    {
+      "name": "mesg_scanCompleted",
+      "value": "扫描完成"
+    },
+    {
+      "name": "text_autoStartSummary",
+      "value": "检测到连接时启动通信"
+    },
+    {
+      "name": "text_application",
+      "value": "应用"
+    },
+    {
+      "name": "text_image",
+      "value": "图像"
+    },
+    {
+      "name": "text_music",
+      "value": "音乐"
+    },
+    {
+      "name": "text_video",
+      "value": "视频"
+    },
+    {
+      "name": "text_showSystemApps",
+      "value": "显示系统应用"
+    },
+    {
+      "name": "text_showSystemAppsSummary",
+      "value": "在“分享”区域显示系统应用"
+    },
+    {
+      "name": "mesg_notAllowed",
+      "value": "你不被允许"
+    },
+    {
+      "name": "mesg_connectionProblem",
+      "value": "连接问题"
+    },
+    {
+      "name": "text_communicationProblem",
+      "value": "通信问题"
+    },
+    {
+      "name": "butn_multiSelect",
+      "value": "多选"
+    },
+    {
+      "name": "butn_receive",
+      "value": "接收"
+    },
+    {
+      "name": "butn_block",
+      "value": "阻止"
+    },
+    {
+      "name": "butn_appLaunch",
+      "value": "运行"
+    },
+    {
+      "name": "ques_launchApplication",
+      "value": "你想运行这个应用吗？"
+    },
+    {
+      "name": "mesg_launchApplicationError",
+      "value": "这个应用不能运行"
+    },
+    {
+      "name": "text_enterText",
+      "value": "在这里输入文本…"
+    },
+    {
+      "name": "mesg_textCopiedToClipboard",
+      "value": "文本已复制到剪贴板"
+    },
+    {
+      "name": "ques_copyToClipboard",
+      "value": "复制到剪贴板吗？"
+    },
+    {
+      "name": "text_textReceived",
+      "value": "文本已收到"
+    },
+    {
+      "name": "text_receivedTextSummary",
+      "value": "收到剪贴板文本"
+    },
+    {
+      "name": "butn_checkForUpdates",
+      "value": "检查新版本"
+    },
+    {
+      "name": "butn_seeSourceCode",
+      "value": "显示源代码"
+    },
+    {
+      "name": "butn_done",
+      "value": "完成"
+    },
+    {
+      "name": "text_textStream",
+      "value": "文本流"
+    },
+    {
+      "name": "text_stopping",
+      "value": "正在停止！"
+    },
+    {
+      "name": "text_cancellingTransfer",
+      "value": "正在取消任务…"
+    },
+    {
+      "name": "butn_killNow",
+      "value": "现在中止"
+    },
+    {
+      "name": "mesg_groupOngoingNotice",
+      "value": "等待%s完成再传输这个文件"
+    },
+    {
+      "name": "ques_removeQueue",
+      "value": "移除传输？"
+    },
+    {
+      "name": "butn_remove",
+      "value": "移除"
+    },
+    {
+      "name": "butn_removeAll",
+      "value": "全部移除"
+    },
+    {
+      "name": "ques_removeDevice",
+      "value": "移除这个设备吗？"
+    },
+    {
+      "name": "text_removeDeviceNotice",
+      "value": "移除设备会同时移除它的传输"
+    },
+    {
+      "name": "text_removePendingTransferSummary",
+      "value": "这将从队列中移除%s"
+    },
+    {
+      "name": "ques_removeAll",
+      "value": "全部移除？"
+    },
+    {
+      "name": "text_savedConnections",
+      "value": "已保存连接"
+    },
+    {
+      "name": "text_newVersionAvailable",
+      "value": "新版本可用！"
+    },
+    {
+      "name": "text_folder",
+      "value": "文件夹"
+    },
+    {
+      "name": "mesg_communicating",
+      "value": "通信中"
+    },
+    {
+      "name": "text_error",
+      "value": "错误"
+    },
+    {
+      "name": "ques_why",
+      "value": "为什么？"
+    },
+    {
+      "name": "butn_saveTo",
+      "value": "保存到"
+    },
+    {
+      "name": "mesg_secureExit",
+      "value": "再按一次退出"
+    },
+    {
+      "name": "butn_create",
+      "value": "创建"
+    },
+    {
+      "name": "text_createFolder",
+      "value": "创建文件夹"
+    },
+    {
+      "name": "mesg_fileAlreadyExists",
+      "value": "文件已存在"
+    },
+    {
+      "name": "mesg_folderCreateError",
+      "value": "无法创建文件夹"
+    },
+    {
+      "name": "text_requestPermissionStorageSummary",
+      "value": "这个权限允许TrebleShot读写你设备的存储以接收和发送文件。"
+    },
+    {
+      "name": "butn_settings",
+      "value": "设置"
+    },
+    {
+      "name": "butn_selectThis",
+      "value": "选择这个"
+    },
+    {
+      "name": "butn_newFile",
+      "value": "新文件"
+    },
+    {
+      "name": "mesg_currentPathUnavailable",
+      "value": "此文件夹无法使用"
+    },
+    {
+      "name": "text_defaultFolder",
+      "value": "默认文件夹"
+    },
+    {
+      "name": "text_storage",
+      "value": "存储"
+    },
+    {
+      "name": "text_shareFiles",
+      "value": "分享文件"
+    },
+    {
+      "name": "text_fileStatus",
+      "value": "文件状态"
+    },
+    {
+      "name": "text_navigationDrawerOpen",
+      "value": "打开导航抽屉"
+    },
+    {
+      "name": "text_navigationDrawerClose",
+      "value": "关闭导航抽屉"
+    },
+    {
+      "name": "mesg_fileReceived",
+      "value": "%s 已接收"
+    },
+    {
+      "name": "text_pendingTransfersOfDevice",
+      "value": "等候队列 - %s"
+    },
+    {
+      "name": "text_useVibration",
+      "value": "震动与通知卡片"
+    },
+    {
+      "name": "text_useVibrationSummary",
+      "value": "震动并显示通知卡片"
+    },
+    {
+      "name": "text_autoStart",
+      "value": "自启动"
+    },
+    {
+      "name": "text_aboutSummary",
+      "value": "这个软件由Genonbeta Libre Software Org开发"
+    },
+    {
+      "name": "text_typeText",
+      "value": "输入准备发出的内容…"
+    },
+    {
+      "name": "text_textEditor",
+      "value": "文本编辑器"
+    },
+    {
+      "name": "text_empty",
+      "value": "(空)"
+    },
+    {
+      "name": "butn_wifiSettings",
+      "value": "Wi-Fi"
+    },
+    {
+      "name": "text_pendingTransfers",
+      "value": "正在等待的传输"
+    },
+    {
+      "name": "butn_proceed",
+      "value": "确认继续"
+    },
+    {
+      "name": "text_removeCertainPendingTransfersSummary",
+      "value": "这将会移除这里可见的所有等待的传输"
+    },
+    {
+      "name": "text_availableNetworks",
+      "value": "选择网络 - %s"
+    },
+    {
+      "name": "text_noNetworkAvailable",
+      "value": "无可用的网络"
+    },
+    {
+      "name": "mesg_organizingFiles",
+      "value": "整理您的文件"
+    },
+    {
+      "name": "text_communicationService",
+      "value": "通信服务"
+    },
+    {
+      "name": "text_notAllowedHelp",
+      "value": "检查您是否在 %1$s 上被允许\n\n设备&gt;%2$s&gt;允许连接&gt;（打勾）"
+    },
+    {
+      "name": "mesg_pathSaved",
+      "value": "该文件夹已保存"
+    },
+    {
+      "name": "butn_search",
+      "value": "搜索"
+    },
+    {
+      "name": "butn_changeConnection",
+      "value": "更改连接"
+    },
+    {
+      "name": "text_fileName",
+      "value": "文件名"
+    },
+    {
+      "name": "text_fileSize",
+      "value": "文件大小"
+    },
+    {
+      "name": "text_fileMime",
+      "value": "文件类型"
+    },
+    {
+      "name": "butn_resume",
+      "value": "继续"
+    },
+    {
+      "name": "text_fileExplorer",
+      "value": "文件管理器"
+    },
+    {
+      "name": "butn_createFolder",
+      "value": "创建文件夹"
+    },
+    {
+      "name": "text_chooseFolder",
+      "value": "选择文件夹"
+    },
+    {
+      "name": "text_chooseFile",
+      "value": "选择文件"
+    },
+    {
+      "name": "mesg_pathSameError",
+      "value": "您不能选择旧文件夹"
+    },
+    {
+      "name": "ques_checkOldFiles",
+      "value": "移动文件？"
+    },
+    {
+      "name": "mesg_newFilesReceived",
+      "value": "新的文件已被接收"
+    },
+    {
+      "name": "ques_resetToDefault",
+      "value": "重置为默认值？"
+    },
+    {
+      "name": "butn_refresh",
+      "value": "刷新"
+    },
+    {
+      "name": "butn_showSystemApps",
+      "value": "显示系统应用"
+    },
+    {
+      "name": "text_transactionDetails",
+      "value": "详细信息"
+    },
+    {
+      "name": "butn_show",
+      "value": "显示"
+    },
+    {
+      "name": "text_preparingFiles",
+      "value": "正在准备文件"
+    },
+    {
+      "name": "text_savingDetails",
+      "value": "保存详细信息"
+    },
+    {
+      "name": "text_version",
+      "value": "版本"
+    },
+    {
+      "name": "text_flagPending",
+      "value": "等待中"
+    },
+    {
+      "name": "text_flagRunning",
+      "value": "正在进行"
+    },
+    {
+      "name": "text_flagInterrupted",
+      "value": "已中断"
+    },
+    {
+      "name": "text_flagResume",
+      "value": "已继续"
+    },
+    {
+      "name": "text_unknown",
+      "value": "未知"
+    },
+    {
+      "name": "text_longAgo",
+      "value": "很久以前"
+    },
+    {
+      "name": "text_interfaceWifiDirect",
+      "value": "Wi-Fi 直连"
+    },
+    {
+      "name": "text_interfaceWireless",
+      "value": "Wi-Fi"
+    },
+    {
+      "name": "text_interfaceBluetooth",
+      "value": "蓝牙"
+    },
+    {
+      "name": "text_interfaceEthernet",
+      "value": "以太网"
+    },
+    {
+      "name": "text_interfaceUnknown",
+      "value": "未知的连接"
+    },
+    {
+      "name": "text_shareTextShort",
+      "value": "文本"
+    },
+    {
+      "name": "butn_feelLucky",
+      "value": "手气不错"
+    },
+    {
+      "name": "butn_connectionList",
+      "value": "连接"
+    },
+    {
+      "name": "text_automaticNetworkConnectionFailed",
+      "value": "没有一个连接对于设备来说是可用的。它的地址可能已经改变。尝试在TrebleShot运行时重新连接到网络。"
+    },
+    {
+      "name": "text_automaticNetworkConnectionOngoing",
+      "value": "TrebleShot将会为你做出决定"
+    },
+    {
+      "name": "butn_retryReceiving",
+      "value": "全部重试"
+    },
+    {
+      "name": "text_permissionRequest",
+      "value": "权限申请"
+    },
+    {
+      "name": "text_requestPermissionStorage",
+      "value": "存储权限"
+    },
+    {
+      "name": "text_requestPermissionReadPhoneState",
+      "value": "读取手机状态权限"
+    },
+    {
+      "name": "text_requestPermissionReadPhoneStateSummary",
+      "value": "TrebleShot需要获取您的设备串号来建立一个长期使用的ID号码，以帮助其他设备识别你"
+    },
+    {
+      "name": "text_mediaDirectory",
+      "value": "媒体文件夹"
+    },
+    {
+      "name": "mesg_notEnoughSpace",
+      "value": "存储空间不足"
+    },
+    {
+      "name": "text_totalIncomingSize",
+      "value": "传入文件的总大小"
+    },
+    {
+      "name": "text_totalOutgoingSize",
+      "value": "传出文件的总大小"
+    },
+    {
+      "name": "text_availableDiskSpace",
+      "value": "可用空间"
+    },
+    {
+      "name": "text_savePath",
+      "value": "保存路径"
+    },
+    {
+      "name": "text_network",
+      "value": "网络"
+    },
+    {
+      "name": "ok",
+      "value": "确定"
+    },
+    {
+      "name": "text_connect",
+      "value": "连接"
+    },
+    {
+      "name": "butn_startHotspot",
+      "value": "建立热点"
+    },
+    {
+      "name": "butn_stopHotspot",
+      "value": "停止热点"
+    },
+    {
+      "name": "text_easyDiscoveryHelp",
+      "value": "如果两个设备在同一网络时扫描它"
+    },
+    {
+      "name": "mesg_completing",
+      "value": "正在完成"
+    },
+    {
+      "name": "mesg_errorNotSameNetwork",
+      "value": "设备不在同一网络下"
+    },
+    {
+      "name": "text_cameraPermissionRequired",
+      "value": "需要相机权限"
+    },
+    {
+      "name": "text_file",
+      "value": "文件"
+    },
+    {
+      "name": "text_transactionViewer",
+      "value": "查看传输"
+    },
+    {
+      "name": "butn_ask",
+      "value": "请求权限"
+    },
+    {
+      "name": "text_usedConnection",
+      "value": "使用过的连接"
+    },
+    {
+      "name": "text_flagRemoved",
+      "value": "已移除"
+    },
+    {
+      "name": "butn_copyToClipboard",
+      "value": "复制到剪贴板"
+    },
+    {
+      "name": "text_communicationServiceRunning",
+      "value": "TrebleShot可以分享文件了"
+    },
+    {
+      "name": "text_communicationServiceStop",
+      "value": "轻触以停止"
+    },
+    {
+      "name": "text_remainingTime",
+      "value": "剩余时间 %s"
+    },
+    {
+      "name": "butn_showFiles",
+      "value": "显示文件"
+    },
+    {
+      "name": "butn_trustZoneDevice",
+      "value": "设置为信任域设备"
+    },
+    {
+      "name": "butn_turnTrustZoneOn",
+      "value": "打开信任域"
+    },
+    {
+      "name": "butn_turnTrustZoneOff",
+      "value": "关闭信任域"
+    },
+    {
+      "name": "text_trustZoneEnabled",
+      "value": "信任域"
+    },
+    {
+      "name": "text_trustZoneEnabledSummary",
+      "value": "在应用启动时设置信任域为开启"
+    },
+    {
+      "name": "butn_download",
+      "value": "下载"
+    },
+    {
+      "name": "butn_update",
+      "value": "更新"
+    },
+    {
+      "name": "butn_save",
+      "value": "保存"
+    },
+    {
+      "name": "text_timeJustNow",
+      "value": "刚刚"
+    },
+    {
+      "name": "mesg_errorHotspotPermission",
+      "value": "TrebleShot需要权限来建立热点"
+    },
+    {
+      "name": "text_trebleshotHotspot",
+      "value": "TrebleShot热点"
+    },
+    {
+      "name": "butn_connect",
+      "value": "连接"
+    },
+    {
+      "name": "butn_disconnect",
+      "value": "断开"
+    },
+    {
+      "name": "text_trebleshotHotspotDescription",
+      "value": "你可以直接通过附近运行TrebleShot的设备建立的开放网络来发送文件。"
+    },
+    {
+      "name": "mesg_connectingToSelfHotspot",
+      "value": "正在连接TrebleShot热点"
+    },
+    {
+      "name": "mesg_warningHotspotMobileActive",
+      "value": "连接的设备将使用你的移动数据。你可以将数据连接关闭。"
+    },
+    {
+      "name": "butn_skip",
+      "value": "跳过"
+    },
+    {
+      "name": "mesg_scanningSelfHotspot",
+      "value": "正在寻找TrebleShot热点"
+    },
+    {
+      "name": "mesg_suggestSelfHotspot",
+      "value": "你可以通过启用Wi-Fi来寻找TrebleShot热点"
+    },
+    {
+      "name": "butn_enable",
+      "value": "启用"
+    },
+    {
+      "name": "mesg_locationPermissionRequiredSelfHotspot",
+      "value": "允许TrebleShot寻找或建立热点"
+    },
+    {
+      "name": "butn_locationSettings",
+      "value": "位置"
+    },
+    {
+      "name": "text_connectDevices",
+      "value": "连接到设备"
+    },
+    {
+      "name": "mesg_notValidTransfer",
+      "value": "传输已失效"
+    },
+    {
+      "name": "ques_saveAnyway",
+      "value": "仍要保存吗？"
+    },
+    {
+      "name": "mesg_fileSaved",
+      "value": "文件已保存"
+    },
+    {
+      "name": "butn_sortBy",
+      "value": "排序方式"
+    },
+    {
+      "name": "butn_sortOrder",
+      "value": "顺序/倒序"
+    },
+    {
+      "name": "text_sortOrderAscending",
+      "value": "顺序排列\n      ↑"
+    },
+    {
+      "name": "text_sortOrderDescending",
+      "value": "倒序排列 ↓"
+    },
+    {
+      "name": "text_sortByName",
+      "value": "文件名"
+    },
+    {
+      "name": "text_sortByDate",
+      "value": "日期"
+    },
+    {
+      "name": "text_sortBySize",
+      "value": "大小"
+    },
+    {
+      "name": "text_trustZoneDeviceNotice",
+      "value": "当信任域开启时自动接收传入的文件"
+    },
+    {
+      "name": "text_allowingToConnectNotice",
+      "value": "允许来自该设备的连接"
+    },
+    {
+      "name": "butn_resetToDefault",
+      "value": "重置回默认值"
+    },
+    {
+      "name": "text_resetPreferencesToDefaultSummary",
+      "value": "这将会应用初始设置"
+    },
+    {
+      "name": "text_taskCompleted",
+      "value": "任务已完成"
+    },
+    {
+      "name": "text_deletingFilesOngoing",
+      "value": "正在删除已选中的文件"
+    },
+    {
+      "name": "text_networkServiceDiscovery",
+      "value": "启用NSD"
+    },
+    {
+      "name": "text_networkServiceDiscoverySummary",
+      "value": "NSD将会改进可发现性"
+    },
+    {
+      "name": "text_notificationChannelHigh",
+      "value": "重要的通知"
+    },
+    {
+      "name": "text_notificationChannelLow",
+      "value": "低优先级通知"
+    },
+    {
+      "name": "text_receivedTransfer",
+      "value": "接收 %s 花费了 %s"
+    },
+    {
+      "name": "ques_receiveMultipleFiles",
+      "value": "是否接收 %s 个文件？"
+    },
+    {
+      "name": "text_fileReceiveCompletedSummary",
+      "value":"已接收 %s 个文件"
+    },
+    {
+      "name": "butn_exit",
+      "value": "退出"
+    },
+    {
+      "name": "text_transactionGroupDetails",
+      "value": "任务组详细信息"
+    },
+    {
+      "name": "butn_typeNewEntry",
+      "value": "输入新条目"
+    },
+    {
+      "name": "mesg_textSaveNotice",
+      "value": "保存文本或再按一次以退出"
+    },
+    {
+      "name": "mesg_textShareLimit",
+      "value": "一次性只能分享一个文本"
+    },
+    {
+      "name": "mesg_locationDisabledSelfHotspot",
+      "value": "开启位置服务来查看扫描结果并建立热点"
+    },
+    {
+      "name": "mesg_stoppingSelfHotspot",
+      "value": "正在停止TrebleShot热点"
+    },
+    {
+      "name": "mesg_startingSelfHotspot",
+      "value": "正在开启TrebleShot热点"
+    },
+    {
+      "name": "butn_check",
+      "value": "全选"
+    },
+    {
+      "name": "butn_uncheck",
+      "value": "撤销全部"
+    },
+    {
+      "name": "text_previewAndEditList",
+      "value": "预览 &amp; 编辑"
+    },
+    {
+      "name": "text_uncheckedItemsNotice",
+      "value": "未标记的项目将被跳过"
+    },
+    {
+      "name": "text_fileRoot",
+      "value": "根目录"
+    },
+    {
+      "name": "mesg_versionNotSupported",
+      "value": "请更新至一个受支持的版本，并重新扫描设备。"
+    },
+    {
+      "name": "mesg_ongoingUpdateDownload",
+      "value": "正在下载新版本"
+    },
+    {
+      "name": "mesg_scanningDevicesSelfHotspot",
+      "value": "正在通过TrebleShot热点寻找设备"
+    },
+    {
+      "name": "mesg_connectionUpdated",
+      "value": "正在通过 \"%s\" 连接通讯"
+    },
+    {
+      "name": "butn_gotIt",
+      "value": "知道了"
+    },
+    {
+      "name": "mesg_helpFolderSelection",
+      "value": "轻触文件夹的图标以选中文件夹"
+    },
+    {
+      "name": "mesg_hotspotCreatedInfo",
+      "value": "在“Wi-Fi设置”中连接至\"%s\"或通过TrebleShot中\"%s\"发送文件"
+    },
+    {
+      "name": "butn_selectAll",
+      "value": "全选"
+    },
+    {
+      "name": "butn_selectNone",
+      "value": "全不选"
+    },
+    {
+      "name": "butn_previewSelections",
+      "value": "预览所选项"
+    },
+    {
+      "name": "mesg_retryReceivingNotice",
+      "value": "TrebleShot将会重试被中断的传输"
+    },
+    {
+      "name": "mesg_transferConnectionNotSetUpFix",
+      "value": "请首先选择连接方式"
+    },
+    {
+      "name": "butn_setUp",
+      "value": "设置"
+    },
+    {
+      "name": "butn_saveAnyway",
+      "value": "仍然保存"
+    },
+    {
+      "name": "text_taskOngoing",
+      "value": "正在进行的任务"
+    },
+    {
+      "name": "butn_queueCounted",
+      "value": "队列 (%d)"
+    },
+    {
+      "name": "mesg_updateDownloadComplete",
+      "value": "更新接收完毕并已保存至已收到的文件"
+    },
+    {
+      "name": "text_listEmptyFiles",
+      "value": "此处无文件"
+    },
+    {
+      "name": "text_listEmptyImage",
+      "value": "此处无图片"
+    },
+    {
+      "name": "text_listEmptyApp",
+      "value": "此处无应用"
+    },
+    {
+      "name": "butn_goUp",
+      "value": "向上"
+    },
+    {
+      "name": "text_chooserTargetService",
+      "value": "设备选择提供方"
+    },
+    {
+      "name": "text_checkOldFiles",
+      "value": "你可以移动相关的全部完成和部分完成传输的文件至这个文件夹，其花费的时间取决于其总大小"
+    },
+    {
+      "name": "text_emulatedMediaDirectory",
+      "value": "模拟的 (%s)"
+    },
+    {
+      "name": "mesg_clipboardUpdateNotice",
+      "value": "更改文本或再按一次以退出"
+    },
+    {
+      "name": "mesg_providerNotAllowedError",
+      "value": "默认文件夹无法被其他应用访问"
+    },
+    {
+      "name": "mesg_deviceConnectionError",
+      "value": "与 \"%s\" 通过 \"%s\" 的连接失败"
+    },
+    {
+      "name": "text_location",
+      "value": "虚拟的位置"
+    },
+    {
+      "name": "text_receivedSize",
+      "value": "已接收的大小"
+    },
+    {
+      "name": "text_saveAnywaySummary",
+      "value": "发送器不知道文件的位置，但您仍可以保存它"
+    },
+    {
+      "name": "text_workerService",
+      "value": "作业服务"
+    },
+    {
+      "name": "text_yearCountShort",
+      "value": "%d 年"
+    },
+    {
+      "name": "text_monthCountShort",
+      "value": "%d 月"
+    },
+    {
+      "name": "text_dayCountShort",
+      "value": "%d 日"
+    },
+    {
+      "name": "text_hourCountShort",
+      "value": "%d 小时"
+    },
+    {
+      "name": "text_minuteCountShort",
+      "value": "%d 分钟"
+    },
+    {
+      "name": "text_secondCountShort",
+      "value": "%d 秒"
+    },
+    {
+      "name": "text_previewThenProceedNotice",
+      "value": "请检查您的已选项后轻触\"加入队列\"以继续"
+    },
+    {
+      "name": "text_listEmptyVideo",
+      "value": "此处无视频文件"
+    },
+    {
+      "name": "text_listEmptyPendingTransfer",
+      "value": "等待的传输将在此处出现"
+    },
+    {
+      "name": "text_listEmptyTextStream",
+      "value": "文本将在此出现"
+    },
+    {
+      "name": "text_listEmptyMusic",
+      "value": "此处无歌曲文件"
+    },
+    {
+      "name": "text_internalStorage",
+      "value": "内置存储"
+    },
+    {
+      "name": "text_restrictedAccessStorage",
+      "value": "%s (受限的访问)"
+    },
+    {
+      "name": "text_emptySearchResult",
+      "value": "搜索\"%s\"无结果"
+    },
+    {
+      "name": "mesg_listRefreshSnoozed",
+      "value": "列表将在可用的时候刷新"
+    },
+    {
+      "name": "mesg_errorReadFolder",
+      "value": "无法访问 \"%s\""
+    },
+    {
+      "name": "butn_mountDirectory",
+      "value": "挂载文件夹"
+    },
+    {
+      "name": "mesg_mountDirectoryHelp",
+      "value": "选择您想要访问的文件夹"
+    },
+    {
+      "name": "butn_ejectDirectory",
+      "value": "卸载文件夹"
+    },
+    {
+      "name": "text_movedCacheFiles",
+      "value": "已移动缓存的文件"
+    },
+    {
+      "name": "mesg_wifiEnableRequired",
+      "value": "请启用Wi-Fi以连接"
+    },
+    {
+      "name": "text_hotspotStartsTrustZone",
+      "value": "启用热点时打开信任域"
+    },
+    {
+      "name": "text_hotspotStartsTrustZoneSummary",
+      "value": "信任域也会相应的被启用"
+    },
+    {
+      "name": "text_qrCodeAvailableHelp",
+      "value": "扫描二维码来分享并连接设备"
+    },
+    {
+      "name": "text_qrCodeHotspotDisabledHelp",
+      "value": "建立热点以允许其他设备连接"
+    },
+    {
+      "name": "text_scanQRCodeHelp",
+      "value": "扫描主设备屏幕上的二维码"
+    },
+    {
+      "name": "butn_qrScanToSend",
+      "value": "扫描二维码以发送"
+    },
+    {
+      "name": "butn_qrToggle",
+      "value": "工作服务"
+    },
+    {
+      "name": "text_notificationSettingsSummary",
+      "value": "打开通知设置"
+    },
+    {
+      "name": "text_notificationSettings",
+      "value": "通知设置"
+    },
+    {
+      "name": "text_renameMultipleItems",
+      "value": "重命名多个项目"
+    },
+    {
+      "name": "text_rename",
+      "value": "重命名"
+    },
+    {
+      "name": "butn_rename",
+      "value": "重命名"
+    },
+    {
+      "name": "butn_copyHere",
+      "value": "复制到这里"
+    },
+    {
+      "name": "text_qrAllowTrustZone",
+      "value": "二维码连接设备启用信任域"
+    },
+    {
+      "name": "text_qrAllowTrustZoneSummary",
+      "value": "允许为通过二维码连接的设备打开信任域"
+    },
+    {
+      "name": "text_translateTrebleshot",
+      "value": "帮助我们翻译"
+    },
+    {
+      "name": "text_contributors",
+      "value": "贡献者"
+    },
+    {
+      "name": "butn_gridSize",
+      "value": "网格大小"
+    },
+    {
+      "name": "butn_singleRow",
+      "value": "单行"
+    },
+    {
+      "name": "butn_groupBy",
+      "value": "分组依据"
+    },
+    {
+      "name": "text_photo",
+      "value": "图片"
+    },
+    {
+      "name": "text_groupByNothing",
+      "value": "无"
+    },
+    {
+      "name": "text_groupByDate",
+      "value": "日期"
+    },
+    {
+      "name": "text_groupByAlbum",
+      "value": "专辑"
+    },
+    {
+      "name": "text_groupByArtist",
+      "value": "艺术家"
+    },
+    {
+      "name": "text_groupByFolder",
+      "value": "文件夹"
+    },
+    {
+      "name": "text_home",
+      "value": "主目录"
+    },
+    {
+      "name": "text_default",
+      "value": "默认"
+    },
+    {
+      "name": "text_files",
+      "value": "文件"
+    },
+    {
+      "name": "mesg_noReceiverOrSender",
+      "value": "你应该首先添加设备"
+    },
+    {
+      "name": "butn_addDevices",
+      "value": "添加设备"
+    },
+    {
+      "name": "butn_shareWithOtherApps",
+      "value": "通过其他应用分享"
+    },
+    {
+      "name": "text_scanQRWifiRequired",
+      "value": "为了连接至其他设备，Wi-Fi应被打开"
+    },
+    {
+      "name": "text_addDevicesToTransfer",
+      "value": "添加设备至传输"
+    },
+    {
+      "name": "text_noDeviceForTransfer",
+      "value": "这个传输中还未添加设备"
+    },
+    {
+      "name": "text_thirdPartyLibraries",
+      "value": "第三方库"
+    },
+    {
+      "name": "text_killServiceAfterLeavingSummary",
+      "value": "如果没有正在进行的任务将停止通讯"
+    },
+    {
+      "name": "text_killServiceAfterLeaving",
+      "value": "关闭应用时停止服务"
+    },
+    {
+      "name": "text_emptySymbol",
+      "value": "-"
+    },
+    {
+      "name": "text_transferStatusFiles",
+      "value": "已传输%1d共%2d"
+    },
+    {
+      "name": "text_donate",
+      "value": "帮助开发"
+    },
+    {
+      "name": "mesg_donationSuccessful",
+      "value": "感谢您的捐赠！"
+    },
+    {
+      "name": "butn_donate",
+      "value": "帮助开发"
+    },
+    {
+      "name": "msg",
+      "value": "捐赠"
+    },
+    {
+      "name": "butn_open",
+      "value": "打开"
+    },
+    {
+      "name": "butn_pause",
+      "value": "暂停"
+    },
+    {
+      "name": "butn_retry",
+      "value": "重试"
+    },
+    {
+      "name": "mesg_noPendingTransferObjectExists",
+      "value": "无正在等待的传输。使用“重试接收”选项以继续被中断的传输。"
+    },
+    {
+      "name": "mesg_notSavingToChosenLocation",
+      "value": "无法访问你想要保存文件的文件夹。文件将会被储存至默认文件夹。\n\n%s"
+    },
+    {
+      "name": "butn_changelog",
+      "value": "更新日志"
+    },
+    {
+      "name": "text_changelog",
+      "value": "更新日志"
+    },
+    {
+      "name": "mesg_versionUpdatedChangelog",
+      "value": "你已经更新TrebleShot，您想要查看更新了什么吗？"
+    },
+    {
+      "name": "mesg_versionUpdatedChangelogRejected",
+      "value": "你可以在“关于”部分找到“更新日志”"
+    },
+    {
+      "name": "mesg_noInternetConnection",
+      "value": "这需要网络连接"
+    },
+    {
+      "name": "text_applyDarkTheme",
+      "value": "暗黑风格"
+    },
+    {
+      "name": "text_applyDarkThemeSummary",
+      "value": "使用黑色风格的主题"
+    },
+    {
+      "name": "butn_allow",
+      "value": "允许"
+    },
+    {
+      "name": "butn_telegram_channel",
+      "value": "Telegram频道"
+    },
+    {
+      "name": "text_listEmptyTransfer",
+      "value": "所有的传输在此出现"
+    },
+    {
+      "name": "text_transfers",
+      "value": "传输"
+    },
+    {
+      "name": "butn_connectionDetails",
+      "value": "连接详情"
+    },
+    {
+      "name": "butn_useKnownDevice",
+      "value": "使用已知的设备"
+    },
+    {
+      "name": "butn_scanQrCode",
+      "value": "扫描二维码"
+    },
+    {
+      "name": "butn_useExistingNetwork",
+      "value": "使用现存的网络"
+    },
+    {
+      "name": "butn_feedbackContact",
+      "value": "反馈 & 联系"
+    },
+    {
+      "name": "mesg_sent",
+      "value": "已发送"
+    },
+    {
+      "name": "text_sendText",
+      "value": "发送文本"
+    },
+    {
+      "name": "butn_start",
+      "value": "开始"
+    },
+    {
+      "name": "text_addDeviceHelp",
+      "value": "通过添加设备，你可以分享同一个文件到不同的设备。 完成之后你将会被带回“传输”。"
+    },
+    {
+      "name": "text_downloads",
+      "value": "下载"
+    },
+    {
+      "name": "text_documents",
+      "value": "文档"
+    },
+    {
+      "name": "text_shortcuts",
+      "value": "快捷方式"
+    },
+    {
+      "name": "text_recentFiles",
+      "value": "最近的文件"
+    },
+    {
+      "name": "butn_changeSavePath",
+      "value": "更改保存的文件夹"
+    },
+    {
+      "name": "mesg_fileReceiveFilesLeftError",
+      "value": "无法接收一些文件"
+    },
+    {
+      "name": "text_send",
+      "value": "发送"
+    },
+    {
+      "name": "text_connectionHelp",
+      "value": "选择一个选项来连接其他设备。比如说，如果其他设备显示二维码，使用扫描二维码选项。"
+    },
+    {
+      "name": "ques_needHelp",
+      "value": "需要帮助吗？"
+    },
+    {
+      "name": "text_connectionWizard",
+      "value": "连接向导"
+    },
+    {
+      "name": "ques_connectionWizardIsOtherDeviceReady",
+      "value": "你在另一个设备上刚配置好了吗？"
+    },
+    {
+      "name": "ques_connectionWizardIsThereQRCode",
+      "value": "在其屏幕上你看到了二维码吗？"
+    },
+    {
+      "name": "ques_connectionWizardUseNetwork",
+      "value": "你想要使用你和你的朋友连接到的路由器或者其他Wi-Fi网络吗？"
+    },
+    {
+      "name": "ques_connectionWizardUseKnownDevices",
+      "value": "你想要访问你之前连接的设备吗？"
+    },
+    {
+      "name": "butn_yes",
+      "value": "是"
+    },
+    {
+      "name": "butn_no",
+      "value": "否"
+    },
+    {
+      "name": "text_loadThumbnails",
+      "value": "加载缩略图"
+    },
+    {
+      "name": "text_loadThumbnailsSummary",
+      "value": "显示文件的缩略图"
+    },
+    {
+      "name": "text_manageDevices",
+      "value": "管理设备"
+    },
+    {
+      "name": "text_search",
+      "value": "搜索"
+    },
+    {
+      "name": "mesg_wifiEnableFailed",
+      "value": "无法打开Wi-Fi。"
+    },
+    {
+      "name": "mesg_turningWiFiOn",
+      "value": "正在打开Wi-Fi"
+    },
+    {
+      "name": "mesg_locationPermissionRequiredAny",
+      "value": "首先打开位置服务以继续"
+    },
+    {
+      "name": "mesg_connectToWiFiNetworkHelp",
+      "value": "连接至Wi-Fi以继续"
+    },
+    {
+      "name": "mesg_removing",
+      "value": "正在移除......可能花费较长时间"
+    },
+    {
+      "name": "butn_help",
+      "value": "帮助"
+    },
+    {
+      "name": "butn_choose",
+      "value": "选择"
+    },
+    {
+      "name": "butn_fixConnection",
+      "value": "修复连接"
+    },
+    {
+      "name": "ques_connectionWizardUseHotspot",
+      "value": "你想要其他设备通过热点连接至该设备吗？如果你不知道热点是什么，轻触“是”。"
+    },
+    {
+      "name": "butn_never",
+      "value": "从不"
+    },
+    {
+      "name": "text_hotspotStartedExternallyNotice",
+      "value": "热点是从外部启用的。为了使用二维码，你应该在这里启用。"
+    },
+    {
+      "name": "text_shortcut",
+      "value": "快捷方式"
+    },
+    {
+      "name": "butn_addShortcut",
+      "value": "创建快捷方式"
+    },
+    {
+      "name": "butn_removeShortcut",
+      "value": "移除快捷方式"
+    },
+    {
+      "name": "mesg_removed",
+      "value": "已移除"
+    },
+    {
+      "name": "mesg_added",
+      "value": "已添加"
+    },
+    {
+      "name": "butn_change",
+      "value": "更改"
+    },
+    {
+      "name": "text_welcome",
+      "value": "欢迎"
+    },
+    {
+      "name": "text_introMakeItYours",
+      "value": "让它变成你喜欢的"
+    },
+    {
+      "name": "text_introSetUpPermissions",
+      "value": "设置权限"
+    },
+    {
+      "name": "text_introAllSet",
+      "value": "设置完毕！"
+    },
+    {
+      "name": "text_introSetUpProfile",
+      "value": "建立你的资料"
+    },
+    {
+      "name": "mesg_openFailure",
+      "value": "无法查看 \"%s\""
+    },
+    {
+      "name": "text_connectionTest",
+      "value": "连接测试 - %s"
+    },
+    {
+      "name": "butn_connectionTest",
+      "value": "连接测试"
+    },
+    {
+      "name": "text_textMillisecond",
+      "value": "%d 毫秒"
+    },
+    {
+      "name": "butn_revokePin",
+      "value": "撤销PIN"
+    },
+    {
+      "name": "const_text_useAppFonts",
+      "value": "使用推荐的字体"
+    },
+    {
+      "name": "const_text_useAppFontsSummary",
+      "value": "使用预提供的自定义字体"
+    },
+    {
+      "name": "mesg_waiting",
+      "value": "等待中"
+    },
+    {
+      "name": "text_amoledOptimizedBlackTheme",
+      "value": "为AMOLED屏优化"
+    },
+    {
+      "name": "text_amoledOptimizedBlackThemeSummary",
+      "value": "使用更黑的配色"
+    },
+    {
+      "name": "mesg_errorNotTrustZoneDevice",
+      "value": "将本设备在接收方设置为信任域设备方可进行此操作。"
+    },
+    {
+      "name": "butn_enterIpAddress",
+      "value": "输入IP地址"
+    },
+    {
+      "name": "text_enterIpAddress",
+      "value": "@string/butn_enterIpAddress"
+    },
+    {
+      "name": "butn_webShare",
+      "value": "通过浏览器(网页)分享"
+    },
+    {
+      "name": "text_webShare",
+      "value": "@string/butn_webShare"
+    },
+    {
+      "name": "text_webShareNoContentNotice",
+      "value": "使用“在浏览器中分享”以在此处查看传输！"
+    },
+    {
+      "name": "butn_shareOnBrowser",
+      "value": "在浏览器中分享"
+    },
+    {
+      "name": "butn_hideOnBrowser",
+      "value": "在浏览器中隐藏"
+    },
+    {
+      "name": "text_transferSharedOnBrowser",
+      "value": "已在浏览器上分享"
+    },
+    {
+      "name": "mode_webShareAddress",
+      "value": "http://%s:%d/"
+    },
+    {
+      "name": "text_or",
+      "value": "或"
+    },
+    {
+      "name": "text_visitWebShareAddress",
+      "value": "使用你的浏览器访问该链接"
+    },
+    {
+      "name": "btn_web_share_close",
+      "value": "关闭"
+    },
+    {
+      "name": "text_webShareInfo",
+      "value": "单独地为传输启用网页分享，然后使用连接至同一网络的设备访问以下任意的网页链接。"
+    },
+    {
+      "name": "text_dowloadTrebleshotAndroid",
+      "value": "下载运行于Android上的TrebleShot"
+    },
+    {
+      "name": "text_listEmptyConnection",
+      "value": "你连接的网络在此出现"
+    },
+    {
+      "name": "mesg_errorNotAnIpAddress",
+      "value": "不是IP地址\n(如192.168.1.2)"
+    },
+    {
+      "name": "ques_shareAsApkOrLink",
+      "value": "以链接分享还是以安装包分享？"
+    },
+    {
+      "name": "butn_asApk",
+      "value": "作为安装包"
+    },
+    {
+      "name": "butn_asLink",
+      "value": "作为链接"
+    },
+    {
+      "name": "text_linkTrebleshot",
+      "value": "使用TrebleShot分享文件！ 在此处下载： %s"
+    },
+    {
+      "name": "butn_downloadAllAsZip",
+      "value": "以ZIP形式下载全部文件(单个的， 未压缩的文件)"
+    },
+    {
+      "name": "text_interfaceVPN",
+      "value": "VPN 服务器"
+    },
+    {
+      "name": "text_unrecognizedQrCode",
+      "value": "未识别的二维码"
+    },
+    {
+      "name": "mesg_textStreamSaved",
+      "value": "文字已保存"
+    },
+    {
+      "name": "butn_changeMode",
+      "value": "更改模式"
+    },
+    {
+      "name": "mesg_qrScannerTextMode",
+      "value": "二维码将以文字形式显示"
+    },
+    {
+      "name": "mesg_qrScannerDefaultMode",
+      "value": "返回到对二维码的默认设置"
+    },
+    {
+      "name": "butn_showAsQrCode",
+      "value": "以二维码形式显示"
+    },
+    {
+      "name": "conf_packageName",
+      "value": "com.genonbeta.TrebleShot"
+    },
+    {
+      "name": "conf_licence",
+      "value": "This, program is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation, either version 2 of the License, or(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See theGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public Licensealong with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.\n\nThis program uses a modified version of Ubuntu Font Family under the terms of Ubuntu Font License.For the license, see &lt;https://www.ubuntu.com/legal/font-licence&gt;.For the modified version, visit &lt;https://github.com/velitasali/UbuntuFontForAndroid&gt;"
+    },
+    {
+      "name": "text_developmentSurvey",
+      "value": "DevSurvey"
+    },
+    {
+      "name": "text_developmentSurveySummary",
+      "value": "Tell us how,you use TrebleShot and shape what's next. This is an open survey where you get to saysomething and tell us about what you expect of TrebleShot. Please, take your time becausethis will be here for a while. And whenever you are ready submit yourform.\n\nPlease note that this does not disappear when you submit the survey. The survey takes place on Google Forms.,"
+    },
+    {
+      "name": "butn_temp_doIt",
+      "value": "Do it"
+    },
+    {
+      "name": "butn_temp_later",
+      "value": "Later"
+    },
+    {
+      "name": "mesg_temp_noBrowser",
+      "value": "You have no browser to open this link!"
+    },
+    {
+      "name": "butn_send",
+      "value": "发送"
+    },
+    {
+      "name": "mode_middleDot",
+      "value": " ·"
+    },
+    {
+      "name": "managedevicesactivity_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "texteditorability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "mode_itemCountedDetailed",
+      "value": "%s (%s)"
+    },
+    {
+      "name": "share_web_notification_text",
+      "value": "通过浏览器网页分享-TrebleShot可以分享文件了"
+    },
+    {
+      "name": "filedetailsability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "ipdetailsability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+
+  ]
+}

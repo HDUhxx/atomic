@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_content"
+    ohos:height="match_content"
+    ohos:alignment="center">
+
+    <DirectionalLayout
+        ohos:width="match_content"
+        ohos:height="200vp"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:left_padding="100vp"
+        ohos:right_padding="24vp"
+        ohos:top_padding="24vp"
+        ohos:bottom_padding="10vp"
+        ohos:theme="$pattern:ACTextAppearance_Primary">
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="10vp"
+            ohos:text="$string:ques_shareAsApkOrLink"/>
+
+        <DirectionalLayout
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:orientation="horizontal"
+            ohos:alignment="center">
+            <Button
+                ohos:id="$+id:app_share_apk"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="$string:butn_asApk"/>
+
+            <Button
+                ohos:id="$+id:app_share_cancel"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="$string:butn_cancel"/>
+
+            <Button
+                ohos:id="$+id:app_share_aslink"
+                ohos:width="match_content"
+                ohos:height="60vp"
+                ohos:left_padding="40vp"
+                ohos:text_color="#66bb6a"
+                ohos:text="$string:butn_asLink"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

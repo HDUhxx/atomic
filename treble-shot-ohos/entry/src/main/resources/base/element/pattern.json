@@ -1,0 +1,188 @@
+{
+  "pattern": [
+    {
+      "name": "base",
+      "value": [
+        {
+          "name": "width",
+          "value": "100vp"
+        },
+        {
+          "name": "height",
+          "value": "100vp"
+        },
+        {
+          "name": "size",
+          "value": "25px"
+        }
+      ]
+    },
+    {
+      "name": "child",
+      "parent": "base",
+      "value": [
+        {
+          "name": "noTitile",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "name": "ListContentIconStyle",
+      "value": [
+        {
+          "name": "width",
+          "value": "$float:icon_size_list_big"
+        },
+        {
+          "name": "height",
+          "value": "$float:icon_size_list_normal"
+        },
+        {
+          "name": "left_margin",
+          "value": "$float:padding_list_content_icon_main_margin_left"
+        },
+        {
+          "name": "end_margin",
+          "value": "$float:padding_list_content_icon_main_margin_right"
+        }
+      ]
+    },
+    {
+      "name": "TextAppearance",
+      "value": [
+        {
+          "name": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "name": "ACTextAppearance_Primary",
+      "value": [
+        {
+          "name": "text_size",
+          "value": "$float:font_size_primary"
+        }
+      ],
+      "parent": "TextAppearance"
+    },
+    {
+      "name": "TextAppearance_Primary",
+      "value": [
+        {
+          "name": "text_size",
+          "value": "$float:font_size_primary"
+        },
+        {
+          "name": "text_color",
+          "value": "#FF1C1C1C"
+        }
+      ],
+      "parent": "TextAppearance"
+    },
+    {
+      "name": "TextAppearance_Secondary",
+      "value": [
+        {
+          "name": "text_size",
+          "value": "$float:font_size_secondary"
+        },
+        {
+          "name": "text_color",
+          "value": "#FF404040"
+        }
+      ]
+    },
+    {
+      "name": "TextAppearance_Secondary_SingleLine",
+      "value": [
+        {
+          "name": "max_text_lines",
+          "value": "1"
+        },
+        {
+          "name": "truncation_mode",
+          "value": "ellipsis_at_end"
+        }
+      ]
+    },
+    {
+      "name": "ListContentLayoutStyle",
+      "value": [
+        {
+          "name": "padding",
+          "value": "$float:padding_list_content_parent_layout"
+        }
+      ]
+    },
+    {
+      "name": "OverflowButton",
+      "value": [
+        {
+          "name": "width",
+          "value": "48vp"
+        },
+        {
+          "name": "height",
+          "value": "48vp"
+        },
+        {
+          "name": "image_src",
+          "value": "$graphic:ic_more_vert_white_24dp"
+        },
+        {
+          "name": "scale_mode",
+          "value": "center"
+        },
+        {
+          "name": "focusable",
+          "value": "focus_disable"
+        },
+        {
+          "name": "focusable_in_touch",
+          "value": "false"
+        }
+      ]
+    },
+    {
+      "name": "TextAppearance_Secondary_Small_SingleLine",
+      "value": [
+        {
+          "name": "truncation_mode",
+          "value": "ellipsis_at_end"
+        },
+        {
+          "name": "max_text_lines",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "name": "ListContentLayoutStyle_Narrow_WithOverflowButton",
+      "value": [
+        {
+          "name": "right_padding",
+          "value": "$float:padding_list_content_narrow_parent_layout"
+        }
+      ]
+    },
+    {
+      "name": "TextSeparatorMiddleDot",
+      "value": [
+        {
+          "name": "right_padding",
+          "value": "10vp"
+        },
+        {
+          "name": "left_margin",
+          "value": "10vp"
+        },
+        {
+          "name": "text",
+          "value": "$string:mode_middleDot"
+        }
+      ]
+    }
+  ]
+}

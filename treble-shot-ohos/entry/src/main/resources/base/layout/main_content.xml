@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <include ohos:id="$+id:actionbar_control"
+             ohos:layout="$layout:main_action_simple_header"
+             ohos:width="match_parent"
+             ohos:height="match_content"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:main_content_container"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:id="$+id:network_not_available"
+            ohos:visibility="hide"
+            ohos:height="match_content"
+            ohos:top_margin="20vp"
+            ohos:alignment="horizontal_center"
+            ohos:width="match_parent">
+            <Text
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:bottom_margin="20vp"
+                ohos:text="$string:mesg_noInternetConnection" />
+            <Image
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:image_src="$graphic:ic_github_circle_white_24dp" />
+
+        </DirectionalLayout>
+
+        <ListContainer
+            ohos:id="$+id:main_content_list"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:orientation="vertical"/>
+        <!--
+        <include ohos:id="$+id:popup_menu_control"
+                      ohos:visibility="hide"
+                      ohos:layout="$layout:main_action_simple_menu"
+                      ohos:width="match_parent"
+                      ohos:layout_alignment="center"
+                      ohos:height="match_content"/> -->
+
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:layout_alignment="horizontal_center"
+    ohos:left_margin="30vp"
+    ohos:orientation="vertical"
+    ohos:right_margin="30vp">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="horizontal_center"
+        ohos:background_element="$graphic:background_text_white"
+        ohos:layout_alignment="horizontal_center"
+        ohos:left_margin="30vp"
+        ohos:orientation="vertical"
+        ohos:right_margin="30vp">
+
+        <Text
+            ohos:id="$+id:input_dialog_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="20vp"
+            ohos:text="$string:butn_enterIpAddress"
+            ohos:text_color="black"
+            ohos:text_size="30vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:weight="1">
+
+            <TextField
+                ohos:id="$+id:input_dialog_text_field"
+                ohos:height="40vp"
+                ohos:width="match_content"
+                ohos:left_padding="20vp"
+                ohos:right_padding="20vp"
+                ohos:focusable="focus_enable"
+                ohos:hint="请输入"
+                ohos:text_size="20vp"/>
+
+            <Component
+                ohos:height="0.5vp"
+                ohos:width="match_parent"
+                ohos:background_element="black"
+                ohos:left_margin="20vp"
+                ohos:right_margin="20vp"/>
+        </DirectionalLayout>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal">
+
+            <Button
+                ohos:id="$+id:input_dialog_cancle"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="20vp"
+                ohos:text="$string:butn_close"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="20vp"/>
+
+            <Component
+                ohos:height="0vp"
+                ohos:width="0vp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:input_dialog_ok2"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:padding="20vp"
+                ohos:right_margin="10vp"
+                ohos:text="$string:butn_connect"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="20vp"/>
+        </DirectionalLayout>
+
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

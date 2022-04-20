@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <DirectionalLayout
+        ohos:id="$+id:content_view"
+        ohos:height="60vp"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="$color:windowBackground"
+        ohos:layout_alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:ima_back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:arrow_left"
+            ohos:left_margin="10vp"
+            ohos:left_padding="10vp"
+            ohos:right_padding="10vp"
+            ohos:scale_x="3"
+            ohos:scale_y="3"/>
+
+
+        <StackLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$color:white"
+            ohos:layout_alignment="vertical_center"
+            ohos:left_margin="10vp">
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:orientation="horizontal">
+
+
+                <Text
+                    ohos:id="$+id:txt_title"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:layout_alignment="center"
+                    ohos:text="文本编辑器"
+                    ohos:text_color="$color:black_dominant"
+                    ohos:text_size="50"
+                    ohos:weight="1.0"/>
+
+                <Component
+                    ohos:id="$+id:tf_view"
+                    ohos:height="match_content"
+                    ohos:width="0vp"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:max_text_lines="1"
+                    ohos:text_alignment="vertical_center"
+                    ohos:weight="1.0"/>
+
+                <Image
+                    ohos:id="$+id:ima_send"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$graphic:ic_send_white_24dp"
+                    ohos:left_margin="10vp"
+                    ohos:right_margin="10vp"
+                    ohos:scale_x="1"
+                    ohos:scale_y="1"
+                    ohos:text="发送"/>
+
+                <Image
+                    ohos:id="$+id:ima_more"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$graphic:ic_more_vert_white_24dp"
+                    ohos:left_padding="10vp"
+                    ohos:right_padding="10vp"/>
+
+            </DirectionalLayout>
+
+        </StackLayout>
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:id="$+id:genfw_customListFragment_customViewContainer"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:visibility="hide"/>
+
+    <StackLayout
+        ohos:id="$+id:genfw_customListFragment_defaultViewContainer"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <ProgressBar
+            ohos:id="$+id:genfw_customListFragment_progressView"
+            ohos:height="match_content"
+            ohos:width="210vp"
+            ohos:layout_alignment="center"
+            ohos:orientation="horizontal"
+            ohos:visibility="hide"/>
+
+        <StackLayout
+            ohos:id="$+id:genfw_customListFragment_container"
+            ohos:height="match_parent"
+            ohos:width="match_parent">
+
+            <StackLayout
+                ohos:id="$+id:genfw_customListFragment_listViewContainer"
+                ohos:height="match_parent"
+                ohos:width="match_parent"/>
+
+            <DirectionalLayout
+                ohos:id="$+id:genfw_customListFragment_emptyView"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:layout_alignment="vertical_center"
+                ohos:left_padding="15vp"
+                ohos:orientation="vertical"
+                ohos:right_padding="15vp"
+                ohos:visibility="hide">
+
+                <Image
+                    ohos:id="$+id:genfw_customListFragment_emptyImageView"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:padding="10vp"/>
+
+                <Text
+                    ohos:id="$+id:genfw_customListFragment_emptyTextView"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="vertical_center"
+                    ohos:max_text_lines="5"
+                    ohos:top_margin="15vp"/>
+
+                <Button
+                    ohos:id="$+id:genfw_customListFragment_emptyActionButton"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:top_margin="16vp"
+                    ohos:visibility="hide"/>
+
+            </DirectionalLayout>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>

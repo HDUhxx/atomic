@@ -1,0 +1,180 @@
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_text_white"
+        ohos:margin="25vp"
+        ohos:orientation="vertical"
+        ohos:padding="24vp">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="20vp"
+            ohos:text="详细信息"
+            ohos:text_color="$color:black_dominant"
+            ohos:text_size="17fp"/>
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_fileName"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Text
+            ohos:id="$+id:transfer_info_file_name"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:max_text_lines="4"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+        <Component
+            ohos:height="10vp"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_fileSize"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Text
+            ohos:id="$+id:transfer_info_file_size"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_empty"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+
+        <Component
+            ohos:height="10vp"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_fileMime"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Text
+            ohos:id="$+id:transfer_info_file_mime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_empty"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+        <Component
+            ohos:height="10vp"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_fileStatus"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Text
+            ohos:id="$+id:transfer_info_file_status"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_empty"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+        <DirectionalLayout
+            ohos:id="$+id:transfer_info_incoming_details_layout"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="vertical"
+            ohos:visibility="hide">
+
+            <Component
+                ohos:height="10vp"
+                ohos:width="match_content"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:text_receivedSize"
+                ohos:theme="$pattern:TextAppearance_Primary"/>
+
+            <Text
+                ohos:id="$+id:transfer_info_received_size"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:text_empty"
+                ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+        </DirectionalLayout>
+
+        <Component
+            ohos:height="10vp"
+            ohos:width="match_content"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:text_location"
+            ohos:theme="$pattern:TextAppearance_Primary"/>
+
+        <Text
+            ohos:id="$+id:transfer_info_pseudo_location"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:max_text_lines="20"
+            ohos:text="$string:text_empty"
+            ohos:theme="$pattern:TextAppearance_Secondary"/>
+
+        <DirectionalLayout
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="20vp">
+
+            <Text
+                ohos:id="$+id:teOpen"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="打开"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+            <Component
+                ohos:height="0vp"
+                ohos:width="match_parent"
+                ohos:weight="1"/>
+
+            <Text
+                ohos:id="$+id:teRemove"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="移除"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+            <Text
+                ohos:id="$+id:teClose"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="关闭"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+</ScrollView>

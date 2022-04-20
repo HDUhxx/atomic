@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress HosTagNotAllowed -->
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:top_padding="20vp"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:action_bar"
+        ohos:width="match_parent"
+        ohos:height="match_content">
+        <include ohos:id="$+id:actionbar_control"
+                 ohos:layout="$layout:web_share_header"
+                 ohos:width="match_parent"
+                 ohos:height="match_content"/>
+    </DirectionalLayout>
+
+    <!--
+    120sp will automatically adapt when globally bigger fonts are assigned.
+    So with 18sp text we should expect 6 lines of text to fit.
+    -->
+    <Text
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:alignment="center"
+        ohos:left_padding="15vp"
+        ohos:top_padding="20vp"
+        ohos:right_padding="15vp"
+        ohos:bottom_padding="20vp"
+        ohos:multiple_lines="true"
+        ohos:text_size="$float:font_size_big"
+        ohos:text="$string:text_webShareInfo" />
+
+    <StackLayout
+        ohos:id="$+id:web_share_listViewContainer"
+        ohos:width="match_parent"
+        ohos:height="600vp">
+
+        <DirectionalLayout
+            ohos:id="$+id:web_share_empty"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:alignment="center"
+            ohos:visibility="hide">
+
+            <Image
+                ohos:height="48vp"
+                ohos:width="48vp"
+                ohos:component_description="$string:text_image"
+                ohos:image_src="$graphic:ic_share_white_24dp"
+                ohos:layout_alignment="center"/>
+            <Text
+                ohos:id="$+id:web_share_empty_text"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="$string:text_listEmptyConnection"
+                ohos:max_text_lines="3"
+                ohos:theme="$pattern:ACTextAppearance_Primary"/>
+
+        </DirectionalLayout>
+
+        <ListContainer
+            ohos:id="$+id:active_connection_list"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="20vp"
+            ohos:orientation="vertical"/>
+
+        <Image
+            ohos:id="$+id:play_pause_btn"
+            ohos:width="40vp"
+            ohos:height="40vp"
+            ohos:padding="5vp"
+            ohos:top_margin="160vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:background_element="$graphic:background_circle_button"
+            ohos:image_src="$graphic:ic_play_arrow_white_24dp"/>
+
+    </StackLayout>
+
+</DirectionalLayout>

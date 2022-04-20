@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:previous_button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:arrow_left"
+        ohos:layout_alignment="left|vertical_center"
+        ohos:left_padding="10vp"
+        ohos:scale_x="3"
+        ohos:scale_y="3"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:common_container"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:alignment="center"
+            ohos:left_padding="30vp"
+            ohos:right_padding="30vp"
+            ohos:text="$string:butn_webShare"
+            ohos:text_color="#000000"
+            ohos:text_size="$float:font_size_title"/>
+
+        <Image
+            ohos:id="$+id:search_icon"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_search_white_24dp"
+            ohos:layout_alignment="right"
+            ohos:scale_mode="center"
+            ohos:top_padding="1vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:search_container"
+        ohos:height="30vp"
+        ohos:width="match_parent"
+        ohos:left_margin="90vp"
+        ohos:orientation="horizontal"
+        ohos:visibility="hide">
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_search_white_24dp"
+            ohos:layout_alignment="left|vertical_center"
+            ohos:scale_mode="center"
+            ohos:top_padding="3vp"/>
+
+        <TextField
+            ohos:id="$+id:search_box_control"
+            ohos:height="40vp"
+            ohos:width="180vp"
+            ohos:basement="#000099"
+            ohos:left_padding="20vp"
+            ohos:text_size="$float:font_size_big"/>
+
+        <Image
+            ohos:id="$+id:close_icon"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$graphic:ic_close_white_24dp"
+            ohos:layout_alignment="left|vertical_center"
+            ohos:scale_mode="center"
+            ohos:top_padding="1vp"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

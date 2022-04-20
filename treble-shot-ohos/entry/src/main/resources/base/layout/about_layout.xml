@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:id="$+id:toolbar"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_padding="20vp">
+        <!--suppress HosTagNotAllowed -->
+        <include
+            ohos:id="$+id:actionbar_control"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout="$layout:about_layout_header"/>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:id="$+id:ac_scrollview"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:bottom_padding="16vp"
+        ohos:top_margin="32vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:background_element="$graphic:os_black_bg"
+                ohos:left_margin="$float:short_content_width_padding"
+                ohos:orientation="vertical"
+                ohos:right_margin="15vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="center"
+                    ohos:bottom_padding="15vp"
+                    ohos:left_padding="15vp"
+                    ohos:orientation="vertical"
+                    ohos:right_padding="15vp">
+
+                    <Image
+                        ohos:id="$+id:orgIcon"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:bottom_margin="15vp"
+                        ohos:image_src="$graphic:ic_genonbeta_white_36dp"
+                        ohos:padding="15vp"/>
+
+                    <Text
+                        ohos:height="30vp"
+                        ohos:width="match_content"
+                        ohos:alignment="center"
+                        ohos:multiple_lines="true"
+                        ohos:text="$string:text_aboutSummary"/>
+
+                </DirectionalLayout>
+
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_see_source_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_github_circle_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:butn_seeSourceCode"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_translate_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_translate_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:text_translateTrebleshot"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_third_party_libraries_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_copyright_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:id="$+id:slice_about_third_party_libraries_text"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:text_thirdPartyLibraries"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_changelog_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_autorenew_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:butn_changelog"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_telegram_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_telegram_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:butn_telegram_channel"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_option_fourth_layout"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15vp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_system_update_white_24dp"
+                        ohos:left_margin="15vp"
+                        ohos:right_margin="30vp"/>
+
+                    <Text
+                        ohos:id="$+id:slice_about_option_fourth_text"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:butn_checkForUpdates"/>
+
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:os_black_bg"
+                ohos:bottom_margin="15vp"
+                ohos:left_margin="$float:short_content_width_padding"
+                ohos:padding="10vp"
+                ohos:right_margin="$float:short_content_width_padding"
+                ohos:top_margin="15vp">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:multiple_lines="true"
+                    ohos:padding="5vp"
+                    ohos:text="$string:conf_licence"
+                    ohos:text_size="13fp"/>
+
+            </DirectionalLayout>
+
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="top|horizontal_center"
+                ohos:background_element="$graphic:os_black_bg"
+                ohos:left_margin="$float:short_content_width_padding"
+                ohos:min_height="400vp"
+                ohos:orientation="vertical"
+                ohos:padding="5vp"
+                ohos:right_margin="15vp">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:text_contributors"/>
+
+                <DirectionalLayout
+                    ohos:id="$+id:slice_about_contributors_empty"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="horizontal_center"
+                    ohos:top_margin="20vp"
+                    ohos:visibility="hide">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:bottom_margin="20vp"
+                        ohos:text="$string:mesg_noInternetConnection"/>
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_github_circle_white_24dp"/>
+
+                </DirectionalLayout>
+
+                <ListContainer
+                    ohos:id="$+id:slice_about_contributors_container"
+                    ohos:height="match_parent"
+                    ohos:width="match_parent"
+                    ohos:bottom_margin="10vp"
+                    ohos:min_height="400vp"/>
+
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

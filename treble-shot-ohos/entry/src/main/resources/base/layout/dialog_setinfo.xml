@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:padding="20vp"
+    ohos:background_element="$color:colorTranslucent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:top_margin="40vp"
+        ohos:id="$+id:first_char"
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:clickable="false"
+        ohos:layout_alignment="center"
+        ohos:text="H"
+        ohos:text_color="$color:black_dominant"
+        ohos:text_size="50vp"
+        ohos:background_element="$graphic:os_circle_image_element"/>
+
+    <Text
+        ohos:id="$+id:dev_name"
+        ohos:top_margin="5vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="20vp"
+        ohos:layout_alignment="center"
+        ohos:text_color="$color:black_dominant"
+        ohos:text="Device Name"/>
+
+    <Text
+        ohos:top_margin="15vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="20vp"
+        ohos:text_color="$color:black_dominant"
+        ohos:text="设备名"/>
+
+    <Text
+        ohos:id="$+id:dev_nick_name"
+        ohos:top_margin="5vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="15vp"
+        ohos:text_color="$color:dark_contentShowingBackground"
+        ohos:text="设备名"/>
+
+    <Text
+        ohos:top_margin="15vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="20vp"
+        ohos:text_color="$color:black_dominant"
+        ohos:text="版本"/>
+
+    <Text
+        ohos:id="$+id:dev_version"
+        ohos:top_margin="5vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="15vp"
+        ohos:text_color="$color:dark_contentShowingBackground"
+        ohos:text="1.4.2"/>
+    <DirectionalLayout
+        ohos:top_padding="15vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:weight="1.0"
+            ohos:text_size="20vp"
+            ohos:text_color="$color:black_dominant"
+            ohos:text="允许连接"/>
+        <Switch
+            ohos:id="$+id:dev_con"
+            ohos:height="30vp"
+            ohos:width="70vp"
+            ohos:text_color="$color:white"
+            ohos:text_state_off="OFF"
+            ohos:text_state_on="ON"/>
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:top_padding="15vp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:weight="1.0"
+            ohos:text_size="20vp"
+            ohos:text_color="$color:black_dominant"
+            ohos:text="设置为信任域"/>
+        <Switch
+            ohos:id="$+id:dev_trust"
+            ohos:height="30vp"
+            ohos:width="70vp"
+            ohos:text_color="$color:white"
+            ohos:text_state_off="OFF"
+            ohos:text_state_on="ON"/>
+    </DirectionalLayout>
+    <DirectionalLayout
+        ohos:top_margin="20vp"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        ohos:width="match_parent">
+
+        <Button
+            ohos:id="$+id:dev_update"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:left_padding="20vp"
+            ohos:text_color="$color:colorSecondary"
+            ohos:text="更新"
+            ohos:text_alignment="left"
+            ohos:text_size="15vp"
+            ohos:weight="1.0"/>
+
+        <Button
+            ohos:id="$+id:dev_remove"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:text_color="$color:colorSecondary"
+            ohos:text="移除"
+            ohos:text_size="15vp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:dev_close"
+            ohos:height="match_content"
+            ohos:width="0"
+            ohos:text_color="$color:colorSecondary"
+            ohos:text="关闭"
+            ohos:text_size="15vp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+</DirectionalLayout>

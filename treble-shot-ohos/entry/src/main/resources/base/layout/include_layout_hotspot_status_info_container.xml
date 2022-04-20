@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    ohos:id="$+id:layout_hotspot_status_info_container"
+    ohos:width="match_parent"
+    ohos:height="match_content"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:top_padding="15vp"
+    ohos:bottom_padding="15vp">
+
+    <DirectionalLayout
+        ohos:id="$+id:layout_hotspot_manager_info_container_text1_container"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:alignment="center"
+        ohos:orientation="horizontal"
+        ohos:left_padding="30vp"
+        ohos:top_padding="15vp"
+        ohos:right_padding="30vp"
+        ohos:bottom_padding="15vp">
+
+        <Text
+            ohos:id="$+id:layout_hotspot_manager_info_container_text1"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:text_alignment="center"
+            ohos:max_text_lines="5"
+            ohos:text="$string:text_qrCodeHotspotDisabledHelp" />
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:layout_hotspot_manager_info_toggle_button"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="$string:butn_startHotspot"
+        ohos:text_color="$color:colorSecondary" />
+
+
+    <DirectionalLayout
+        ohos:id="$+id:layout_hotspot_manager_info_container_text2_container"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:height="match_content"
+        ohos:padding="15vp">
+
+        <StackLayout
+            ohos:height="match_content"
+            ohos:width="match_parent">
+            <Image
+                ohos:id="$+id:layout_hotspot_manager_info_container_text2_icon"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:left_margin="20vp"
+                app:image_src="$graphic:ic_wifi_tethering_white_24dp" />
+
+            <Text
+                ohos:id="$+id:layout_hotspot_manager_info_container_text2"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:layout_alignment="center"
+                ohos:max_text_lines="1"
+                ohos:text="$string:text_unknown" />
+        </StackLayout>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:layout_hotspot_manager_info_container_text3_container"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:height="match_content"
+        ohos:padding="15vp">
+        <StackLayout
+            ohos:height="match_content"
+            ohos:width="match_parent">
+            <Image
+                ohos:id="$+id:layout_hotspot_manager_info_container_text3_icon"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:left_margin="20vp"
+                app:image_src="$graphic:ic_vpn_key_white_24dp" />
+            <Text
+                ohos:id="$+id:layout_hotspot_manager_info_container_text3"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:layout_alignment="center"
+                ohos:max_text_lines="1"
+                ohos:text="$string:text_unknown" />
+        </StackLayout>
+
+    </DirectionalLayout>
+</DirectionalLayout>
+

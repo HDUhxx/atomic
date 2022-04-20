@@ -1,0 +1,44 @@
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:top_padding="15vp"
+    ohos:bottom_padding="15vp"
+    ohos:left_padding="15vp"
+    ohos:right_padding="15vp"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:contributor_image_control"
+        ohos:height="30vp"
+        ohos:width="30vp"
+        ohos:align_parent_left="true"
+        ohos:align_parent_start="true"
+        ohos:end_margin="25vp"
+        ohos:image_src="$graphic:ic_github_circle_white_24dp"
+        ohos:right_margin="25vp"
+        ohos:vertical_center="true"/>
+
+    <Text
+        ohos:id="$+id:contributor_name_text"
+        ohos:height="match_content"
+        ohos:width="190vp"
+        ohos:max_text_lines="3"
+        ohos:theme="$pattern:TextAppearance_Primary"
+        ohos:vertical_center="true"/>
+
+
+    <Image
+        ohos:id="$+id:contributor_visitView"
+        ohos:height="22vp"
+        ohos:width="22vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:align_parent_end="true"
+        ohos:align_parent_right="true"
+        ohos:image_src="$graphic:ic_open_in_new_white_24dp"
+        ohos:left_margin="10vp"
+        ohos:start_margin="10vp"
+        ohos:theme="$pattern:OverflowButton"
+        ohos:vertical_center="true"/>
+
+</DirectionalLayout>

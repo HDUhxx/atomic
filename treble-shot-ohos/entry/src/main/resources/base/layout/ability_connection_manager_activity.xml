@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:id="$+id:content_view"
+            ohos:height="60vp"
+            ohos:width="match_parent"
+            ohos:alignment="vertical_center"
+            ohos:background_element="$color:windowBackground"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:ima_back"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:arrow_left"
+                ohos:left_margin="10vp"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:scale_x="3"
+                ohos:scale_y="3"/>
+
+
+            <StackLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:background_element="$color:white"
+                ohos:layout_alignment="vertical_center"
+                ohos:left_margin="10vp">
+
+                <DirectionalLayout
+                    ohos:height="match_parent"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:orientation="horizontal">
+
+
+                    <Text
+                        ohos:id="$+id:txt_title"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:layout_alignment="center"
+                        ohos:text="接收"
+                        ohos:text_color="$color:black_dominant"
+                        ohos:text_size="50"
+                        ohos:weight="1.0"/>
+
+                    <Component
+                        ohos:id="$+id:tf_view"
+                        ohos:height="match_content"
+                        ohos:width="0vp"
+                        ohos:layout_alignment="vertical_center"
+                        ohos:max_text_lines="1"
+                        ohos:text_alignment="vertical_center"
+                        ohos:weight="1.0"/>
+
+                    <Image
+                        ohos:id="$+id:ima_find"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$graphic:ic_refresh_white_24dp"
+                        ohos:left_padding="10vp"
+                        ohos:right_padding="10vp"/>
+
+                </DirectionalLayout>
+
+            </StackLayout>
+
+        </DirectionalLayout>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:os_black_bg"
+            ohos:left_margin="$float:short_content_width_padding"
+            ohos:orientation="vertical"
+            ohos:right_margin="$float:short_content_width_padding"
+            ohos:top_margin="15vp">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:padding="10vp">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:bottom_padding="15vp"
+                    ohos:left_padding="25vp"
+                    ohos:multiple_lines="true"
+                    ohos:orientation="vertical"
+                    ohos:right_padding="25vp"
+                    ohos:text="$string:text_connectionHelp"
+                    ohos:text_size="16fp"
+                    ohos:theme="$pattern:TextAppearance_Secondary"
+                    ohos:top_padding="15vp"/>
+
+                <DirectionalLayout
+                    ohos:id="$+id:connection_option_guide"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15fp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:end_margin="30fp"
+                        ohos:image_src="$graphic:ic_help_circle_white_24dp"
+                        ohos:left_margin="10fp"
+                        ohos:right_margin="30fp"
+                        ohos:start_margin="10fp"/>
+
+
+                    <Text
+                        ohos:id="$+id:teNeedHelp"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:max_text_lines="1"
+                        ohos:text="$string:ques_needHelp"
+                        ohos:text_color="$color:black_surface"
+                        ohos:text_font="sans-serif-condensed"
+                        ohos:text_size="16fp"
+                        ohos:text_weight="400"
+                        ohos:truncation_mode="ellipsis_at_end"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:connection_option_hotspot"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15fp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:end_margin="30fp"
+                        ohos:image_src="$graphic:ic_wifi_tethering_white_24dp"
+                        ohos:left_margin="10fp"
+                        ohos:right_margin="30fp"
+                        ohos:start_margin="10fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:max_text_lines="1"
+                        ohos:text="$string:butn_startHotspot"
+                        ohos:text_color="$color:black_surface"
+                        ohos:text_font="sans-serif-condensed"
+                        ohos:text_size="16fp"
+                        ohos:truncation_mode="ellipsis_at_end"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:connection_option_network"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15fp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:end_margin="30fp"
+                        ohos:image_src="$graphic:ic_wifi_white_24dp"
+                        ohos:left_margin="10fp"
+                        ohos:right_margin="30fp"
+                        ohos:start_margin="10fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:max_text_lines="1"
+                        ohos:text="$string:butn_useExistingNetwork"
+                        ohos:text_color="$color:black_surface"
+                        ohos:text_font="sans-serif-condensed"
+                        ohos:text_size="16fp"
+                        ohos:text_weight="400"
+                        ohos:truncation_mode="ellipsis_at_end"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:connection_option_scan"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15fp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:end_margin="30fp"
+                        ohos:image_src="$graphic:ic_qrcode_scan_white_24dp"
+                        ohos:left_margin="10fp"
+                        ohos:right_margin="30fp"
+                        ohos:start_margin="10fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:max_text_lines="1"
+                        ohos:text="$string:butn_scanQrCode"
+                        ohos:text_color="$color:black_surface"
+                        ohos:text_font="sans-serif-condensed"
+                        ohos:text_size="16fp"
+                        ohos:text_weight="400"
+                        ohos:truncation_mode="ellipsis_at_end"/>
+
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:connection_option_manual_ip"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$color:white"
+                    ohos:orientation="horizontal"
+                    ohos:padding="15fp">
+
+                    <Image
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:end_margin="30fp"
+                        ohos:image_src="$graphic:ic_ip_white_24dp"
+                        ohos:left_margin="10fp"
+                        ohos:right_margin="30fp"
+                        ohos:start_margin="10fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:max_text_lines="1"
+                        ohos:text="$string:butn_enterIpAddress"
+                        ohos:text_color="$color:black_surface"
+                        ohos:text_font="sans-serif-condensed"
+                        ohos:text_size="16fp"
+                        ohos:text_weight="400"
+                        ohos:truncation_mode="ellipsis_at_end"/>
+
+                </DirectionalLayout>
+
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="$float:short_content_width_padding"
+            ohos:right_margin="$float:short_content_width_padding">
+
+            <Button
+                ohos:id="$+id:connection_option_devices"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:align_parent_end="true"
+                ohos:align_parent_right="true"
+                ohos:padding="3fp"
+                ohos:text="$string:butn_open"
+                ohos:text_color="$color:ic_launcher_background"
+                ohos:text_size="16fp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:align_parent_left="true"
+                ohos:align_parent_right="true"
+                ohos:left_margin="8fp"
+                ohos:left_of="$id:connection_option_devices"
+                ohos:start_margin="8fp"
+                ohos:start_of="$id:connection_option_devices"
+                ohos:text="$string:butn_useKnownDevice"
+                ohos:text_size="16fp"
+                ohos:vertical_center="true"/>
+
+        </DependentLayout>
+
+        <!--        <fragment-->
+        <!--            ohos:id="$+id:connection_option_device_list"-->
+        <!--            ohos:height="260fp"-->
+        <!--            ohos:width="match_parent"-->
+        <!--            ohos:name="com.genonbeta.TrebleShot.fragment.CustomNetworkDeviceListFragment"-->
+        <!--            ohos:tag="deviceListFragment"/>-->
+
+
+        <StackLayout
+            ohos:height="260vp"
+            ohos:width="match_parent"
+            ohos:layout_alignment="horizontal_center">
+
+            <ListContainer
+                ohos:id="$+id:listText1"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:align_parent_top="true"
+                ohos:orientation="vertical"/>
+
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:layout_alignment="center"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:id="$+id:emptyView1"
+                    ohos:alignment="center"
+                    ohos:width="match_parent">
+
+                    <Image
+                        ohos:height="50vp"
+                        ohos:width="50vp"
+                        ohos:center_in_parent="true"
+                        ohos:layout_alignment="center"
+                        ohos:padding="10vp"
+                        ohos:bottom_margin="20vp"
+                        ohos:background_element="$graphic:background_circle_button"
+                        ohos:image_src="$graphic:ic_devices_white_24dp_os"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_parent"
+                        ohos:center_in_parent="true"
+                        ohos:text_alignment="center"
+                        ohos:text="$string:text_findDevicesHint"
+                        ohos:text_color="$color:black_dominant"
+                        ohos:text_size="18fp"/>
+                </DirectionalLayout>
+
+                <Button
+                    ohos:id="$+id:bt_scan"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:background_element="$graphic:background_radio_button"
+                    ohos:top_padding="5vp"
+                    ohos:bottom_padding="5vp"
+                    ohos:left_padding="30vp"
+                    ohos:right_padding="30vp"
+                    ohos:text="扫描"
+                    ohos:text_color="$color:white"
+                    ohos:text_size="18fp"
+                    ohos:top_margin="20vp"/>
+
+            </DirectionalLayout>
+
+        </StackLayout>
+
+    </DirectionalLayout>
+
+
+</ScrollView>
