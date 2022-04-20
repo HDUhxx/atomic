@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "FilePicker",
+        "License": "Apache License",
+        "License File": "LICENSE",
+        "Version Number": "v8.0.19",
+        "Upstream URL": "https://github.com/TutorialsAndroid/FilePicker",
+        "Description": "从设备存储中选择文件/目录。"
+    }
+]

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="vertical_center"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:image_type"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="8vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0vp"
+        ohos:alignment="vertical_center"
+        ohos:margin="8vp"
+        ohos:orientation="vertical"
+        ohos:weight="1">
+
+        <Text
+            ohos:id="$+id:fname"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_color="#232323"
+            ohos:text_size="14fp"/>
+
+        <Text
+            ohos:id="$+id:ftype"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_color="#696969"
+            ohos:text_size="11fp"
+            ohos:top_margin="6vp"/>
+    </DirectionalLayout>
+
+    <com.developer.filepicker.widget.MaterialCheckbox
+        ohos:id="$+id:file_mark"
+        ohos:height="24vp"
+        ohos:width="24vp"
+        ohos:layout_alignment="vertical_center"
+        ohos:right_margin="8vp"/>
+</DirectionalLayout>

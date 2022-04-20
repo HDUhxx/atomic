@@ -1,0 +1,65 @@
+{
+  "app": {
+    "bundleName": "com.developer.filepicker.file",
+    "vendor": "developer",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.developer.filepicker",
+    "deviceType": [
+      "phone"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.WRITE_MEDIA",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "me.jagar.chatvoiceplayerlibrary"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "me.jagar.chatvoiceplayerlibrary"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.MICROPHONE",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "me.jagar.chatvoiceplayerlibrary"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "reason",
+        "usedScene": {
+          "ability": [
+            "me.jagar.chatvoiceplayerlibrary"
+          ],
+          "when": "always"
+        }
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "library",
+      "moduleType": "har"
+    }
+  }
+}

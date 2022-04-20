@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:id="$+id:header"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:background_element="#3F51B5"
+        ohos:orientation="horizontal"
+        ohos:padding="10vp">
+
+        <Image
+            ohos:id="$+id:imageView"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:image_src="$media:ic_directory_parent"
+            ohos:left_margin="10vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="vertical">
+
+            <DependentLayout
+                ohos:height="match_content"
+                ohos:width="match_parent">
+
+                <Text
+                    ohos:id="$+id:dname"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:text_color="#FFFFFF"
+                    ohos:text_size="16fp"/>
+
+                <Text
+                    ohos:id="$+id:title"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="16vp"
+                    ohos:text_color="#FFFFFF"
+                    ohos:text_size="16fp"
+                    ohos:visibility="invisible"/>
+            </DependentLayout>
+
+            <Text
+                ohos:id="$+id:dir_path"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="16fp"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="14fp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:id="$+id:fileList"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:above="$+id:footer"
+        ohos:below="$+id:header"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:footer"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:cancel"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:margin="8vp"
+            ohos:padding="4vp"
+            ohos:text="CANCEL"
+            ohos:text_color="#F00"
+            ohos:text_size="14fp"/>
+
+        <Button
+            ohos:id="$+id:select"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:margin="8vp"
+            ohos:padding="4vp"
+            ohos:text="SELECT"
+            ohos:text_color="$color:bt_pink"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+</DependentLayout>

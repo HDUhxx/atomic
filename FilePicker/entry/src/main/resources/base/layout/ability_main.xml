@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#303F9F"
+        ohos:padding="15vp"
+        ohos:text="$string:app_name"
+        ohos:text_color="#FFFFFF"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_size="20fp"/>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:padding="15vp">
+
+            <ListContainer
+                ohos:id="$+id:listView"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:bottom_margin="15vp"
+                ohos:focusable="focus_disable"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="Selection Mode"
+                ohos:text_color="#232323"
+                ohos:text_font="sans-serif-condensed-medium"
+                ohos:text_size="16fp"/>
+
+            <RadioContainer
+                ohos:id="$+id:modeRadio"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <RadioButton
+                    ohos:id="$+id:singleRadio"
+                    ohos:height="40vp"
+                    ohos:width="match_content"
+                    ohos:text="Single"
+                    ohos:text_size="16fp"/>
+
+                <RadioButton
+                    ohos:id="$+id:multiRadio"
+                    ohos:height="40vp"
+                    ohos:width="match_content"
+                    ohos:text="Multiple"
+                    ohos:text_size="16fp"/>
+            </RadioContainer>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="Selection Type"
+                ohos:text_color="#232323"
+                ohos:text_font="sans-serif-condensed-medium"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"/>
+
+            <RadioContainer
+                ohos:id="$+id:typeRadio"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <RadioButton
+                    ohos:id="$+id:selFile"
+                    ohos:height="40vp"
+                    ohos:width="match_content"
+                    ohos:text="File"
+                    ohos:text_size="16fp"/>
+
+                <RadioButton
+                    ohos:id="$+id:selDir"
+                    ohos:height="40vp"
+                    ohos:width="match_content"
+                    ohos:text="Directory"
+                    ohos:text_size="16fp"/>
+
+                <RadioButton
+                    ohos:id="$+id:selfilenddir"
+                    ohos:height="40vp"
+                    ohos:width="match_content"
+                    ohos:text="Files and Directories"
+                    ohos:text_size="16fp"/>
+            </RadioContainer>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:multiple_lines="true"
+                ohos:text="Filter Extensions(Seperate with Commas, Don't use dots)"
+                ohos:text_color="#232323"
+                ohos:text_font="sans-serif-condensed-medium"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"/>
+
+            <TextField
+                ohos:id="$+id:extensions"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:basement="#696969"
+                ohos:hint="eg. jpg, zip, rar or leave empty"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#232323"
+                ohos:text_size="14fp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="Root Directory"
+                ohos:text_color="#232323"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"/>
+
+            <TextField
+                ohos:id="$+id:root"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:basement="#696969"
+                ohos:hint="eg. /mnt/sdcard or leave empty"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#232323"
+                ohos:text_size="14fp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="Offset Directory"
+                ohos:text_color="#232323"
+                ohos:text_size="16fp"
+                ohos:top_margin="10vp"/>
+
+            <TextField
+                ohos:id="$+id:offset"
+                ohos:height="50vp"
+                ohos:width="match_parent"
+                ohos:basement="#696969"
+                ohos:hint="eg. /mnt/sdcard/Music or leave empty"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#232323"
+                ohos:text_size="14fp"/>
+
+            <Checkbox
+                ohos:id="$+id:show_hidden_files"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="Show hidden files"
+                ohos:text_size="14fp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+    </ScrollView>
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:padding="10vp"
+        ohos:bottom_margin="10vp">
+
+        <Text
+            ohos:id="$+id:apply"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="#E4E4E4"
+            ohos:padding="5vp"
+            ohos:text="APPLY"
+            ohos:text_alignment="center"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <Text
+            ohos:id="$+id:show_dialog"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="#E4E4E4"
+            ohos:left_margin="20vp"
+            ohos:padding="5vp"
+            ohos:text="SHOW DIALOG"
+            ohos:text_alignment="center"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+</DirectionalLayout>
