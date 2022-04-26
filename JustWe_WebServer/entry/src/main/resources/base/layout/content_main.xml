@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:padding="16vp">
+
+    <ScrollView
+        ohos:id="$+id:scrollview"
+        ohos:width="match_parent"
+        ohos:height="match_parent">
+
+        <Text
+            ohos:id="$+id:main_log"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:text_size="15fp"
+            ohos:multiple_lines="true"
+            ohos:scrollable="true"/>
+    </ScrollView>
+
+</DirectionalLayout>
