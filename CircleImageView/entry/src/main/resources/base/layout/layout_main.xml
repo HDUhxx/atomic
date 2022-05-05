@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/hap/res-auto"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        ohos:id="$+id:one_cv"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:Lighthouse"
+        ohos:orientation="vertical"
+        ohos:top_padding="100vp"
+        app:civ_border_width="3vp"
+        app:civ_color="#4CAF50"
+        />
+
+    <Button
+        ohos:id="$+id:test_one"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="10vp"
+        ohos:text="$string:TestCase1"
+        ohos:text_size="15fp"
+        />
+
+    <Button
+        ohos:id="$+id:test_two"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="10vp"
+        ohos:text="$string:TestCase2"
+        ohos:text_size="15fp"
+        />
+
+</DirectionalLayout>

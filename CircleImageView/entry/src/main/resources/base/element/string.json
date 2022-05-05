@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "CircleImageView"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "TestCase1",
+      "value": "TestCase 1"
+    },
+    {
+      "name": "TestCase2",
+      "value": "TestCase 2"
+    }
+  ]
+}
