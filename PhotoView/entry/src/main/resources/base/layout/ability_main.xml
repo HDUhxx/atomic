@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:photo="http://schemas.huawei.com/res/photo"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:id="$+id:container"
+    ohos:orientation="vertical">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        ohos:id="$+id:photo_v"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:scale_mode="center"
+
+        />
+
+</DirectionalLayout>

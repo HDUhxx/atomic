@@ -1,0 +1,25 @@
+apply plugin: 'com.huawei.ohos.library'
+
+
+rootProject.ext{
+    DEFAULT_GROUP_ID = 'io.openharmony.tpc.thirdlib'
+    DEFAULT_ARTIFACT_ID = 'PhotoView'
+    DEFAULT_VERSION = '1.1.0'
+    DEFAULT_GITEE_URL = "https://gitee.com/openharmony-tpc/" + rootProject.ext.DEFAULT_ARTIFACT_ID
+    HPM_NAME = "@opensource/" + rootProject.ext.DEFAULT_ARTIFACT_ID
+    HPM_DESCRIPTION = "Implementation of Image for openharmony that supports zooming,by various touch gestures."
+    HPM_TAG = "UI"
+    HPM_KEYWORDS = "Image,zooming"
+}
+ohos {
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile'junit:junit:4.13'
+}

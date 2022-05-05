@@ -1,0 +1,10 @@
+[
+    {
+        "Name": " photoview ",
+        "License": " Apache License ",
+        "License File": " LICENSE ",
+        "Version Number": " 2.0.0 ",
+        "Upstream URL": " https://github.com/Baseflow/PhotoView/archive/2.0.0.tar.gz ",
+        "Description": " Implementation of ImageView for openharmony that supports zooming, by various touch gestures. "
+    }
+]
