@@ -1,0 +1,15 @@
+.container {
+    flex-direction: column;
+}
+
+.simpleSize {
+    object-fit:none;
+}
+.simpleAnimation {
+    animation: simpleFrames 9s;
+    animation-iteration-count: infinite;
+}
+@keyframes simpleFrames {
+    from { transform: translateX(0px); }
+    to { transform: translateX(900px); }
+}

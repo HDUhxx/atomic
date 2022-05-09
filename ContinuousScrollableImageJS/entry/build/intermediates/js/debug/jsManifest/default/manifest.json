@@ -1,0 +1,17 @@
+{
+    "appID": "iammert.com.statusview",
+    "appName": "$string:entry_MainAbility",
+    "versionName": "1.0.0",
+    "versionCode": 1000000,
+    "minPlatformVersion": 6,
+    "pages": [
+        "pages/index/index"
+    ],
+    "deviceType": [
+        "phone"
+    ],
+    "window": {
+        "autoDesignWidth": false,
+        "designWidth": 1080
+    }
+}

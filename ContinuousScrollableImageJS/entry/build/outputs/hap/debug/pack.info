@@ -1,0 +1,47 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "iammert.com.statusview",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.cunoraz.scrollingbackground.MainAbility",
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "visible": true,
+                        "name": "com.cunoraz.scrollingbackground.MainAbility",
+                        "label": "$string:entry_MainAbility"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": true,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 6,
+                    "releaseType": "Release",
+                    "target": 6
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

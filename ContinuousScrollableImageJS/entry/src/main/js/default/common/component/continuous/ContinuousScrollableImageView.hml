@@ -1,0 +1,15 @@
+<stack ref="stack_id" id="refId">
+    <image id="img"
+           src="{{ srcRes }}"
+           style="width : {{ widthPx }}; height : {{ heightPx }};
+                   transform : {{ translate1 }};
+                   object-fit : {{ scaleMode }};">
+    </image>
+
+    <image id="img"
+           src="{{ srcRes }}"
+           style="width : {{ widthPx }}; height : {{ heightPx }};
+                   transform : {{ translate2 }};
+                   object-fit : {{ scaleMode }};">
+    </image>
+</stack>

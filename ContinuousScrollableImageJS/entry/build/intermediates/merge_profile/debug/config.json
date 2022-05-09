@@ -1,0 +1,68 @@
+{
+    "app": {
+        "bundleName": "iammert.com.statusview",
+        "vendor": "cunoraz",
+        "apiVersion": {
+            "compatible": 6,
+            "target": 6,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "name": "com.cunoraz.scrollingbackground.MyApplication",
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": true
+        },
+        "abilities": [
+            {
+                "name": "com.cunoraz.scrollingbackground.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "visible": true,
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "homeAbility": true
+            }
+        ],
+        "js": [
+            {
+                "name": "default",
+                "pages": [
+                    "pages/index/index"
+                ],
+                "window": {
+                    "designWidth": 1080,
+                    "autoDesignWidth": false
+                }
+            }
+        ],
+        "mainAbility": "com.cunoraz.scrollingbackground.MainAbility",
+        "package": "com.cunoraz.scrollingbackground"
+    }
+}

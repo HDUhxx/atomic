@@ -1,0 +1,38 @@
+<element name='continuous-drawable' src='../../common/component/continuous/ContinuousScrollableImageView.hml'></element>
+<div class="container">
+    <continuous-drawable class="plane"
+                         src-resource="common/images/plane.png"
+                         src-height="100px"
+                         src-width="300px"
+                         scale-style="contain"
+                         scale-duration="9000"
+                         scale-direction="normal"
+                         scale-orientation="h"
+            >
+    </continuous-drawable>
+    <continuous-drawable class="cloud"
+                         src-resource="common/images/cloud.png"
+                         src-height="800px"
+                         src-width="800px"
+                         scale-style="contain"
+                         scale-duration="5000"
+                         scale-direction="reverse"
+            >
+    </continuous-drawable>
+    <continuous-drawable class="mountain"
+                         src-resource="common/images/mountain.png"
+                         src-height="300px"
+                         src-width="1080"
+                         scale-style="contain"
+                         scale-duration="6000"
+                         scale-direction="reverse"
+            >
+    </continuous-drawable>
+
+<!--    <stack>-->
+<!--        <div class="simpleSize" style="transform: translateX({{translateXPx}});"></div>-->
+<!--        <div class="simpleSize" style="transform: translateX({{translateX1Px}});"></div>-->
+<!--    </stack>-->
+
+<!--    <text class="txt" on:click="toggleState">animation-play-state</text>-->
+</div>
