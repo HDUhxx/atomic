@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:background_element="#ececec"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:orientation="vertical">
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:margin="10vp"
+            ohos:orientation="vertical">
+
+            <Image
+                ohos:id="$+id:sample_image"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:scale_mode="center"
+                ohos:background_element="$color:white"
+                ohos:image_src="$media:img_sample1">
+
+            </Image>
+
+            <DirectionalLayout
+                ohos:width="match_parent"
+                ohos:height="48vp"
+                ohos:background_element="$color:white"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:id="$+id:title_text"
+                    ohos:width="0vp"
+                    ohos:weight="1"
+                    ohos:height="match_parent"
+                    ohos:padding="15vp"
+                    ohos:text="$string:clothing_title"
+                    ohos:text_color="$color:black"
+                    ohos:text_size="12fp" />
+
+                <DirectionalLayout
+                    ohos:id="$+id:price_container"
+                    ohos:orientation="horizontal"
+                    ohos:width="180vp"
+                    ohos:height="48vp">
+
+                    <Text
+                        ohos:id="$+id:price_before_text"
+                        ohos:width="180vp"
+                        ohos:height="48vp"
+                        ohos:text_alignment="center"
+                        ohos:text="$string:price"
+                        ohos:text_color="#999999"
+                        ohos:text_size="15fp"
+                        ohos:text_weight="700" />
+
+                    <com.cooltechworks.scratchview.demo.RotateText
+                        ohos:id="$+id:price_after_text"
+                        ohos:width="180vp"
+                        ohos:height="48vp"
+                        ohos:text_alignment="center"
+                        ohos:text_size="15fp"
+                        ohos:text_weight="700"
+                        ohos:visibility="hide" />
+                </DirectionalLayout>
+            </DirectionalLayout>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:background_element="$color:white"
+            ohos:height="match_content"
+            ohos:margin="10vp"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:scratch_title_text"
+                ohos:width="0vp"
+                ohos:height="48vp"
+                ohos:weight="1"
+                ohos:left_padding="15vp"
+                ohos:text_alignment="vertical_center"
+                ohos:text="$string:scratch_for_offer"
+                ohos:text_color="$color:black"
+                ohos:text_size="15fp" />
+
+            <com.cooltechworks.views.ScratchTextView
+                ohos:id="$+id:scratch_view"
+                ohos:width="110vp"
+                ohos:height="48vp"
+                ohos:text_alignment="center"
+                ohos:text="$string:flat_200"
+                ohos:text_color="#999999"
+                ohos:text_size="15fp"
+                 />
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:background_element="$color:white"
+            ohos:margin="10vp"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:select_size_title"
+                ohos:width="0vp"
+                ohos:height="48vp"
+                ohos:weight="1"
+                ohos:left_padding="15vp"
+                ohos:text_alignment="vertical_center"
+                ohos:text="$string:select_size"
+                ohos:text_color="$color:black"
+                ohos:text_size="15fp" />
+
+            <Text
+                ohos:id="$+id:size_view"
+                ohos:width="match_content"
+                ohos:height="48vp"
+                ohos:element_padding="5vp"
+                ohos:element_right="$graphic:ic_chevron_down"
+                ohos:text_alignment="center"
+                ohos:text="S"
+                ohos:text_color="$color:black"
+                ohos:right_padding="15vp"
+                ohos:text_size="16fp"
+                ohos:text_weight="700"
+                ohos:element_end="$graphic:ic_chevron_down" />
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:background_element="$color:white"
+        ohos:layout_alignment="bottom"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:wish_list"
+            ohos:width="0vp"
+            ohos:height="match_content"
+            ohos:weight="1"
+            ohos:text_alignment="center"
+            ohos:padding="15vp"
+            ohos:text="$string:wish_list"
+            ohos:element_left="@drawable/ic_wishlist"
+            ohos:text_color="$color:black"
+            ohos:text_size="12fp"
+            ohos:element_start="$graphic:ic_wishlist" />
+
+        <Text
+            ohos:id="$+id:add_to_cart"
+            ohos:width="0vp"
+            ohos:height="match_parent"
+            ohos:weight="1"
+            ohos:background_element="$color:cart_bg"
+            ohos:element_left="$graphic:ic_cart"
+            ohos:text_alignment="center"
+            ohos:bottom_padding="10vp"
+            ohos:left_padding="20vp"
+            ohos:right_padding="20vp"
+            ohos:top_padding="10vp"
+            ohos:text="$string:add_to_cart"
+            ohos:text_color="$color:white"
+            ohos:text_size="12fp"
+            ohos:text_weight="700"
+            ohos:element_start="$graphic:ic_cart" />
+    </DirectionalLayout>
+
+</StackLayout>

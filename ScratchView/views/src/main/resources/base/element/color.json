@@ -1,0 +1,12 @@
+{
+  "color": [
+    {
+      "name": "scratch_start_gradient",
+      "value": "#e5e5e5"
+    },
+    {
+      "name": "scratch_end_gradient",
+      "value": "#cccccc"
+    }
+  ]
+}

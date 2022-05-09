@@ -1,0 +1,23 @@
+{
+  "app": {
+    "bundleName": "com.cooltechworks.scratchview",
+    "vendor": "cooltechworks",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.cooltechworks.scratchview",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "views",
+      "moduleType": "har"
+    }
+  }
+}

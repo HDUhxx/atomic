@@ -1,0 +1,88 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "ScratchViewDemo"
+    },
+    {
+      "name": "scratch_text_view_demo",
+      "value": "Scratch Text View Demo"
+    },
+    {
+      "name": "scratch_image_view_demo",
+      "value": "Scratch Image View Demo"
+    },
+    {
+      "name": "title_ability_main",
+      "value": "MainAbility"
+    },
+    {
+      "name": "clothing_title",
+      "value": "Basics Blue Casuals"
+    },
+    {
+      "name": "captcha_title",
+      "value": "Captcha"
+    },
+    {
+      "name": "flat_200_offer",
+      "value": "Get flat ₹ 200 off with"
+    },
+    {
+      "name": "verify",
+      "value": "Verify"
+    },
+    {
+      "name": "house",
+      "value": "House"
+    },
+    {
+      "name": "train",
+      "value": "Train"
+    },
+    {
+      "name": "park",
+      "value": "Park"
+    },
+    {
+      "name": "tree",
+      "value": "Tree"
+    },
+    {
+      "name": "scratch_to_find_image",
+      "value": "Prove you are not a robot : Scratch and tell what was the image"
+    },
+    {
+      "name": "flat_200",
+      "value": "FLAT200"
+    },
+    {
+      "name": "add_to_cart",
+      "value": "ADD TO CART"
+    },
+    {
+      "name": "wish_list",
+      "value": "WISHLIST IT!"
+    },
+    {
+      "name": "select_size",
+      "value": "Select Size:"
+    },
+    {
+      "name": "scratch_for_offer",
+      "value": "Scratch to get offer :"
+    },
+    {
+      "name": "clothing_title",
+      "value": "Basics Blue Casuals"
+    },
+    {
+      "name": "price",
+      "value": "₹ 1400"
+    },
+    {
+      "name": "price_strike",
+      "value": "<strike>₹ 1400</strike> <font fgcolor=\"red\"> ₹ 1200 </font>"
+    }
+  ]
+}

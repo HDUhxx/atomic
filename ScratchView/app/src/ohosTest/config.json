@@ -1,0 +1,36 @@
+{
+  "app": {
+    "bundleName": "com.cooltechworks.scratchview.demo",
+    "vendor": "cooltechworks",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.cooltechworks.scratchview.demo",
+    "name": "testModule",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry_test",
+      "moduleType": "feature",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "name": "decc.testkit.runner.EntryAbility",
+        "description": "",
+        "icon": "$media:icon",
+        "label": "$string:title_ability_main",
+        "visible": true,
+        "type": "page",
+        "launchType": "standard",
+        "orientation": "unspecified"
+      }
+    ]
+  }
+}

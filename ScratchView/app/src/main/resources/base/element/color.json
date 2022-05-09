@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "paint_background",
+      "value": "#dcdcdc"
+    },
+    {
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "bg_card",
+      "value": "#f9f9f9"
+    },
+    {
+      "name": "cart_bg",
+      "value": "#f88c00"
+    }
+  ]
+}

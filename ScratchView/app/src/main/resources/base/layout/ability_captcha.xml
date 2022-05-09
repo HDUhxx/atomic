@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:background_element="$color:paint_background"
+    ohos:orientation="vertical">
+
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:left_margin="15vp"
+            ohos:right_margin="15vp"
+            ohos:top_margin="10vp"
+            ohos:bottom_margin="10vp"
+            ohos:text="$string:scratch_to_find_image"
+            ohos:text_color="$color:black"
+            ohos:multiple_lines="true"
+            ohos:text_size="16fp"
+            ohos:text_weight="800"
+            />
+
+        <DirectionalLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:background_element="$color:white"
+            ohos:margin="10vp"
+            ohos:orientation="vertical">
+
+
+            <com.cooltechworks.views.ScratchImageView
+                ohos:id="$+id:sample_image"
+                ohos:width="200vp"
+                ohos:height="200vp"
+                ohos:layout_alignment="center"
+                ohos:scale_mode="zoom_center"
+                ohos:top_margin="20vp"
+                ohos:background_element="$color:white"
+                ohos:image_src="$media:img_sample2">
+            </com.cooltechworks.views.ScratchImageView>
+
+            <RadioContainer
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:top_margin="10vp">
+
+
+                <RadioButton
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:left_margin="15vp"
+                    ohos:right_margin="15vp"
+                    ohos:padding="10vp"
+                    ohos:text_size="14fp"
+                    ohos:check_element="null"
+                    ohos:element_padding="10vp"
+                    ohos:element_left="$graphic:btn_radio"
+                    ohos:text="$string:train"
+                    />
+
+                <RadioButton
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:left_margin="15vp"
+                    ohos:right_margin="15vp"
+                    ohos:padding="10vp"
+                    ohos:text_size="14fp"
+                    ohos:check_element="null"
+                    ohos:element_padding="10vp"
+                    ohos:element_left="$graphic:btn_radio"
+                    ohos:text="$string:house"
+                    />
+
+                <RadioButton
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:left_margin="15vp"
+                    ohos:right_margin="15vp"
+                    ohos:padding="10vp"
+                    ohos:text_size="14fp"
+                    ohos:check_element="null"
+                    ohos:element_padding="10vp"
+                    ohos:element_left="$graphic:btn_radio"
+                    ohos:text="$string:park"
+                    />
+
+                <RadioButton
+                    ohos:width="match_content"
+                    ohos:height="match_content"
+                    ohos:left_margin="15vp"
+                    ohos:right_margin="15vp"
+                    ohos:padding="10vp"
+                    ohos:text_size="14fp"
+                    ohos:check_element="null"
+                    ohos:element_padding="10vp"
+                    ohos:element_left="$graphic:btn_radio"
+                    ohos:text="$string:tree"
+                    />
+            </RadioContainer>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <Text
+        ohos:id="$+id:add_to_cart"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:layout_alignment="bottom"
+        ohos:background_element="$color:cart_bg"
+        ohos:text_alignment="center"
+        ohos:padding="15vp"
+        ohos:text="$string:verify"
+        ohos:text_color="$color:white"
+        ohos:text_size="15fp"
+        ohos:text_weight="800" />
+</StackLayout>

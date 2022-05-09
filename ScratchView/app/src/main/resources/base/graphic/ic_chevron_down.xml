@@ -1,0 +1,8 @@
+<!-- drawable/chevron_down.xml -->
+<vector xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="24vp"
+    ohos:width="24vp"
+    ohos:viewportWidth="24"
+    ohos:viewportHeight="24">
+    <path ohos:fillColor="#8f8f8f" ohos:pathData="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+</vector>

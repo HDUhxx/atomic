@@ -1,0 +1,62 @@
+{
+  "app": {
+    "bundleName": "com.cooltechworks.scratchview.demo",
+    "vendor": "cooltechworks",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.cooltechworks.scratchview.demo",
+    "name": "com.cooltechworks.scratchview.demo.MainAbility",
+    "mainAbility": "com.cooltechworks.scratchview.demo.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "app",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.cooltechworks.scratchview.demo.MainAbility",
+        "icon": "$media:icon",
+        "description": "",
+        "label": "$string:title_ability_main",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "icon": "$media:icon",
+        "name": "com.cooltechworks.scratchview.demo.CaptchaAbility",
+        "description": "",
+        "label": "$string:captcha_title",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "icon": "$media:icon",
+        "name": "com.cooltechworks.scratchview.demo.DemoClothingAbility",
+        "description": "",
+        "label": "$string:clothing_title",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
