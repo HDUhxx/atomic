@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:alignment="vertical_center"
+    ohos:background_element="#303030"
+    ohos:orientation="horizontal">
+
+    <Text
+        ohos:id="$+id:tv_zan"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="15vp"
+        ohos:right_padding="15vp"
+        ohos:text=" 赞 "
+        ohos:text_color="#fff"
+        ohos:text_size="14fp"
+        ohos:top_padding="10vp"/>
+
+    <Component
+        ohos:height="15vp"
+        ohos:width="1px"
+        ohos:background_element="#eee"/>
+
+    <Text
+        ohos:id="$+id:tv_comment"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_padding="10vp"
+        ohos:left_padding="15vp"
+        ohos:right_padding="15vp"
+        ohos:text="评论"
+        ohos:text_color="#fff"
+        ohos:text_size="14fp"
+        ohos:top_padding="10vp"/>
+
+</DirectionalLayout>

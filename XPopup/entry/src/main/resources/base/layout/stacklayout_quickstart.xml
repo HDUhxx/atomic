@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:focusable="focus_adaptable"
+        ohos:focusable_in_touch="true"
+        ohos:orientation="vertical"
+        ohos:padding="20vp">
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:basement="#505050"
+            ohos:bottom_margin="20vp"
+            ohos:hint="测试输入框交互"
+            ohos:hint_color="#111"
+            ohos:text_color="#DBDBDB"
+            ohos:text_size="17fp"/>
+
+        <Button
+            ohos:id="$+id:btnShowConfirm"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示Confirm弹窗"
+            ohos:text_size="17fp"/>
+
+        <Button
+            ohos:id="$+id:btnLogin"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示Login弹窗"
+            ohos:text_size="17fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnBindLayout"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="使用内置弹窗绑定项目已有布局"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnShowInputConfirm"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示带输入框的Confirm弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:btnShowCenterList"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:end_margin="10vp"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示Center类型的List弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:btnShowCenterListWithCheck"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示Center类型的List弹窗(带选中效果)"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:btnShowLoading"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示Loading弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:btnShowBottomList"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:end_margin="10vp"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示Bottom类型的List弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:btnShowBottomListWithCheck"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示Bottom类型的List弹窗(带选中效果)"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:btnCustomBottomPopup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示自定义Bottom弹窗（自带拖拽交互）"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnPagerBottomPopup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示复杂交互的Bottom弹窗（各种手势滑动嵌套）"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Text
+            ohos:id="$+id:tv1"
+            ohos:height="40vp"
+            ohos:width="100vp"
+            ohos:background_element="$color:colorPrimary"
+            ohos:padding="7vp"
+            ohos:text="点我看看"
+            ohos:text_alignment="center"
+            ohos:text_color="#fff"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Text
+            ohos:id="$+id:tv2"
+            ohos:height="40vp"
+            ohos:width="80vp"
+            ohos:background_element="$color:colorPrimary"
+            ohos:layout_alignment="horizontal_center"
+            ohos:padding="7vp"
+            ohos:text="点我看看"
+            ohos:text_alignment="center"
+            ohos:text_color="#fff"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:id="$+id:tv3"
+            ohos:height="40vp"
+            ohos:width="70vp"
+            ohos:background_element="$color:colorPrimary"
+            ohos:layout_alignment="right"
+            ohos:padding="7vp"
+            ohos:text="点我看看"
+            ohos:text_alignment="center"
+            ohos:text_color="#fff"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:id="$+id:btnShowAttachPoint"
+            ohos:height="80vp"
+            ohos:width="match_parent"
+            ohos:background_element="#852986"
+            ohos:layout_alignment="right"
+            ohos:text="在我上面任意地方长按"
+            ohos:text_alignment="center"
+            ohos:text_color="#fff"
+            ohos:text_size="22fp"
+            ohos:top_margin="10vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:btnAttachPopup1"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:end_margin="55vp"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="横向Attach弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:btnAttachPopup2"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="自定义Attach弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:btnBubbleAttachPopup1"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:end_margin="55vp"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="横向带气泡Attach弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:btnBubbleAttachPopup2"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="垂直带气泡Attach弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <Button
+                ohos:id="$+id:btnShowDrawerLeft"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:end_margin="10vp"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示左边Drawer弹窗"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+            <Button
+                ohos:id="$+id:btnShowDrawerRight"
+                ohos:height="match_content"
+                ohos:width="0vp"
+                ohos:background_element="#D9D9D9"
+                ohos:multiple_lines="true"
+                ohos:padding="7vp"
+                ohos:text="显示右边Drawer弹窗(带状态栏阴影)"
+                ohos:text_size="15fp"
+                ohos:weight="1"/>
+
+        </DirectionalLayout>
+
+        <Button
+            ohos:id="$+id:btnFullScreenPopup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="自定义全屏弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnCustomEditPopup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="自定义贴在输入法之上的弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnShowPosition1"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="显示自由定位Position弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnShowPosition2"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="水平居中的自由定位Position弹窗"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+        <Button
+            ohos:id="$+id:btnMultiPopup"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#D9D9D9"
+            ohos:padding="7vp"
+            ohos:text="测试多弹窗同时展示"
+            ohos:text_size="15fp"
+            ohos:top_margin="10vp"/>
+
+    </DirectionalLayout>
+</ScrollView>

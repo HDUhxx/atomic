@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "xpopup_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "xpopup_ok",
+      "value": "确定"
+    },
+    {
+      "name": "xpopup_save",
+      "value": "保存"
+    }
+  ]
+}

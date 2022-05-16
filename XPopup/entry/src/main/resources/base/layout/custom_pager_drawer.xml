@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="240vp"
+    ohos:background_element="#444"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_padding="3vp"
+        ohos:top_margin="150vp"
+        ohos:top_padding="3vp">
+
+        <RadioContainer
+            ohos:id="$+id:radioContainer"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="10vp"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="首页"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="娱乐"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="汽车"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="八卦"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="搞笑"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="互联网"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+        </RadioContainer>
+    </ScrollView>
+
+    <PageSlider
+        ohos:id="$+id:pager"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

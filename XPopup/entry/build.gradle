@@ -1,0 +1,19 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+    compileSdkVersion 7
+    defaultConfig {
+        compatibleSdkVersion 6
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    implementation 'io.openharmony.tpc.thirdlib:glide:1.0.9'
+    implementation 'io.openharmony.tpc.thirdlib:okgo:1.0.2'
+    implementation project(':library')
+}
+decc {
+    supportType = ['html', 'xml']
+}

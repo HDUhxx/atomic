@@ -1,0 +1,27 @@
+{
+  "app": {
+    "bundleName": "com.example.graphview_os",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 4,
+      "target": 5,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.jjoe64.graphview",
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "graphveiw",
+      "moduleType": "har"
+    }
+  }
+}

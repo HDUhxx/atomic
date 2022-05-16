@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "MyApplication"
+    },
+    {
+      "name": "mainability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "is_ok",
+      "value": "确定"
+    },
+    {
+      "name": "is_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "app_lable",
+      "value": "GraphView_OS"
+    }
+  ]
+}

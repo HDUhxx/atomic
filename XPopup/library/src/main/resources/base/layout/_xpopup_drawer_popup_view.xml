@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lxj.xpopup.widget.PopupDrawerLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:drawerLayout"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Component
+        ohos:height="match_parent"
+        ohos:width="match_parent"/>
+
+    <StackLayout
+        ohos:id="$+id:drawerContentContainer"
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:clickable="true"/>
+
+</com.lxj.xpopup.widget.PopupDrawerLayout>

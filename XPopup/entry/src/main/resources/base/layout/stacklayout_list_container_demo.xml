@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:temp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f0f0"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text="在ListContainer中使用Attach弹窗，可以依附于条目，也可以依附于条目中的某一个控件。"
+        ohos:text_color="#000"
+        ohos:text_size="16fp"/>
+
+    <ListContainer
+        ohos:id="$+id:listContainer"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

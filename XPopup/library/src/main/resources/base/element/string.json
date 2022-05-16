@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "xpopup_cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "xpopup_ok",
+      "value": "ok"
+    },
+    {
+      "name": "xpopup_save",
+      "value": "save"
+    }
+  ]
+}

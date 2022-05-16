@@ -1,0 +1,56 @@
+{
+  "float": [
+    {
+      "name": "vp_10",
+      "value": "10vp"
+    },
+    {
+      "name": "vp_20",
+      "value": "20vp"
+    },
+    {
+      "name": "vp_30",
+      "value": "30vp"
+    },
+    {
+      "name": "vp_40",
+      "value": "40vp"
+    },
+    {
+      "name": "vp_50",
+      "value": "50vp"
+    },
+    {
+      "name": "vp_60",
+      "value": "60vp"
+    },
+    {
+      "name": "vp_80",
+      "value": "80vp"
+    },
+    {
+      "name": "vp_100",
+      "value": "100vp"
+    },
+    {
+      "name": "fp_20",
+      "value": "20fp"
+    },
+    {
+      "name": "fp_25",
+      "value": "25fp"
+    },
+    {
+      "name": "fp_30",
+      "value": "30fp"
+    },
+    {
+      "name": "fp_35",
+      "value": "35fp"
+    },
+    {
+      "name": "fp_40",
+      "value": "40fp"
+    }
+  ]
+}

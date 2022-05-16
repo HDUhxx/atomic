@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "GraphView",
+        "License": "Apache License",
+        "License File": " LICENSE ",
+        "Version Number": "3.1",
+        "Upstream URL": "https://github.com/jjoe64/GraphView/archive/refs/tags/v3.1.tar.gz",
+        "Description": "Android Graph Library for creating zoomable and scrollable line and bar graphs"
+    }
+]

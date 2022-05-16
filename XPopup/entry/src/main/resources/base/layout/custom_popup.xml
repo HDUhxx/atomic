@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="#fff"
+    ohos:orientation="vertical"
+    ohos:padding="20vp">
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <Image
+            ohos:id="$+id:iv_image"
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:background_element="#ddd"
+            ohos:right_margin="12vp"/>
+
+        <Text
+            ohos:id="$+id:tv_name"
+            ohos:height="25vp"
+            ohos:width="match_parent"
+            ohos:right_of="$+id:iv_image"
+            ohos:text="齐天大圣"
+            ohos:text_alignment="vertical_center"
+            ohos:text_color="#222"
+            ohos:text_size="18fp"/>
+
+        <Text
+            ohos:height="25vp"
+            ohos:width="match_parent"
+            ohos:below="$+id:tv_name"
+            ohos:max_text_lines="1"
+            ohos:right_of="$+id:iv_image"
+            ohos:text="玉帝小儿，吃俺老孙一棒!"
+            ohos:text_alignment="vertical_center"
+            ohos:text_color="#666"
+            ohos:text_size="14fp"
+            ohos:truncation_mode="ellipsis_at_end"/>
+    </DependentLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:multiple_lines="true"
+        ohos:text="混沌未分天地乱，茫茫渺渺无人见。
+自从盘古破鸿蒙，开辟从兹清浊辨。
+覆载群生仰至仁，发明万物皆成善。
+欲知造化会元功，须看西游释厄传。"
+        ohos:text_color="#222"
+        ohos:text_size="16fp"
+        ohos:top_margin="15vp"/>
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:basement="#28822E"
+        ohos:bottom_margin="15vp"
+        ohos:text="测试输入框会不会被软键盘盖住"
+        ohos:text_size="17fp"
+        ohos:top_margin="15vp"/>
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:basement="#666666"
+        ohos:bottom_margin="15vp"
+        ohos:text="测试输入框会不会被软键盘盖住"
+        ohos:text_size="17fp"
+        ohos:top_margin="35vp"/>
+
+    <Text
+        ohos:id="$+id:tv_close"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_padding="12vp"
+        ohos:layout_alignment="center"
+        ohos:left_padding="35vp"
+        ohos:right_padding="35vp"
+        ohos:text="关闭"
+        ohos:text_color="$color:colorPrimary"
+        ohos:text_size="17fp"
+        ohos:top_margin="190vp"
+        ohos:top_padding="12vp"/>
+
+</DirectionalLayout>

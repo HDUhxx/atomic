@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "_xpopup_title_color",
+      "value": "#444444"
+    },
+    {
+      "name": "_xpopup_content_color",
+      "value": "#333333"
+    },
+    {
+      "name": "_xpopup_gray_color",
+      "value": "#666666"
+    },
+    {
+      "name": "_xpopup_white_color",
+      "value": "#f1f1f1"
+    },
+    {
+      "name": "_xpopup_text_dark_color",
+      "value": "#232323"
+    },
+    {
+      "name": "_xpopup_bg_dark_color",
+      "value": "#232323ff"
+    },
+    {
+      "name": "_xpopup_light_color",
+      "value": "#FFFFFFFF"
+    },
+    {
+      "name": "_xpopup_list_divider",
+      "value": "#EEEEEEFF"
+    },
+    {
+      "name": "_xpopup_list_dark_divider",
+      "value": "#444444FF"
+    }
+  ]
+}

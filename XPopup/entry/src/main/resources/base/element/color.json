@@ -1,0 +1,24 @@
+{
+  "color": [
+    {
+      "name": "colorPrimary",
+      "value": "#008577"
+    },
+    {
+      "name": "colorPrimaryDark",
+      "value": "#008577"
+    },
+    {
+      "name": "colorAccent",
+      "value": "#D81B60"
+    },
+    {
+      "name": "colorBar",
+      "value": "#101010"
+    },
+    {
+      "name": "colorRadio",
+      "value": "#202020"
+    }
+  ]
+}

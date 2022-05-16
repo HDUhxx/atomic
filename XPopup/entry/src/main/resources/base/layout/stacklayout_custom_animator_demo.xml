@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f0f0"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text="此页面以Center类型的Confirm弹窗为例，为其设置一个自定义动画。你当然也可以将自定义的动画设置给自定义的弹窗，弹窗和动画是分离的，完全可以互相组合。自定义动画极其简单，通常使用10行左右的代码就足以实现一个漂亮的弹窗了！"
+        ohos:text_color="#000"
+        ohos:text_size="16fp"/>
+
+    <Button
+        ohos:id="$+id:btn_show"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#D9D9D9"
+        ohos:left_margin="3vp"
+        ohos:padding="7vp"
+        ohos:right_margin="3vp"
+        ohos:text="显示旋转动画"
+        ohos:text_size="17fp"
+        ohos:top_margin="30vp"/>
+
+</DirectionalLayout>

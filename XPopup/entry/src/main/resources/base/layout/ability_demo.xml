@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:content"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$color:colorBar"
+        ohos:padding="16vp"
+        ohos:text="XPopup-1.0.8"
+        ohos:text_color="#fff"
+        ohos:text_size="20fp"
+        ohos:text_weight="600"/>
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:padding="2vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <Button
+                ohos:id="$+id:text"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="#D9D9D9"
+                ohos:padding="17vp"
+                ohos:text="测试多弹窗"
+                ohos:text_size="20fp"
+                ohos:top_margin="10vp"/>
+
+            <TextField
+                ohos:id="$+id:et"
+                ohos:height="match_content"
+                ohos:width="200vp"
+                ohos:basement="#28822E"
+                ohos:hint="试试联想搜索"
+                ohos:left_margin="10vp"
+                ohos:max_text_lines="1"
+                ohos:text_size="17fp"
+                ohos:top_margin="5vp"/>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+
+</DirectionalLayout>

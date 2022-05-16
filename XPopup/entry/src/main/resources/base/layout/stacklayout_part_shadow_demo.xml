@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#f2f2f2"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:ll_container"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:orientation="horizontal">
+
+        <Component
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="1"/>
+
+        <Text
+            ohos:id="$+id:tv_all"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_padding="8vp"
+            ohos:element_right="$media:dropdown"
+            ohos:padding="15vp"
+            ohos:text="综合"
+            ohos:text_color="#000"
+            ohos:text_size="16fp"/>
+
+        <Component
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="2"/>
+
+        <Text
+            ohos:id="$+id:tv_price"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_padding="8vp"
+            ohos:element_right="$media:dropdown"
+            ohos:padding="15vp"
+            ohos:text="价格"
+            ohos:text_color="#000"
+            ohos:text_size="16fp"/>
+
+        <Component
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="2"/>
+
+        <Text
+            ohos:id="$+id:tv_sales"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_padding="8vp"
+            ohos:element_right="$media:dropdown"
+            ohos:padding="15vp"
+            ohos:text="销量"
+            ohos:text_color="#000"
+            ohos:text_size="16fp"/>
+
+        <Component
+            ohos:height="0vp"
+            ohos:width="0vp"
+            ohos:weight="3"/>
+
+        <Text
+            ohos:id="$+id:tv_filter"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_padding="8vp"
+            ohos:element_right="$media:dropdown"
+            ohos:padding="15vp"
+            ohos:text="筛选"
+            ohos:text_color="#000"
+            ohos:text_size="16fp"/>
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:height="1px"
+        ohos:width="match_parent"
+        ohos:background_element="#111"/>
+
+    <StackLayout
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <ListContainer
+            ohos:id="$+id:listContainer"
+            ohos:height="match_parent"
+            ohos:width="match_parent"/>
+
+        <Text
+            ohos:id="$+id:tvCenter"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="#f0caac"
+            ohos:layout_alignment="vertical_center"
+            ohos:padding="15vp"
+            ohos:text="指定在上方显示"
+            ohos:text_color="#111"
+            ohos:text_size="15fp"/>
+
+        <Text
+            ohos:id="$+id:tvCenter2"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="#f0caac"
+            ohos:layout_alignment="vertical_center|right"
+            ohos:padding="15vp"
+            ohos:text="指定在下方显示2"
+            ohos:text_color="#111"
+            ohos:text_size="15fp"/>
+
+    </StackLayout>
+
+    <Component
+        ohos:height="1px"
+        ohos:width="match_parent"
+        ohos:background_element="#111"/>
+
+    <Text
+        ohos:id="$+id:tv_select"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_right="$media:arrow"
+        ohos:layout_alignment="vertical_center"
+        ohos:padding="20vp"
+        ohos:text="选择优惠券"
+        ohos:text_color="#111"
+        ohos:text_size="17fp"/>
+
+</DirectionalLayout>

@@ -1,0 +1,12 @@
+apply plugin: 'com.huawei.ohos.library'
+ohos {
+    compileSdkVersion 7
+    defaultConfig {
+        compatibleSdkVersion 6
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

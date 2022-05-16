@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$color:colorBar"
+        ohos:padding="16vp"
+        ohos:text="XPopup-1.1.1"
+        ohos:text_color="#fff"
+        ohos:text_size="20fp"
+        ohos:text_weight="600"/>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$color:colorRadio">
+
+        <RadioContainer
+            ohos:id="$+id:radio_container"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="10vp"
+            ohos:orientation="horizontal"
+            ohos:top_margin="10vp">
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="快速开始"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:id="$+id:rb_jubu"
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="局部阴影"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"
+                ohos:visibility="hide"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="图片浏览"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="尝试不同动画"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="自定义弹窗"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="自定义动画"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+
+            <RadioButton
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:text="List条目依附"
+                ohos:text_alignment="center"
+                ohos:text_color_off="#aaa"
+                ohos:text_color_on="#fff"
+                ohos:text_size="15fp"/>
+        </RadioContainer>
+    </ScrollView>
+
+
+    <PageSlider
+        ohos:id="$+id:pagerSlider"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

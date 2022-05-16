@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="120vp"
+    ohos:padding="15vp">
+
+    <Text
+        ohos:id="$+id:tv"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:multiple_lines="true"
+        ohos:text_color="#fff"
+        ohos:text_size="14fp"/>
+
+</DirectionalLayout>

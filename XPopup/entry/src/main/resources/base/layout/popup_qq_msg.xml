@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:bg_round2"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="20vp"
+        ohos:text="我是QQ的消息弹窗，嘿嘿！！！"
+        ohos:text_alignment="center"
+        ohos:text_color="#E43838"
+        ohos:text_size="16fp"/>
+
+</DirectionalLayout>

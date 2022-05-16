@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:tv_top"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="top"
+        ohos:multiple_lines="true"
+        ohos:padding="40vp"
+        ohos:text="我是自定义的区域，我的布局是盖在ImageViewer弹窗上的。"
+        ohos:text_color="#fff"
+        ohos:text_size="20fp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#495ED2"
+        ohos:layout_alignment="bottom"
+        ohos:multiple_lines="true"
+        ohos:padding="30vp"
+        ohos:text="下面也可以自定义哦。"
+        ohos:text_color="#fff"
+        ohos:text_size="20fp"/>
+
+</StackLayout>

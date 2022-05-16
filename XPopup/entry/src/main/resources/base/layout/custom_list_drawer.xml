@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="300vp"
+    ohos:background_element="#eee"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#D9D9D9"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text="演示RecyclerView"
+        ohos:text_size="30fp"/>
+
+    <ListContainer
+        ohos:id="$+id:listContainer"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+    <TextField
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:basement="#28822E"
+        ohos:hint="输入框交互"
+        ohos:bottom_margin="10vp"
+        ohos:text_size="17fp"/>
+
+</DirectionalLayout>

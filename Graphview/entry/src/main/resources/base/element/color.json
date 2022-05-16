@@ -1,0 +1,40 @@
+{
+  "color": [
+    {
+      "name": "red",
+      "value": "#ff0000"
+    },
+    {
+      "name": "blue",
+      "value": "#0000FF"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "yellow",
+      "value": "#FFFF00"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    },
+    {
+      "name": "gray",
+      "value": "#808080"
+    },
+    {
+      "name": "dark_orange",
+      "value": "#FF8C00"
+    },
+    {
+      "name": "cyan",
+      "value": "#00FFFF"
+    },
+    {
+      "name": "gold_enrod",
+      "value": "#DAA520"
+    }
+  ]
+}

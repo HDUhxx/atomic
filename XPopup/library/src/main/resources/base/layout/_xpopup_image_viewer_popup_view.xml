@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:container"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <com.lxj.xpopup.widget.BlankView
+        ohos:id="$+id:placeholderView"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:visibility="invisible"/>
+
+    <StackLayout
+        ohos:id="$+id:photoViewContainer"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <PageSlider
+            ohos:id="$+id:pager"
+            ohos:layout_alignment="vertical_center"
+            ohos:height="match_content"
+            ohos:width="match_parent"/>
+
+    </StackLayout>
+
+    <Text
+        ohos:id="$+id:tv_pager_indicator"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="20vp"
+        ohos:layout_alignment="bottom"
+        ohos:start_margin="25vp"
+        ohos:text_color="#fff"
+        ohos:text_size="16fp"/>
+
+    <Text
+        ohos:id="$+id:tv_save"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="20vp"
+        ohos:end_margin="25vp"
+        ohos:layout_alignment="bottom|right"
+        ohos:text="保存"
+        ohos:text_color="#fff"
+        ohos:text_size="16fp"
+        ohos:visibility="invisible"/>
+
+
+</StackLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="12vp"
+        ohos:end_padding="18vp"
+        ohos:orientation="horizontal"
+        ohos:start_padding="18vp"
+        ohos:top_padding="12vp">
+
+        <Image
+            ohos:id="$+id:iv_image"
+            ohos:height="22vp"
+            ohos:width="22vp"
+            ohos:layout_alignment="vertical_center"/>
+
+        <Text
+            ohos:id="$+id:tv_text"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:weight="1"
+            ohos:layout_alignment="vertical_center"
+            ohos:max_text_lines="1"
+            ohos:text="条目"
+            ohos:text_color="$color:_xpopup_title_color"
+            ohos:text_size="15fp"
+            ohos:truncation_mode="ellipsis_at_end"/>
+
+        <com.lxj.xpopup.widget.CheckView
+            ohos:id="$+id:check_view"
+            ohos:height="22vp"
+            ohos:width="22vp"
+            ohos:layout_alignment="vertical_center"/>
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:id="$+id:item_dirver"
+        ohos:height="0.5vp"
+        ohos:width="match_parent"/>
+
+</DirectionalLayout>

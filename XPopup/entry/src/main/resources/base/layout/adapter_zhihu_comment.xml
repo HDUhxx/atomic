@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:margin="12vp">
+
+    <Image
+        ohos:id="$+id:avatar"
+        ohos:height="55vp"
+        ohos:width="55vp"
+        ohos:background_element="$graphic:bg_circle"
+        ohos:right_margin="12vp"/>
+
+    <Text
+        ohos:id="$+id:name"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:right_of="$+id:avatar"
+        ohos:text="知乎大神"
+        ohos:text_color="#111"
+        ohos:text_size="17fp"/>
+
+    <Text
+        ohos:id="$+id:comment"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:below="$+id:name"
+        ohos:multiple_lines="true"
+        ohos:right_of="$+id:avatar"
+        ohos:text=""
+        ohos:text_color="#888"
+        ohos:text_size="15fp"
+        ohos:top_margin="8vp"/>
+
+    <Button
+        ohos:id="$+id:btnDel"
+        ohos:height="36vp"
+        ohos:width="150vp"
+        ohos:background_element="#ddd"
+        ohos:below="$+id:comment"
+        ohos:horizontal_center="true"
+        ohos:text="删除"
+        ohos:text_size="15fp"
+        ohos:top_margin="10vp"/>
+
+</DependentLayout>

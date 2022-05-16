@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:temp"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#f0f0f0"
+        ohos:multiple_lines="true"
+        ohos:padding="20vp"
+        ohos:text="此页面以Center类型的Confirm弹窗为例，演示为其设置不同的动画方案所带来的效果。对于类库已经提供的弹窗实现，都默认设置了最佳的动画效果，但仍然允许你选择喜欢的动画方案；如果仍不满意，完全可以自定义动画，这已经被设计得非常简单。"
+        ohos:text_color="#000"
+        ohos:text_size="16fp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="15fp"
+        ohos:right_margin="15fp"
+        ohos:text="选择动画："
+        ohos:text_color="#000"
+        ohos:text_size="14fp"
+        ohos:top_margin="15vp"/>
+
+    <ListContainer
+        ohos:id="$+id:listContainer"
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

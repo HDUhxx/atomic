@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="#fff"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <Text
+            ohos:id="$+id:text"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:multiple_lines="true"
+            ohos:padding="18vp"
+            ohos:text="我只能帮你到这了，这里的UI和逻辑每个应用都不一样，只能你自己来实现了，实现起来非常简单！"
+            ohos:text_alignment="center"
+            ohos:text_color="#111"
+            ohos:text_size="18fp"/>
+
+        <TextField
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:basement="#28822E"
+            ohos:hint="测试软键盘交互"
+            ohos:left_margin="3vp"
+            ohos:right_margin="3vp"
+            ohos:text_size="17fp"/>
+
+        <Button
+            ohos:id="$+id:ch"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="15fp"
+            ohos:background_element="#D9D9D9"
+            ohos:margin="20vp"
+            ohos:padding="7vp"
+            ohos:text="改变高度"/>
+
+        <Button
+            ohos:id="$+id:btnClose"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text_size="15fp"
+            ohos:background_element="#D9D9D9"
+            ohos:margin="20vp"
+            ohos:padding="7vp"
+            ohos:text="关闭"/>
+
+    </DirectionalLayout>
+
+</ScrollView>

@@ -1,0 +1,22 @@
+{
+  "app": {
+    "bundleName": "com.lxj.xpopupdemo",
+    "vendor": "lxj",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.lxj.xpopup",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "library",
+      "moduleType": "har"
+    }
+  }
+}
