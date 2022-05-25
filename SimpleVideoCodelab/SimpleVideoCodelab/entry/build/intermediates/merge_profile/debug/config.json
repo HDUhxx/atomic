@@ -1,0 +1,67 @@
+{
+    "app": {
+        "bundleName": "com.huawei.cookbook",
+        "vendor": "huawei",
+        "apiVersion": {
+            "compatible": 6,
+            "target": 6,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MainAbility",
+        "reqCapabilities": [
+            "video_support"
+        ],
+        "deviceType": [
+            "phone",
+            "tablet",
+            "tv"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": false
+        },
+        "abilities": [
+            {
+                "name": "ohos.codelabs.video.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:app_name",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "unspecified",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "configChanges": [
+                    "orientation"
+                ],
+                "formsEnabled": true,
+                "homeAbility": true
+            }
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.INTERNET"
+            }
+        ],
+        "package": "ohos.codelabs.video"
+    }
+}
