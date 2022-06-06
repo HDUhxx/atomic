@@ -1,0 +1,79 @@
+{
+    "app": {
+        "bundleName": "com.huawei.cookbook",
+        "vendor": "huawei",
+        "apiVersion": {
+            "compatible": 6,
+            "target": 6,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MyApplication",
+        "reqCapabilities": [
+            "video_support"
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": false
+        },
+        "abilities": [
+            {
+                "name": "com.huawei.cookbook.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:app_name",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "formsEnabled": false,
+                "homeAbility": true
+            },
+            {
+                "name": "com.huawei.cookbook.OpenCamera",
+                "description": "$string:opencamera_description",
+                "icon": "$media:icon",
+                "label": "$string:entry",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "unspecified",
+                "homeAbility": false
+            }
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.ACCESS_BIOMETRIC"
+            },
+            {
+                "name": "ohos.permission.CAMERA"
+            },
+            {
+                "name": "ohos.permission.WRITE_USER_STORAGE"
+            }
+        ],
+        "mainAbility": "com.huawei.cookbook.MainAbility",
+        "package": "com.huawei.cookbook"
+    }
+}

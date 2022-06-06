@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">"biometricAuthentication"</string>
+  <string name="entry">"entry"</string>
+  <string name="mainability_description">"hap sample empty page"</string>
+  <string name="opencamera_description">"Java_Phone_Empty Feature Ability"</string>
+</resources>
