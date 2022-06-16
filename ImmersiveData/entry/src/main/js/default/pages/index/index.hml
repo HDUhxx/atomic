@@ -1,5 +1,5 @@
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+    <text class="title">你好，欢迎来到</text>
+    <text class="title">{{title1}}</text>
+    <text class="title">{{title2}}</text>
 </div>

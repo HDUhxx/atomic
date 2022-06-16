@@ -1,14 +1,16 @@
 {
   "data": {
-    "title_big": "Title",
-    "title_small": "Text"
+    "title": "Title",
+    "detail": "Text",
+    "iconTitle": "Picture"
   },
   "actions": {
     "routerEvent": {
       "action": "router",
-      "abilityName": "com.jltf.jltfcardtemplate05.MainAbility",
+      "bundleName": "com.example.immersivedata.hmservice",
+      "abilityName": "com.example.immersivedata.MainAbility",
       "params": {
-        "message": "button"
+        "message": "add detail"
       }
     }
   }

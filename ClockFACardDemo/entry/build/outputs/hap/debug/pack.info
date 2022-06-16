@@ -11,7 +11,7 @@
             {
                 "mainAbility": "com.huawei.cookbooks.MainAbility",
                 "deviceType": [
-                    "default"
+                    "phone"
                 ],
                 "abilities": [
                     {
@@ -29,7 +29,7 @@
                                 ],
                                 "type": "Java",
                                 "updateEnabled": true,
-                                "updateDuration": 30
+                                "updateDuration": 1
                             }
                         ]
                     },
@@ -45,9 +45,9 @@
                     "moduleName": "entry"
                 },
                 "apiVersion": {
-                    "compatible": 4,
+                    "compatible": 6,
                     "releaseType": "Release",
-                    "target": 5
+                    "target": 6
                 }
             }
         ]
@@ -55,7 +55,7 @@
     "packages": [
         {
             "deviceType": [
-                "default"
+                "phone"
             ],
             "moduleType": "entry",
             "deliveryWithInstall": true,

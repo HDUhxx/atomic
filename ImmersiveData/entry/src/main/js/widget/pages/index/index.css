@@ -1,211 +1,64 @@
 .container {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #99f;
-/*    background-image: url('/common/ic_default_image@3x.png');*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-
+    justify-content: center;
+    align-items: center;
 }
 
-.title_wrapper {
-    flex-direction: column;
-    margin-top: 6px;/*    background-color: burlywood;*/
-}
-.title_wra1{
-    flex-direction: column;
-    align-items: flex-start;
-    width: 90%;
-    height: 45px;
-    padding-left: 8px;
-    background-image: url('/common/jltf.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+.bg-img {
+    flex-shrink: 0;
+    height: 100%;
 }
 
-
-.title_big{
-    margin-top: 6px;
-    font-size: 19px;
-    font-weight: bold;
-    color: #333;
-}
-
-.title_small {
-    color:#333;
-    font-size: 12px;
-}
-
-.list_wrapper {
+.container-inner {
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 12px;
-    flex: 1;
-    margin-bottom: 12px;/*    background-color: greenyellow;*/
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 12px;
 }
 
-.item {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.item_last {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.item_image {
-    height: 24px;
-    width: 24px;
-    object-fit: contain;
-}
-
-.item_text {
-    font-size: 18px;
+.title {
+    font-size: 19px;
+    font-weight: bold;
     color: white;
-    margin-left: 4px;
+    text-overflow: ellipsis;
+    max-lines: 1;
 }
 
-@media (device-type: phone) {
-    .title_wrapper {
-        margin-top: 12px;
-    }
-
-    .title_wrapper {/*        height: 60px;*/
-        margin-left: 12px;
-    }
-
-    .title_big {
-        font-size: 16px;
-    }
-
-    .title_small {
-        margin-top: 2px;
-        font-size: 10px;
-    }
-
-    .item {/*        height: 18px;*/
-        margin-top: 2px;
-    }
-
-    .item_last {
-        margin-top: 2px;
-    }
-
-    .item_image {
-        height: 18px;
-        width: 18px;
-    }
-
-    .item_text {
-        font-size: 12px;
-        font-weight: 300;
-        margin-left: 12px;
-    }
-}
-
-@media (device-type: tablet) {
-    .container {
-        background-position: center;
-    }
-
-    .title_wrapper {
-        height: 60px;
-        margin-left: 12px;
-    }
-
-    .item {
-        height: 36px;
-    }
-
-    .item_last {
-        height: 36px;
-    }
-
-    .item_text {
-        font-weight: 300;
-    }
+.detail_text {
+    font-size: 16px;
+    color: white;
+    opacity: 0.66;
+    text-overflow: ellipsis;
+    max-lines: 1;
+    margin-top: 6px;
 }
 
 @media (device-type: wearable) {
-    .container {
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .title_wrapper {
-        align-items: center;
-        margin-top: 20px;/*        background-color: yellow;*/
-    }
-
-    .title_small {
-        display: none;
-    }
-
-    .list_wrapper {
-        justify-content: flex-start;
-        align-items: center;
-        margin-left: 26px;
-        margin-right: 26px;
-        position: fixed;
-        bottom: 40px;
-    }
-
-    .item {
+    .container-inner {
         justify-content: center;
         align-items: center;
-        margin-left: 26px;
-        margin-right: 26px;
-        margin-top: 18px;/*        background-color: greenyellow;*/
+        margin: 40px 26px;
+        padding: 0;
     }
 
-    .item_image {
-        width: 28px;
-        height: 28px;
+    .title {
+        text-align: center;
     }
 
-    .item_text {
-        width: 94%;
-        font-size: 24px;
-        margin-left: 6px;
-    }
-
-    .item_last {
-        display: none;
+    .detail_text {
+        max-lines: 2;
+        text-align: center;
     }
 }
 
 @media (device-type: tv) {
-    .title_wrapper {
-        display: none;
+    .title {
+        font-size: 16px;
     }
 
-    .list_wrapper {
-        margin-left: 16px;
-        flex: 1;
-        margin-bottom: 0px;
-    }
-
-    .item {
-        height: 28px;
-    }
-
-    .item_last {
-        height: 32px;
-    }
-
-    .item_image {
-        height: 16px;
-        width: 16px;
-    }
-
-    .item_text {
-        font-size: 14px;
-        font-weight: 900;
-        margin-left: 10px;
+    .detail_text {
+        font-size: 12px;
     }
 }
-

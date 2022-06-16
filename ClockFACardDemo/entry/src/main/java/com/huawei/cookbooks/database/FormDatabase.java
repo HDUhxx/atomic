@@ -24,9 +24,4 @@ import ohos.data.orm.annotation.Database;
 @Database(
         entities = {Form.class},
         version = 1)
-/*
-* 代表对象数据库。
-* 对象关系映射(ORM)数据库类对应于关系数据库。
-*  在使用ORM数据库之前，您需要创建一个从OrmDatabase继承的数据库类，并使用@Database对其进行注释。
- */
 public abstract class FormDatabase extends OrmDatabase { }

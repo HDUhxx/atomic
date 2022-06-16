@@ -4,4 +4,20 @@
   <string name="TimeAbility_description">"hap sample empty service"</string>
   <string name="app_name">"时钟服务卡片"</string>
   <string name="mainability_description">"Java_Phone_Empty Feature Ability"</string>
+  <string name="default_date">"2021-03-24"</string>
+  <string name="text_font_date">"sans-serif-medium"</string>
+  <string name="hour">"Hour"</string>
+  <string name="min">"Min"</string>
+  <string name="sec">"Sec"</string>
+  <string name="zero">"00"</string>
+  <string name="text_font_hour">"HwChinese-medium"</string>
+  <string name="colon">":"</string>
+  <string name="text_font_colon">"bold"</string>
+  <string name="Sunday">"日"</string>
+  <string name="Monday">"一"</string>
+  <string name="Tuesday">"二"</string>
+  <string name="Wednesday">"三"</string>
+  <string name="Thursday">"四"</string>
+  <string name="Friday">"五"</string>
+  <string name="Saturday">"六"</string>
 </resources>

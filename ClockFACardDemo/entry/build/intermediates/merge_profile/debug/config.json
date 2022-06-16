@@ -3,8 +3,8 @@
         "bundleName": "com.huawei.cookbook",
         "vendor": "huawei",
         "apiVersion": {
-            "compatible": 4,
-            "target": 5,
+            "compatible": 6,
+            "target": 6,
             "releaseType": "Release"
         },
         "version": {
@@ -20,7 +20,7 @@
     "module": {
         "name": ".MyApplication",
         "deviceType": [
-            "default"
+            "phone"
         ],
         "distro": {
             "deliveryWithInstall": true,
@@ -57,7 +57,7 @@
                         "isDefault": true,
                         "updateEnabled": true,
                         "scheduledUpdateTime": "11:30",
-                        "updateDuration": 30,
+                        "updateDuration": 1,
                         "defaultDimension": "2*2",
                         "supportDimensions": [
                             "2*2",
@@ -71,14 +71,6 @@
                             "$layout:form_image_with_info_date_card_2_2",
                             "$layout:form_image_with_info_date_card_2_4"
                         ],
-                        "metaData": {
-                            "customizeData": [
-                                {
-                                    "name": "needBlurBackgroundForLauncher",
-                                    "value": "true"
-                                }
-                            ]
-                        },
                         "formVisibleNotify": true
                     }
                 ],

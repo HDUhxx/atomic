@@ -1,10 +1,6 @@
 {
   "strings": {
-    "title_big": "Title",
-    "title_small": "Text",
-    "text": "Text1",
-    "text": "Text2",
-    "text": "Text3",
-    "text": "Text4"
+    "title": "Today's delicious food",
+    "detail": "A bowl of fragrant fried noodles, back to childhood memories"
   }
 }

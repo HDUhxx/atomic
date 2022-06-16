@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.jltf.jltfcardtemplate05",
-    "vendor": "jltf",
+    "bundleName": "com.example.immersivedata.hmservice",
+    "vendor": "example",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,12 +9,13 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.jltf.jltfcardtemplate05",
+    "package": "com.example.immersivedata",
     "name": ".MyApplication",
-    "mainAbility": "com.jltf.jltfcardtemplate05.MainAbility",
+    "mainAbility": "com.example.immersivedata.MainAbility",
     "deviceType": [
       "phone",
-      "tablet"
+      "tablet",
+      "wearable"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -34,13 +35,13 @@
             ]
           }
         ],
-        "name": "com.jltf.jltfcardtemplate05.MainAbility",
-        "icon": "$media:jltf",
+        "visible": true,
+        "name": "com.example.immersivedata.MainAbility",
+        "icon": "$media:icon",
         "description": "$string:mainability_description",
+        "formsEnabled": true,
         "label": "$string:entry_MainAbility",
         "type": "page",
-        "launchType": "standard",
-        "formsEnabled": true,
         "forms": [
           {
             "jsComponentName": "widget",
@@ -56,8 +57,24 @@
             ],
             "updateEnabled": true,
             "updateDuration": 1
+          },
+          {
+            "jsComponentName": "widget1",
+            "isDefault": false,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "widget1",
+            "description": "This is a service widget",
+            "colorMode": "auto",
+            "type": "JS",
+            "supportDimensions": [
+              "2*2"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
           }
-        ]
+        ],
+        "launchType": "standard"
       }
     ],
     "js": [
@@ -76,6 +93,17 @@
           "pages/index/index"
         ],
         "name": "widget",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": true
+        },
+        "type": "form"
+      },
+      {
+        "pages": [
+          "pages/index/index"
+        ],
+        "name": "widget1",
         "window": {
           "designWidth": 720,
           "autoDesignWidth": true

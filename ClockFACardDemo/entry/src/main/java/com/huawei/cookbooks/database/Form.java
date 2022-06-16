@@ -21,29 +21,36 @@ import ohos.data.orm.annotation.PrimaryKey;
 
 /**
  * Card Table
- * 表示对象关系映射(ORM)数据库中的实体。
- * 关系数据库(RDB)表中的一行对应于ORM数据库中的一个实体。 在操作ORM数据库中的实体之前，您需要创建一个从OrmObject继承的实体类，并使用@Entity对其进行注释。
  */
 @Entity(tableName = "form")
 public class Form extends OrmObject {
     @PrimaryKey()
     private Long formId;
     private String formName;
-    private Integer dimension;
+    private int dimension;
 
-    public Form(Long formId, String formName, Integer dimension) {
+    /**
+     * constructor
+     * @param formId service widget id
+     * @param formName service widget name
+     * @param dimension service widget dimension
+     */
+    public Form(Long formId, String formName, int dimension) {
         this.formId = formId;
         this.formName = formName;
         this.dimension = dimension;
     }
 
+    /**
+     * constructor
+     */
     public Form() { }
 
-    public Integer getDimension() {
+    public int getDimension() {
         return dimension;
     }
 
-    public void setDimension(Integer dimension) {
+    public void setDimension(int dimension) {
         this.dimension = dimension;
     }
 

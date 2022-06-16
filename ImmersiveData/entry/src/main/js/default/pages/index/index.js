@@ -1,8 +1,7 @@
 export default {
     data: {
-        title: ""
+        title1: "原子化服务",
+        title2: "新应用时代和新世界！"
     },
-    onInit() {
-        this.title = this.$t('strings.world');
-    }
+    onInit() {}
 }

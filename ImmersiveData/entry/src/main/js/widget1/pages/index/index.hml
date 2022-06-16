@@ -1,0 +1,41 @@
+<stack style="background-color: #f5d354;width: 100%;height: 100%;" onclick="routerEvent"><!-- -->
+<!--    右边图片-->
+    <div class="right-img">
+        <image class="images" src="/common/ic_default_image.png" alt="img" ></image>
+    </div>
+<!--    标题信息-->
+    <div class="container">
+        <div class="title_wrapper">
+            <text class="title_big">
+                {{ $t('strings.title_big') }}
+            </text>
+            <text class="title_small">
+                {{ $t('strings.title_small') }}
+            </text>
+        </div>
+<!--    文本信息-->
+        <div class="list_wrapper">
+            <div class="item_first">
+                <image class="item_image" src='/common/ic_default.png'></image>
+                <text class="item_text" onclick="routerEvent">{{ $t('strings.text') }}</text>
+            </div>
+            <div class="item">
+                <image class="item_image" src='/common/ic_default.png'></image>
+                <text class="item_text" onclick="routerEvent">{{ $t('strings.text1') }}</text>
+            </div>
+            <div class="item">
+                <image class="item_image" src='/common/ic_default.png'></image>
+                <text class="item_text" onclick="routerEvent">{{ $t('strings.text2') }}</text>
+            </div>
+            <div class="item">
+                <image class="item_image" src='/common/ic_default.png'></image>
+                <text class="item_text" onclick="routerEvent">{{ $t('strings.text3') }}</text>
+            </div>
+            <div class="item_last">
+                <image class="item_image" src='/common/ic_default.png'></image>
+                <text class="item_text" onclick="routerEvent">{{ $t('strings.text4') }}</text>
+            </div>
+        </div>
+    </div>
+
+</stack>

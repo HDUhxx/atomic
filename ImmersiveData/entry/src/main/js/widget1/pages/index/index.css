@@ -1,0 +1,279 @@
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+/*    background-color: dodgerblue;*/
+/*    background-image: url('/common/ic_default_image@3x.png');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+}
+
+.right-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 12px;
+}
+.images{
+    border-radius: 12px;
+}
+
+.title_wrapper {
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+.title_big {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.title_small {
+    color: white;
+    font-size: 12px;
+}
+
+.list_wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 12px;
+    flex: 1;
+    margin-bottom: 12px;
+}
+
+.item {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item_first {
+    display: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item_last {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item_image {
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
+}
+
+.item_text {
+    font-size: 18px;
+    color: white;
+    margin-left: 4px;
+}
+
+@media (device-type: phone) {
+    .title_wrapper {
+        margin-top: 12px;
+    }
+
+    .title_wrapper {
+        margin-left: 12px;
+    }
+
+    .title_big {
+        font-size: 16px;
+    }
+
+    .title_small {
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    .item {
+        margin-top: 2px;
+    }
+
+    .item_last {
+        margin-top: 2px;
+    }
+
+    .item_image {
+        height: 18px;
+        width: 18px;
+    }
+
+    .item_text {
+        font-size: 12px;
+        font-weight: 300;
+        margin-left: 12px;
+    }
+}
+
+@media (device-type: tablet) {
+    .container {
+        background-position: center;
+    }
+
+    .title_wrapper {
+        height: 60px;
+        margin-left: 12px;
+    }
+
+    .item {
+        height: 36px;
+    }
+
+    .item_last {
+        height: 36px;
+    }
+
+    .item_text {
+        font-weight: 300;
+    }
+}
+
+@media (device-type: wearable) {
+    .container {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .right-img{
+        display: none;
+    }
+
+    .title_wrapper {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .title_small {
+        display: none;
+    }
+
+    .list_wrapper {
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 26px;
+        margin-right: 26px;
+        position: fixed;
+        bottom: 40px;
+    }
+
+    .item {
+        justify-content: center;
+        align-items: center;
+        margin-left: 26px;
+        margin-right: 26px;
+        margin-top: 18px;
+    }
+
+    .item_image {
+        width: 28px;
+        height: 28px;
+    }
+
+    .item_text {
+        width: 94%;
+        font-size: 24px;
+        margin-left: 6px;
+    }
+
+    .item_last {
+        display: none;
+    }
+}
+
+@media (device-type: tv) {
+    .title_wrapper {
+        display: none;
+    }
+
+    .list_wrapper {
+        margin-left: 16px;
+        flex: 1;
+        margin-bottom: 0px;
+    }
+
+    .item {
+        height: 28px;
+    }
+
+    .item_last {
+        height: 32px;
+    }
+
+    .item_image {
+        height: 16px;
+        width: 16px;
+    }
+
+    .item_text {
+        font-size: 14px;
+        font-weight: 900;
+        margin-left: 10px;
+    }
+}
+
+@media (device-type: car) {
+    .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .title_wrapper {
+        flex-direction: column;
+        margin-top: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .title_big {
+        font-size: 12px;
+        font-family: @id_text_font_family_medium;
+        color: #FFFFFF;
+    }
+
+    .title_small {
+        display: none;
+    }
+
+    .list_wrapper {
+        flex: 1;
+        margin-bottom: 12px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .item_first {
+        display: flex;
+        width: 72px;
+    }
+
+    .item {
+        display: none;
+    }
+
+    .item_last {
+        width: 72px;
+        margin-top: 2px;
+    }
+
+    .item_image {
+        height: 12px;
+        width: 12px;
+        object-fit: contain;
+    }
+
+    .item_text {
+        width: 56px;
+        font-size: 10px;
+        margin-left: 4px;
+        font-family: @id_text_font_family_regular;
+    }
+}
+

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "title_big": "Title",
+    "title_small": "Text"
+  },
+  "actions": {
+    "routerEvent": {
+      "action": "router",
+      "abilityName": "com.example.immersivedata.MainAbility",
+      "params": {
+        "message": "button"
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@
     "name": ".MyApplication",
     "mainAbility": "com.huawei.cookbooks.MainAbility",
     "deviceType": [
-      "default"
+      "phone"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -80,16 +80,8 @@
               "$layout:form_image_with_info_date_card_2_4"
             ],
             "updateEnabled": true,
-            "updateDuration": 30,
-            "formVisibleNotify": true,
-            "metaData": {
-              "customizeData": [
-                {
-                  "name": "needBlurBackgroundForLauncher",
-                  "value": "true"
-                }
-              ]
-            }
+            "updateDuration": 1,
+            "formVisibleNotify": true
           }
         ]
       },

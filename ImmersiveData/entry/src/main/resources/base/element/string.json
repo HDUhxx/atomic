@@ -2,14 +2,18 @@
   "string": [
     {
       "name": "entry_MainAbility",
-      "value": "蛟龙腾飞"
+      "value": "entry_MainAbility"
     },
     {
       "name": "mainability_description",
       "value": "JS_Empty Ability"
     },
     {
-      "name": "widget_button_description",
+      "name": "widget_ability_description",
+      "value": "This is a WidgetAbility"
+    },
+    {
+      "name": "widget1_button_description",
       "value": "Button Description"
     }
   ]
