@@ -1,0 +1,57 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.huawei.cookbook",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "deviceType": [
+                    "phone",
+                    "tv",
+                    "tablet"
+                ],
+                "abilities": [
+                    {
+                        "name": "ohos.codelabs.distributedvideo.MainAbility",
+                        "label": "$string:app_name"
+                    },
+                    {
+                        "name": "ohos.codelabs.distributedvideo.PlayerAbility",
+                        "label": "$string:simple_player"
+                    },
+                    {
+                        "visible": true,
+                        "name": "ohos.codelabs.distributedvideo.VideoMigrateService"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 6,
+                    "releaseType": "Release",
+                    "target": 6
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone",
+                "tv",
+                "tablet"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

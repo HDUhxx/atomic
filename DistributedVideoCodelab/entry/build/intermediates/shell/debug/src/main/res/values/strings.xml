@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="app_name">"video"</string>
+  <string name="mainability_description">"hap sample empty page"</string>
+  <string name="simple_player">"SimplePlayer"</string>
+  <string name="videodetailabilityslice_description">"hap sample empty service"</string>
+</resources>

@@ -1,0 +1,92 @@
+{
+    "app": {
+        "bundleName": "com.huawei.cookbook",
+        "vendor": "huawei",
+        "apiVersion": {
+            "compatible": 6,
+            "target": 6,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MainAbility",
+        "reqCapabilities": [
+            "video_support"
+        ],
+        "deviceType": [
+            "phone",
+            "tv",
+            "tablet"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": false
+        },
+        "abilities": [
+            {
+                "name": "ohos.codelabs.distributedvideo.MainAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:app_name",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "homeAbility": true
+            },
+            {
+                "name": "ohos.codelabs.distributedvideo.PlayerAbility",
+                "description": "$string:videodetailabilityslice_description",
+                "icon": "$media:icon",
+                "label": "$string:simple_player",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "formsEnabled": true,
+                "homeAbility": false
+            },
+            {
+                "name": "ohos.codelabs.distributedvideo.VideoMigrateService",
+                "type": "service",
+                "visible": true,
+                "homeAbility": false
+            }
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+            },
+            {
+                "name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE"
+            },
+            {
+                "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO"
+            },
+            {
+                "name": "ohos.permission.GRT_BUNDLE_INFO"
+            },
+            {
+                "name": "ohos.permission.INTERNET"
+            }
+        ],
+        "package": "ohos.codelabs.distributedvideo"
+    }
+}
