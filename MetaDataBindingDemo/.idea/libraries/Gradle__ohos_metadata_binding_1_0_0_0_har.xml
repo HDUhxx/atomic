@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ohos-metadata-binding-1.0.0.0@har">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/63a676e2262b76cf3942dba83e68c4f2/transformed/ohos-metadata-binding-1.0.0.0/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63a676e2262b76cf3942dba83e68c4f2/transformed/ohos-metadata-binding-1.0.0.0/resources" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63a676e2262b76cf3942dba83e68c4f2/transformed/ohos-metadata-binding-1.0.0.0/config.json" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

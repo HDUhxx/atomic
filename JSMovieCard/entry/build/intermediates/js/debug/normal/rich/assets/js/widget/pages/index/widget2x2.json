@@ -1,0 +1,230 @@
+{
+  "template": {
+    "attr": {},
+    "type": "div",
+    "classList": [
+      "grid_pattern_layout"
+    ],
+    "events": {
+      "click": "routers"
+    },
+    "children": [
+      {
+        "attr": {
+          "show": "{{isShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "grid_pattern_layout"
+        ],
+        "children": [
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "title"
+            ],
+            "children": [
+              {
+                "attr": {
+                  "value": "{{title}}"
+                },
+                "type": "text",
+                "classList": [
+                  "titleText"
+                ]
+              }
+            ]
+          },
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "movieList"
+            ],
+            "children": [
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "movieInfo"
+                ],
+                "events": {
+                  "click": "jumpAction1"
+                },
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{topMovieName}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "movieName"
+                    ],
+                    "id": "topName"
+                  },
+                  {
+                    "attr": {
+                      "value": "{{topMovieDesc}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "movieDesc"
+                    ],
+                    "id": "topDesc"
+                  }
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "movieInfo"
+                ],
+                "events": {
+                  "click": "jumpAction2"
+                },
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{bottomMovieName}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "movieName"
+                    ],
+                    "id": "bottomName"
+                  },
+                  {
+                    "attr": {
+                      "value": "{{bottomMovieDesc}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "movieDesc"
+                    ],
+                    "id": "bottomDesc"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "attr": {
+          "show": "{{initShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "init"
+        ],
+        "children": [
+          {
+            "attr": {
+              "value": "{{initData}}"
+            },
+            "type": "text",
+            "classList": [
+              "initText"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    ".grid_pattern_layout": {
+      "flexDirection": "column",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "width": "100%",
+      "height": "100%",
+      "backgroundColor": "#6999FC"
+    },
+    ".title": {
+      "justifyContent": "center",
+      "marginTop": "10px",
+      "marginLeft": "12px"
+    },
+    ".titleText": {
+      "fontSize": "16px",
+      "color": "#E5000000",
+      "fontWeight": "500"
+    },
+    ".movieList": {
+      "flexDirection": "column",
+      "marginBottom": "12px",
+      "marginLeft": "12px"
+    },
+    ".movieInfo": {
+      "flexDirection": "column",
+      "height": "48px",
+      "marginTop": "15px"
+    },
+    ".movieName": {
+      "fontSize": "14px",
+      "fontWeight": "500"
+    },
+    ".movieDesc": {
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "marginTop": "10px",
+      "maxLines": 1,
+      "textOverflow": "ellipsis"
+    },
+    "#topName": {
+      "color": "#E5CB1414"
+    },
+    "#topDesc": {
+      "color": "#ECECEC"
+    },
+    "#bottomName": {
+      "color": "#E5000000"
+    },
+    "#bottomDesc": {
+      "color": "#99000000"
+    },
+    ".init": {
+      "alignItems": "center",
+      "justifyContent": "center"
+    },
+    ".initText": {
+      "fontSize": "18px",
+      "color": "#FFFFFF"
+    }
+  },
+  "actions": {
+    "routers": {
+      "action": "router",
+      "abilityName": "com.huawei.cookbook.MainAbility"
+    },
+    "jumpAction1": {
+      "action": "router",
+      "abilityName": "com.huawei.cookbook.MovieDetail",
+      "params": {
+        "index": "{{topIndex}}"
+      }
+    },
+    "jumpAction2": {
+      "action": "router",
+      "abilityName": "com.huawei.cookbook.MovieDetail",
+      "params": {
+        "index": "{{bottomIndex}}"
+      }
+    }
+  },
+  "data": {
+    "initData": "请点击卡片获取数据",
+    "initShow": true,
+    "isShow": false,
+    "title": "电影卡片",
+    "topIndex": "",
+    "topMovieName": "",
+    "topMovieDesc": "",
+    "bottomIndex": "",
+    "bottomMovieName": "",
+    "bottomMovieDesc": ""
+  },
+  "apiVersion": {}
+}

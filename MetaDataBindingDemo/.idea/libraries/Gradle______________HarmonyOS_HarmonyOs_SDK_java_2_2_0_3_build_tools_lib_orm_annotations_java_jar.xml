@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ../../../../HarmonyOS/HarmonyOs SDK/java/2.2.0.3/build-tools/lib/orm_annotations_java.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../HarmonyOS/HarmonyOs SDK/java/2.2.0.3/build-tools/lib/orm_annotations_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

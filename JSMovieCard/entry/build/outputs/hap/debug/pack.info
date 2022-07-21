@@ -1,0 +1,79 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.huawei.cookbook",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.huawei.cookbook.MainAbility",
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbook.MainAbility",
+                        "label": "$string:entry_MainAbility",
+                        "forms": [
+                            {
+                                "defaultDimension": "2*2",
+                                "scheduledUpdateTime": "10:30",
+                                "name": "widget",
+                                "supportDimensions": [
+                                    "2*2"
+                                ],
+                                "type": "JS",
+                                "updateEnabled": true,
+                                "updateDuration": 1
+                            },
+                            {
+                                "defaultDimension": "2*4",
+                                "scheduledUpdateTime": "10:30",
+                                "name": "widget2x4",
+                                "supportDimensions": [
+                                    "2*4"
+                                ],
+                                "type": "JS",
+                                "updateEnabled": true,
+                                "updateDuration": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "com.huawei.cookbook.MovieDetail",
+                        "label": "$string:entry_MovieDetail"
+                    },
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbook.ServiceAbility"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 6,
+                    "releaseType": "Release",
+                    "target": 6
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

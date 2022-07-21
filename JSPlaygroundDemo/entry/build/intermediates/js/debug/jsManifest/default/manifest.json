@@ -1,0 +1,19 @@
+{
+    "appID": "com.example.jsdemo",
+    "appName": "$string:app_name",
+    "versionName": "1.0.0",
+    "versionCode": 1000000,
+    "minPlatformVersion": 6,
+    "pages": [
+        "pages/index/index"
+    ],
+    "deviceType": [
+        "phone",
+        "tv",
+        "wearable"
+    ],
+    "window": {
+        "autoDesignWidth": false,
+        "designWidth": 720
+    }
+}

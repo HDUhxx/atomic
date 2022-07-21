@@ -1,0 +1,160 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 6,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.cookbook",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "deviceType": [
+            "phone"
+        ],
+        "abilities": [
+            {
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "orientation": "portrait",
+                "visible": true,
+                "name": "com.huawei.cookbook.MainAbility",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": true,
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "forms": [
+                    {
+                        "jsComponentName": "widget",
+                        "isDefault": true,
+                        "scheduledUpdateTime": "10:30",
+                        "defaultDimension": "2*2",
+                        "formVisibleNotify": false,
+                        "name": "widget",
+                        "description": "This is a service widget",
+                        "colorMode": "auto",
+                        "type": "JS",
+                        "supportDimensions": [
+                            "2*2"
+                        ],
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    },
+                    {
+                        "jsComponentName": "widget2x4",
+                        "isDefault": false,
+                        "scheduledUpdateTime": "10:30",
+                        "defaultDimension": "2*4",
+                        "formVisibleNotify": false,
+                        "name": "widget2x4",
+                        "description": "This is a service widget",
+                        "colorMode": "auto",
+                        "type": "JS",
+                        "supportDimensions": [
+                            "2*4"
+                        ],
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    }
+                ],
+                "launchType": "standard",
+                "homeAbility": true
+            },
+            {
+                "name": "com.huawei.cookbook.MovieDetail",
+                "icon": "$media:icon",
+                "description": "$string:movieDetail_description",
+                "label": "$string:entry_MovieDetail",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": false
+            },
+            {
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "name": "com.huawei.cookbook.ServiceAbility",
+                "icon": "$media:icon",
+                "description": "$string:serviceability_description",
+                "type": "service",
+                "homeAbility": false
+            }
+        ],
+        "mainAbility": "com.huawei.cookbook.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.cookbook",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index",
+                    "pages/index/detail"
+                ],
+                "name": "default",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                }
+            },
+            {
+                "pages": [
+                    "pages/index/widget2x2"
+                ],
+                "name": "widget",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            },
+            {
+                "pages": [
+                    "pages/index/widget2x4"
+                ],
+                "name": "widget2x4",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            }
+        ],
+        "reqPermissions": [
+            {
+                "reason": "keep service ability backgroud running",
+                "usedScene": {
+                    "ability": [
+                        ".ServiceAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+            }
+        ]
+    }
+}

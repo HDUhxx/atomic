@@ -1,0 +1,8 @@
+id text_hello 0x1000007
+layout immersive_information_widget1 0x1000006
+media icon 0x1000005
+string entry_MainAbility 0x1000000
+string entry_MovieDetail 0x1000001
+string mainability_description 0x1000002
+string movieDetail_description 0x1000003
+string serviceability_description 0x1000004

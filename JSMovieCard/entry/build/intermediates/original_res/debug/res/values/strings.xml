@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="entry_MainAbility">"JS Movie Service Widget"</string>
+  <string name="entry_MovieDetail">"entry_MovieDetail"</string>
+  <string name="mainability_description">"JS_Empty Ability"</string>
+  <string name="movieDetail_description">"JS_Empty Ability"</string>
+  <string name="serviceability_description">"hap sample empty service"</string>
+</resources>

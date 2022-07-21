@@ -1,0 +1,168 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 6,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.cookbook",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777221,
+                "orientation": "portrait",
+                "visible": true,
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": true,
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "homeAbility": true,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "descriptionId": 16777218,
+                "labelId": 16777216,
+                "name": "com.huawei.cookbook.MainAbility",
+                "forms": [
+                    {
+                        "jsComponentName": "widget",
+                        "isDefault": true,
+                        "defaultDimension": "2*2",
+                        "scheduledUpdateTime": "10:30",
+                        "formVisibleNotify": false,
+                        "name": "widget",
+                        "colorMode": "auto",
+                        "description": "This is a service widget",
+                        "supportDimensions": [
+                            "2*2"
+                        ],
+                        "type": "JS",
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    },
+                    {
+                        "jsComponentName": "widget2x4",
+                        "isDefault": false,
+                        "defaultDimension": "2*4",
+                        "scheduledUpdateTime": "10:30",
+                        "formVisibleNotify": false,
+                        "name": "widget2x4",
+                        "colorMode": "auto",
+                        "description": "This is a service widget",
+                        "supportDimensions": [
+                            "2*4"
+                        ],
+                        "type": "JS",
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    }
+                ],
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777221,
+                "descriptionId": 16777219,
+                "labelId": 16777217,
+                "icon": "$media:icon",
+                "name": "com.huawei.cookbook.MovieDetail",
+                "description": "$string:movieDetail_description",
+                "label": "$string:entry_MovieDetail",
+                "type": "page",
+                "homeAbility": false,
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777221,
+                "descriptionId": 16777220,
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "icon": "$media:icon",
+                "name": "com.huawei.cookbook.ServiceAbility",
+                "description": "$string:serviceability_description",
+                "type": "service",
+                "homeAbility": false
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "mainAbility": "com.huawei.cookbook.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.cookbook",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index",
+                    "pages/index/detail"
+                ],
+                "name": "default",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                }
+            },
+            {
+                "pages": [
+                    "pages/index/widget2x2"
+                ],
+                "name": "widget",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            },
+            {
+                "pages": [
+                    "pages/index/widget2x4"
+                ],
+                "name": "widget2x4",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            }
+        ],
+        "reqPermissions": [
+            {
+                "reason": "keep service ability backgroud running",
+                "usedScene": {
+                    "ability": [
+                        ".ServiceAbility"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+            }
+        ]
+    }
+}
