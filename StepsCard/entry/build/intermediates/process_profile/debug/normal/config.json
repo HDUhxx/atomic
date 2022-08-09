@@ -1,0 +1,164 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 6,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.cookbook",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "keepAlive": true,
+            "debug": true
+        }
+    },
+    "module": {
+        "deviceType": [
+            "phone"
+        ],
+        "abilities": [
+            {
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "orientation": "unspecified",
+                "visible": true,
+                "name": "com.huawei.cookbook.MainAbility",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": true,
+                "label": "$string:app_name",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": true
+            },
+            {
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "name": "com.huawei.cookbook.StepSensorService",
+                "icon": "$media:icon",
+                "description": "$string:stepsensorservice_description",
+                "type": "service",
+                "homeAbility": false
+            },
+            {
+                "orientation": "unspecified",
+                "visible": true,
+                "name": "com.huawei.cookbook.StepFormAbility",
+                "icon": "$media:icon",
+                "description": "$string:stepformability_description",
+                "formsEnabled": true,
+                "label": "$string:app_name",
+                "type": "page",
+                "forms": [
+                    {
+                        "jsComponentName": "card2X2",
+                        "isDefault": true,
+                        "scheduledUpdateTime": "10:30",
+                        "defaultDimension": "2*2",
+                        "formVisibleNotify": false,
+                        "name": "card2X2",
+                        "description": "This is a step service widget",
+                        "colorMode": "auto",
+                        "type": "JS",
+                        "supportDimensions": [
+                            "2*2"
+                        ],
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    },
+                    {
+                        "jsComponentName": "card2X4",
+                        "isDefault": false,
+                        "scheduledUpdateTime": "10:30",
+                        "defaultDimension": "2*4",
+                        "formVisibleNotify": false,
+                        "name": "card2X4",
+                        "description": "This is a step service widget",
+                        "colorMode": "auto",
+                        "type": "JS",
+                        "supportDimensions": [
+                            "2*4"
+                        ],
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    }
+                ],
+                "launchType": "standard",
+                "homeAbility": false
+            }
+        ],
+        "mainAbility": "com.huawei.cookbook.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.cookbook",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "card2X2",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            },
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "card2X4",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            }
+        ],
+        "reqPermissions": [
+            {
+                "reason": "get step count",
+                "usedScene": {
+                    "ability": [
+                        ".MainAbility",
+                        ".StepSensorService"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.ACTIVITY_MOTION"
+            },
+            {
+                "reason": "keep service ability backgroud running",
+                "usedScene": {
+                    "ability": [
+                        ".StepSensorService"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+            }
+        ]
+    }
+}

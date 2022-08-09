@@ -1,0 +1,27 @@
+{
+    "appID": "com.huawei.codelab",
+    "appName": "$string:entry_MainAbility",
+    "versionName": "1.0.0",
+    "versionCode": 1000000,
+    "minPlatformVersion": 7,
+    "pages": [
+        "pages/Index",
+        "pages/page/BottomTransition",
+        "pages/page/CustomTransition",
+        "pages/page/FullCustomTransition",
+        "pages/ComponentTransition",
+        "pages/share/ShareItem",
+        "pages/share/SharePage"
+    ],
+    "deviceType": [
+        "phone"
+    ],
+    "mode": {
+        "syntax": "ets",
+        "type": "pageAbility"
+    },
+    "window": {
+        "autoDesignWidth": false,
+        "designWidth": 720
+    }
+}

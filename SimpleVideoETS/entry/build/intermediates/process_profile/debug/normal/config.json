@@ -1,0 +1,81 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 7,
+            "releaseType": "Beta2",
+            "target": 7
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.codelab",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "deviceType": [
+            "phone",
+            "tablet",
+            "car"
+        ],
+        "abilities": [
+            {
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "visible": true,
+                "name": "com.huawei.codelab.MainAbility",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "configChanges": [
+                    "orientation"
+                ],
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": true
+            }
+        ],
+        "mainAbility": "com.huawei.codelab.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.codelab",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "mode": {
+                    "syntax": "ets",
+                    "type": "pageAbility"
+                },
+                "pages": [
+                    "pages/Index",
+                    "pages/Play"
+                ],
+                "name": "default",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": false
+                }
+            }
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.INTERNET"
+            }
+        ]
+    }
+}

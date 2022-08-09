@@ -1,0 +1,79 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 7,
+            "releaseType": "Beta2",
+            "target": 7
+        },
+        "vendor": "huawei",
+        "bundleName": "ohos.samples.simplegallery",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777243,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "descriptionId": 16777226,
+                "visible": true,
+                "labelId": 16777221,
+                "icon": "$media:icon",
+                "name": "ohos.samples.simplegallery.MainAbility",
+                "description": "$string:mainability_description",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "homeAbility": true,
+                "launchType": "standard"
+            }
+        ],
+        "deviceType": [
+            "phone",
+            "tablet",
+            "car"
+        ],
+        "mainAbility": ".MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "ohos.samples.simplegallery",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "mode": {
+                    "syntax": "ets",
+                    "type": "pageAbility"
+                },
+                "pages": [
+                    "pages/home",
+                    "pages/image"
+                ],
+                "name": "default"
+            }
+        ],
+        "reqPermissions": [
+            {
+                "name": "ohos.permission.PUBLISH_AGENT_REMINDER"
+            }
+        ]
+    }
+}

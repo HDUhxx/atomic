@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="app_name">"steps service widget"</string>
+  <string name="mainability_description">"Java_Phone_Empty Feature Ability"</string>
+  <string name="stepformability_description">"Java_Phone_Empty Feature Ability"</string>
+  <string name="stepsensorservice_description">"hap sample empty service"</string>
+  <string name="today_walk">"I'm leaving today."</string>
+  <string name="steps">"steps"</string>
+</resources>

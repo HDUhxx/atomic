@@ -1,0 +1,17 @@
+graphic background_ability_main 0x1000009
+graphic background_ability_step_form 0x100000a
+id card_2_4 0x100000d
+id progressBar 0x100000e
+id step 0x100000f
+id text_helloworld 0x1000010
+layout ability_step_form 0x100000b
+layout form_router_page 0x100000c
+media form_image_with_info_steps_card_default_image_2 0x1000007
+media icon 0x1000008
+string HelloWorld 0x1000000
+string app_name 0x1000001
+string mainability_description 0x1000002
+string stepformability_description 0x1000003
+string steps 0x1000004
+string stepsensorservice_description 0x1000005
+string today_walk 0x1000006

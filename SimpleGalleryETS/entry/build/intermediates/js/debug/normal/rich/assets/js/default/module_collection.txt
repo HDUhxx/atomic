@@ -1,0 +1,1 @@
+ohos.reminderAgent,system.prompt,system.router,ohos.resourceManager

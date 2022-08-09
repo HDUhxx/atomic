@@ -1,0 +1,415 @@
+{
+  "template": {
+    "attr": {},
+    "type": "div",
+    "classList": [
+      "card_root_layout"
+    ],
+    "events": {
+      "click": "routerEvent"
+    },
+    "children": [
+      {
+        "attr": {
+          "show": "{{isShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "div_basic_container"
+        ],
+        "children": [
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "left_items"
+            ],
+            "events": {
+              "click": "routerEvent1"
+            },
+            "children": [
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "left_items_top"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{$t('strings.today')}}"
+                    },
+                    "type": "text",
+                    "classList": [
+                      "text"
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "src": "common/step2.png"
+                    },
+                    "type": "image",
+                    "id": "stepImg"
+                  }
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "left_items_center"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{mileage}}"
+                    },
+                    "type": "text",
+                    "id": "stepValue",
+                    "classList": [
+                      "text"
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "value": "{{$t('strings.unit')}}"
+                    },
+                    "type": "text",
+                    "id": "stepDesc",
+                    "classList": [
+                      "text"
+                    ]
+                  }
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "left_items_bootom"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "value": "{{steps}}"
+                    },
+                    "type": "text",
+                    "id": "stepValue",
+                    "classList": [
+                      "text"
+                    ]
+                  },
+                  {
+                    "attr": {
+                      "value": "{{$t('strings.step')}}"
+                    },
+                    "type": "text",
+                    "id": "stepDesc",
+                    "classList": [
+                      "text"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "right_items"
+            ],
+            "events": {
+              "click": "routerEvent"
+            },
+            "children": [
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "progress"
+                ],
+                "children": [
+                  {
+                    "attr": {},
+                    "type": "div",
+                    "classList": [
+                      "progressText"
+                    ],
+                    "children": [
+                      {
+                        "attr": {
+                          "value": "{{percent}}"
+                        },
+                        "type": "text",
+                        "id": "progressValue",
+                        "classList": [
+                          "text"
+                        ]
+                      },
+                      {
+                        "attr": {
+                          "value": "%"
+                        },
+                        "type": "text",
+                        "classList": [
+                          "text"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "attr": {},
+                    "type": "div",
+                    "classList": [
+                      "progressDiv"
+                    ],
+                    "children": [
+                      {
+                        "attr": {
+                          "type": "horizontal",
+                          "percent": "{{percent}}"
+                        },
+                        "type": "progress",
+                        "id": "progress"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "attr": {},
+                "type": "div",
+                "classList": [
+                  "chartArea"
+                ],
+                "children": [
+                  {
+                    "attr": {
+                      "type": "line",
+                      "datasets": "{{datasets}}",
+                      "options": "{{options}}"
+                    },
+                    "type": "chart",
+                    "id": "chart"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "attr": {
+          "show": "{{initShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "init"
+        ],
+        "children": [
+          {
+            "attr": {
+              "value": "{{initData}}"
+            },
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    ".card_root_layout": {
+      "width": "100%",
+      "height": "100%",
+      "position": "relative"
+    },
+    ".div_basic_container": {
+      "backgroundImage": "common/backgroundImg1.JPG",
+      "backgroundSize": "100% 100%",
+      "backgroundRepeat": "no-repeat",
+      "position": "absolute",
+      "top": "0px",
+      "left": "0px",
+      "flexDirection": "row",
+      "width": "100%",
+      "height": "100%"
+    },
+    ".left_items": {
+      "width": "40%",
+      "height": "100%",
+      "alignContent": "flex-start",
+      "flexDirection": "column",
+      "position": "absolute",
+      "left": "20px"
+    },
+    ".left_items_top": {
+      "width": "100%",
+      "height": "30%",
+      "flexDirection": "row",
+      "alignContent": "flex-start",
+      "position": "relative",
+      "top": "5px"
+    },
+    ".left_items_center": {
+      "width": "100%",
+      "height": "30%",
+      "flexDirection": "row",
+      "top": "10px",
+      "position": "relative"
+    },
+    ".left_items_bootom": {
+      "width": "100%",
+      "height": "30%",
+      "flexDirection": "row",
+      "position": "relative",
+      "bottom": "5px",
+      "top": "10px"
+    },
+    ".right_items": {
+      "alignContent": "flex-start",
+      "width": "50%",
+      "height": "100%",
+      "position": "absolute",
+      "right": "20px"
+    },
+    "#stepImg": {
+      "alignContent": "center",
+      "marginTop": "10px",
+      "width": "30px",
+      "height": "30px"
+    },
+    "#chart": {
+      "fontSize": "10px",
+      "lineColor": "#7CFC00"
+    },
+    ".chartArea": {
+      "justifyContent": "flex-end",
+      "width": "100%",
+      "height": "50%",
+      "position": "absolute",
+      "bottom": "10px"
+    },
+    ".text": {
+      "fontSize": "20px",
+      "color": "#CDCACA"
+    },
+    ".progress": {
+      "width": "100%",
+      "height": "40%",
+      "flexDirection": "row",
+      "marginTop": "18px",
+      "alignContent": "flex-start"
+    },
+    ".progressDiv": {
+      "flexDirection": "row"
+    },
+    "#progress": {
+      "position": "absolute",
+      "width": "80%",
+      "strokeWidth": "20px",
+      "backgroundColor": "#CDCACA",
+      "color": "#324846",
+      "marginTop": "2px"
+    },
+    ".progressText": {
+      "flexDirection": "row",
+      "width": "50px"
+    },
+    ".init": {
+      "alignItems": "center",
+      "fontSize": "14px",
+      "color": "#000000"
+    }
+  },
+  "actions": {
+    "routerEvent1": {
+      "action": "router",
+      "bundleName": "com.huawei.cookbook",
+      "abilityName": "com.huawei.cookbook.StepFormAbility"
+    },
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.huawei.cookbook",
+      "abilityName": "com.huawei.cookbook.MainAbility"
+    }
+  },
+  "data": {
+    "initData": "请点击卡片获取数据...",
+    "initShow": true,
+    "isShow": false,
+    "datasets": [
+      {
+        "strokeColor": "#CDCACA",
+        "fillColor": "#CDCACA",
+        "data": [
+          {
+            "value": 0,
+            "description": "0",
+            "textLocation": "top",
+            "textColor": "#CDCACA",
+            "pointStyle": {
+              "shape": "circle",
+              "size": 5,
+              "fillColor": "#FF9C28",
+              "strokeColor": "#FF9C28"
+            }
+          },
+          {
+            "value": 0,
+            "description": "0",
+            "textLocation": "top",
+            "textColor": "#CDCACA",
+            "pointStyle": {
+              "shape": "circle",
+              "size": 5,
+              "fillColor": "#FF9C28",
+              "strokeColor": "#FF9C28"
+            }
+          },
+          {
+            "value": 0,
+            "description": "0",
+            "textLocation": "top",
+            "textColor": "#CDCACA",
+            "pointStyle": {
+              "shape": "circle",
+              "size": 5,
+              "fillColor": "#FF9C28",
+              "strokeColor": "#FF9C28"
+            }
+          },
+          {
+            "value": 0,
+            "description": "0",
+            "textLocation": "top",
+            "textColor": "#CDCACA",
+            "pointStyle": {
+              "shape": "circle",
+              "size": 5,
+              "fillColor": "#FF9C28",
+              "strokeColor": "#FF9C28"
+            }
+          }
+        ],
+        "gradient": true
+      }
+    ],
+    "options": {
+      "xAxis": {
+        "min": 0,
+        "max": 3,
+        "display": false,
+        "axisTick": 4
+      },
+      "yAxis": {
+        "min": 0,
+        "max": 1000
+      }
+    },
+    "steps": 0,
+    "percent": 0,
+    "mileage": 0
+  },
+  "apiVersion": {}
+}

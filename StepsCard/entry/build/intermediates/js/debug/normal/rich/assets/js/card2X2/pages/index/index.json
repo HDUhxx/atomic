@@ -1,0 +1,168 @@
+{
+  "template": {
+    "attr": {},
+    "type": "div",
+    "classList": [
+      "card_root_layout"
+    ],
+    "events": {
+      "click": "routerEvent"
+    },
+    "children": [
+      {
+        "attr": {
+          "show": "{{isShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "div_basic_container"
+        ],
+        "events": {
+          "click": "routerEvent1"
+        },
+        "children": [
+          {
+            "attr": {
+              "type": "ring",
+              "percent": "{{percent}}"
+            },
+            "type": "progress",
+            "classList": [
+              "div_progress"
+            ]
+          },
+          {
+            "attr": {},
+            "type": "div",
+            "classList": [
+              "title_container"
+            ],
+            "children": [
+              {
+                "attr": {
+                  "value": "{{$t('strings.today')}}"
+                },
+                "type": "text",
+                "classList": [
+                  "item_content"
+                ]
+              },
+              {
+                "attr": {
+                  "value": "{{steps}}"
+                },
+                "type": "text",
+                "classList": [
+                  "item_title"
+                ]
+              },
+              {
+                "attr": {
+                  "value": "{{$t('strings.step')}}"
+                },
+                "type": "text",
+                "classList": [
+                  "item_content"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "attr": {
+          "show": "{{initShow}}"
+        },
+        "type": "div",
+        "classList": [
+          "init"
+        ],
+        "children": [
+          {
+            "attr": {
+              "value": "{{initData}}"
+            },
+            "type": "text"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    ".card_root_layout": {
+      "width": "100%",
+      "height": "100%",
+      "position": "relative"
+    },
+    ".div_basic_container": {
+      "backgroundImage": "common/backgroud.jpg",
+      "backgroundSize": "100% 100%",
+      "backgroundRepeat": "no-repeat",
+      "position": "absolute",
+      "top": "0px",
+      "left": "0px",
+      "flexDirection": "row",
+      "width": "100%",
+      "height": "100%"
+    },
+    ".div_progress": {
+      "color": "#9C5A3C",
+      "backgroundColor": "#A0C0BD",
+      "strokeWidth": "7px",
+      "zIndex": 0,
+      "marginTop": "10%",
+      "marginRight": "10%",
+      "marginBottom": "10%",
+      "marginLeft": "10%",
+      "position": "absolute"
+    },
+    ".title_container": {
+      "alignItems": "center",
+      "flexDirection": "column",
+      "alignContent": "center",
+      "justifyContent": "center",
+      "width": "100%",
+      "height": "100%",
+      "zIndex": 1,
+      "position": "absolute"
+    },
+    ".item_title": {
+      "fontWeight": "bold",
+      "color": "#F3F6F5",
+      "fontSize": "16px"
+    },
+    ".item_content": {
+      "color": "#F3F6F5",
+      "fontSize": "12px",
+      "marginTop": "2px"
+    },
+    ".init": {
+      "alignItems": "center",
+      "fontSize": "16px",
+      "color": "#000000"
+    }
+  },
+  "actions": {
+    "routerEvent1": {
+      "action": "router",
+      "bundleName": "com.huawei.cookbook",
+      "abilityName": "com.huawei.cookbook.StepFormAbility"
+    },
+    "routerEvent": {
+      "action": "router",
+      "bundleName": "com.huawei.cookbook",
+      "abilityName": "com.huawei.cookbook.MainAbility",
+      "params": {
+        "message": "steps"
+      }
+    }
+  },
+  "data": {
+    "percent": 0,
+    "steps": 0,
+    "initData": "请点击卡片获取数据...",
+    "initShow": true,
+    "isShow": false
+  },
+  "apiVersion": {}
+}

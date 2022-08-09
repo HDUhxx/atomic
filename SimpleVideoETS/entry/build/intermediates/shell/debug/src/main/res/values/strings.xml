@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources> 
+  <string name="entry_MainAbility">"SimpleVideoETS"</string>
+  <string name="mainability_description">"ETS_Empty Ability"</string>
+</resources>

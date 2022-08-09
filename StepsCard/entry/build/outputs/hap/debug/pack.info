@@ -1,0 +1,80 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.huawei.cookbook",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.huawei.cookbook.MainAbility",
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbook.MainAbility",
+                        "label": "$string:app_name"
+                    },
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbook.StepSensorService"
+                    },
+                    {
+                        "visible": true,
+                        "name": "com.huawei.cookbook.StepFormAbility",
+                        "label": "$string:app_name",
+                        "forms": [
+                            {
+                                "defaultDimension": "2*2",
+                                "scheduledUpdateTime": "10:30",
+                                "name": "card2X2",
+                                "supportDimensions": [
+                                    "2*2"
+                                ],
+                                "type": "JS",
+                                "updateEnabled": true,
+                                "updateDuration": 1
+                            },
+                            {
+                                "defaultDimension": "2*4",
+                                "scheduledUpdateTime": "10:30",
+                                "name": "card2X4",
+                                "supportDimensions": [
+                                    "2*4"
+                                ],
+                                "type": "JS",
+                                "updateEnabled": true,
+                                "updateDuration": 1
+                            }
+                        ]
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": false,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 6,
+                    "releaseType": "Release",
+                    "target": 6
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 6,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "vendor": "huawei",
+        "bundleName": "com.huawei.cookbook",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true,
+            "keepAlive": true
+        }
+    },
+    "module": {
+        "abilities": [
+            {
+                "iconId": 16777224,
+                "orientation": "unspecified",
+                "visible": true,
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "formsEnabled": true,
+                "label": "$string:app_name",
+                "type": "page",
+                "homeAbility": true,
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "descriptionId": 16777218,
+                "labelId": 16777217,
+                "name": "com.huawei.cookbook.MainAbility",
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777224,
+                "descriptionId": 16777221,
+                "visible": true,
+                "backgroundModes": [
+                    "dataTransfer",
+                    "location"
+                ],
+                "icon": "$media:icon",
+                "name": "com.huawei.cookbook.StepSensorService",
+                "description": "$string:stepsensorservice_description",
+                "type": "service",
+                "homeAbility": false
+            },
+            {
+                "iconId": 16777224,
+                "orientation": "unspecified",
+                "visible": true,
+                "icon": "$media:icon",
+                "description": "$string:stepformability_description",
+                "formsEnabled": true,
+                "label": "$string:app_name",
+                "type": "page",
+                "homeAbility": false,
+                "descriptionId": 16777219,
+                "labelId": 16777217,
+                "name": "com.huawei.cookbook.StepFormAbility",
+                "forms": [
+                    {
+                        "jsComponentName": "card2X2",
+                        "isDefault": true,
+                        "defaultDimension": "2*2",
+                        "scheduledUpdateTime": "10:30",
+                        "formVisibleNotify": false,
+                        "name": "card2X2",
+                        "colorMode": "auto",
+                        "description": "This is a step service widget",
+                        "supportDimensions": [
+                            "2*2"
+                        ],
+                        "type": "JS",
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    },
+                    {
+                        "jsComponentName": "card2X4",
+                        "isDefault": false,
+                        "defaultDimension": "2*4",
+                        "scheduledUpdateTime": "10:30",
+                        "formVisibleNotify": false,
+                        "name": "card2X4",
+                        "colorMode": "auto",
+                        "description": "This is a step service widget",
+                        "supportDimensions": [
+                            "2*4"
+                        ],
+                        "type": "JS",
+                        "updateEnabled": true,
+                        "updateDuration": 1
+                    }
+                ],
+                "launchType": "standard"
+            }
+        ],
+        "deviceType": [
+            "phone"
+        ],
+        "mainAbility": "com.huawei.cookbook.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.huawei.cookbook",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "card2X2",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            },
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "card2X4",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                },
+                "type": "form"
+            }
+        ],
+        "reqPermissions": [
+            {
+                "reason": "get step count",
+                "usedScene": {
+                    "ability": [
+                        ".MainAbility",
+                        ".StepSensorService"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.ACTIVITY_MOTION"
+            },
+            {
+                "reason": "keep service ability backgroud running",
+                "usedScene": {
+                    "ability": [
+                        ".StepSensorService"
+                    ],
+                    "when": "always"
+                },
+                "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+            }
+        ]
+    }
+}
