@@ -1,0 +1,28 @@
+{
+  "app": {
+    "bundleName": "co.uk.rushorm.ohos",
+    "vendor": "uk",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 5,
+      "target": 5,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "co.uk.rushorm.core",
+    "deviceType": [
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "rushcore",
+      "moduleType": "har"
+    }
+  }
+}

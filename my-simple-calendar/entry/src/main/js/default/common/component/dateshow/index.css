@@ -1,0 +1,63 @@
+/*
+ * Copyright (C) 2021 Chinasoft International
+ *
+ * Licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *
+ *     http://license.coscl.org.cn/MulanPSL2
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * show days of the month
+ * @author chenqiaoyin
+ * @date 2021/09/10
+ *
+ */
+.content_day {
+    flex: 1;
+    flex-direction: column;
+}
+.item_day_div {
+    width: 14%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.text_unthismonth {
+    opacity: 0.5;
+}
+.text_default {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+.text_current {
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.text_select {
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: cornflowerblue;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+.text_color_black{
+    color:black;
+}
+.text_color_white{
+    color:white;
+}

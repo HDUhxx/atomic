@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_save"
+        ohos:height="50vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:background_element"
+        ohos:clickable="true"
+        ohos:text="保存"
+        ohos:text_color="#fff"
+        ohos:text_size="16fp"
+        />
+
+    <Button
+        ohos:id="$+id:btn_select"
+        ohos:height="50vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:background_element"
+        ohos:clickable="true"
+        ohos:text="查询"
+        ohos:text_color="#fff"
+        ohos:text_size="16fp"
+        />
+
+    <Button
+        ohos:id="$+id:btn_del"
+        ohos:height="50vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:background_element"
+        ohos:clickable="true"
+        ohos:text="删除"
+        ohos:text_color="#fff"
+        ohos:text_size="16fp"
+        />
+
+    <Text
+        ohos:id="$+id:text_show"
+        ohos:height="400vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_element"
+        ohos:text_color="#fff"
+        ohos:text_size="14fp"
+        ohos:top_margin="100vp"
+        ohos:multiple_lines="true"
+        ohos:scrollable="true"
+        ohos:text="操作数据结果显示区域"
+        />
+
+</DirectionalLayout>

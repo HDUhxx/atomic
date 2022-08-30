@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Banner"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "entry_MainAbility",
+      "value": "JS_Phone_Empty Feature Ability"
+    }
+  ]
+}

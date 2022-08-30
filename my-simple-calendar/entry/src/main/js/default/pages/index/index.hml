@@ -1,0 +1,30 @@
+<!--
+/*
+ * Copyright (C) 2021 Chinasoft International
+ *
+ * Licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *
+ *     http://license.coscl.org.cn/MulanPSL2
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * user the calendar component
+ * @author chenqiaoyin
+ * @date 2021/09/10
+ *
+ */
+ -->
+<element name="mycalendar"  src="../../common/component/mycalendar/index.hml"></element>
+<div class="container">
+    <mycalendar id="mycalendar" is-dark="{{ isDark }}" @sel-date="selDate" select-date="2021-05-05"></mycalendar>
+    <button on:click="setCalendarModel" >切换日历亮暗模式</button>
+    <div class="toCurrentDate_div" on:click="toCurrentDate" >
+        <text class="toCurrentDate" >今</text>
+    </div>
+</div>

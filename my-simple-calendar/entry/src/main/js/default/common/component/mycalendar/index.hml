@@ -1,0 +1,63 @@
+<!--
+ /*
+ * Copyright (C) 2021 Chinasoft International
+ *
+ * Licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *
+ *     http://license.coscl.org.cn/MulanPSL2
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * calendar component
+ * @author chenqiaoyin
+ * @date 2021/09/10
+ *
+ */
+ -->
+<element src="../dateshow/index.hml" name="dateshow"></element>
+<div class="container" style="background-color: {{isDark==1?'black':'white'}};" >
+    <div class="title_lay" >
+        <text class="tilte_label {{isDark==1?'text_color_white':'text_color_black'}}" on:click="changeLastMonth" >
+            &lt;
+        </text>
+<!--        <picker id="picker_muitl" type="multi-text" value="{{ year }}年{{ month }}月" columns="3" range="{{multitext}}" selected="{{multitextselect}}"-->
+<!--                onchange="multitextonchange" oncancel="multitextoncancel"-->
+<!--                class="title {{isDark==1?'picker_color_white':'picker_color_black'}}"></picker>-->
+        <text class="title {{isDark==1?'text_color_white':'text_color_black'}}" on:click="selectYearMonth" >
+            {{ year }}年{{ month }}月
+        </text>
+        <text class="tilte_label {{isDark==1?'text_color_white':'text_color_black'}}" on:click="changeNextMonth">
+            &gt;
+        </text>
+    </div>
+
+    <div class="content">
+        <block for="{{(index,week) in weeks}}" >
+            <text class="item_week {{isDark==1?'text_color_white':'text_color_black'}}" tid="{{ index }}">
+                {{week}}
+            </text>
+        </block>
+    </div>
+    <swiper id="mySwiper"  style="flex: 1;"  loop="true" indicator="false" @change="changeMonth" >
+        <dateshow @sel-date="selDate" year="{{year}}" month="{{monthList[0]}}" is-dark="{{this.isDark}}" select-date="{{selectDateState}}"></dateshow>
+        <dateshow @sel-date="selDate" year="{{year}}" month="{{monthList[1]}}" is-dark="{{this.isDark}}" select-date="{{selectDateState}}"></dateshow>
+        <dateshow @sel-date="selDate" year="{{year}}" month="{{monthList[2]}}" is-dark="{{this.isDark}}" select-date="{{selectDateState}}"></dateshow>
+    </swiper>
+    <dialog id="simpledialog" class="dialog-main" oncancel="cancelDialog">
+        <div class="dialog-div" style="background-color: {{isDark==1?'black':'white'}};">
+            <picker-view id="picker_muitl" @columnchange="columnchange" type="multi-text" value="{{ year }}年{{ month }}月" columns="2" range="{{selectMulti.multitext}}" selected="{{selectMulti.multitextselect}}"
+                    onchange="multitextonchange" oncancel="multitextoncancel"
+                    class="title picker-view {{isDark==1?'picker_color_white':'picker_color_black'}}"></picker-view>
+            <div class="inner-btn">
+                <button type="capsule" value="取消" onclick="cancelDialog" class="button" ></button>
+                <button type="capsule" value="确定" onclick="confirmlDialog" class="button" ></button>
+            </div>
+        </div>
+    </dialog>
+</div>

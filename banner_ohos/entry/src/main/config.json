@@ -1,0 +1,58 @@
+{
+  "app": {
+    "bundleName": "com.huawei.mytestapp",
+    "vendor": "huawei",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.mytestapp",
+    "name": "com.huawei.mytestapp.MyApplication",
+    "mainAbility": "com.huawei.mytestapp.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.huawei.mytestapp.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "to get internet image",
+        "usedScene": {
+          "ability": [
+            "com.huawei.mytestapp.slice.MainAbilitySlice"
+          ],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}

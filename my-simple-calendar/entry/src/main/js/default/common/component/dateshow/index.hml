@@ -1,0 +1,41 @@
+<!--
+ /*
+ * Copyright (C) 2021 Chinasoft International
+ *
+ * Licensed under Mulan PSL v2.
+ * You can use this software according to the terms and conditions of the Mulan PSL v2.
+ * You may obtain a copy of Mulan PSL v2 at:
+ *
+ *     http://license.coscl.org.cn/MulanPSL2
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * show days of the month
+ * @author chenqiaoyin
+ * @date 2021/09/10
+ *
+ */
+ -->
+<div class="content_day" style="background-color: {{isDark==1?'black':'white'}};">
+    <div for="{{(lineindex,linedates) in dates}}">
+        <div class="item_day_div"  for="{{(index,date) in linedates}}" tid="{{ lineindex }}" >
+            <text if="{{lineindex == 0 && index < firstStart || lineindex == lastLine && index > lastEnd || lineindex > lastLine}}"
+                  class="text_default text_unthismonth {{isDark==1?'text_color_white':'text_color_black'}}" tid="{{ index }}">
+                {{date}}
+            </text>
+            <text elif="{{date == currentDate}}" class="text_current"  tid="{{ index }}" on:click="dateClick(date)">
+                {{date}}
+            </text>
+            <text elif="{{date == selectDateState}}"  class="text_select {{isDark==1?'text_color_white':'text_color_black'}}" tid="{{ index }}">
+                {{date}}
+            </text>
+            <text else class="text_default {{isDark==1?'text_color_white':'text_color_black'}}" tid="{{ index }}" on:click="selDate(date)">
+                {{date}}
+            </text>
+        </div>
+    </div>
+</div>
